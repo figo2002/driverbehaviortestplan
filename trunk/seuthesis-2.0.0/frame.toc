@@ -1,0 +1,14 @@
+\contentsline {chapter}{摘要}{iii}{section*.1}
+\contentsline {chapter}{Abstract}{v}{section*.3}
+\contentsline {chapter}{本论文专用术语的注释表}{vii}{section*.5}
+\contentsline {chapter}{目录}{ix}{section*.7}
+\contentsline {chapter}{\numberline {1}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}主要研究内容}{1}{section.1.1}
+\contentsline {chapter}{致谢}{3}{section*.9}
+\contentsline {chapter}{参考文献}{5}{section*.12}
+\ttl@change@i {\@ne }{chapter}{0pt}{\vspace {.5\baselineskip }\bfseries }{附录 \thecontentslabel \quad }{}{\hspace {.5em}\titlerule *[10pt]{$\cdot $}\contentspage }\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\contentsline {chapter}{\numberline {A}第一个附录}{7}{appendix.A}
+\contentsline {chapter}{\numberline {B}第二个附录}{9}{appendix.B}
+\contentsline {chapter}{作者简介}{11}{section*.13}
+\contentsfinish 
