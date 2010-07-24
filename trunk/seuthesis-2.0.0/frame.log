@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  22 JUL 2010 14:45
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  23 JUL 2010 13:22
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -849,17 +849,26 @@ File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
 
  (./chapter1.tex
 第\CJKnumber {1}章 1.
-) [1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
-] [2
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+[4] (./frame.bbl [5
 
 
 
-] (./frame.bbl [3
 
 
-] [4
+] [6
 
 ]
 
@@ -870,33 +879,33 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 12.
 
 (c:/texlive/2009/texmf-dist/tex/xelatex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)) [5] [6
+)) [7] [8
 
 
 ]
 附录 A A.
-[7] [8
+[9] [10
 
 ]
 附录 B B.
-[9]
+[11]
 No file frame.ind.
-[10
+[12
 
 
-] [11
+] [13
 
 ] (./frame.aux (./chapter1.aux))
 LaTeX Font Info:    Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
  ) 
 Here is how much of TeX's memory you used:
- 11856 strings out of 494665
- 188644 string characters out of 3165984
- 336068 words of memory out of 3000000
- 14855 multiletter control sequences out of 15000+200000
+ 11895 strings out of 494665
+ 189521 string characters out of 3165984
+ 358068 words of memory out of 3000000
+ 14894 multiletter control sequences out of 15000+200000
  7652 words of font info for 71 fonts, out of 3000000 for 9000
  669 hyphenation exceptions out of 8191
- 50i,12n,61p,462b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,12n,61p,1049b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on frame.pdf (25 pages).
+Output written on frame.pdf (27 pages).
