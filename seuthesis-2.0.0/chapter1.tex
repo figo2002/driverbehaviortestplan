@@ -1,6 +1,6 @@
 \chapter{绪论}
 \section{立题的背景和意义}
-这是测试\cite{seugs:standard}
+%这是测试\cite{seugs:standard}
 
 车辆的行驶是由驾驶人操纵有关机构实现的，驾驶人不仅是道路交通系统的信息处理者和决策者，也是道路交通系统的调节者和控制者，是道路交通系统中最活跃的要素。车辆的行驶状态是驾驶人所采取的驾驶行为的作用结果，而驾驶行为是在一定的外部环境下，驾驶人生理、心理和操作技能等驾驶特性相互作用的综合体现。不同驾驶人的生理状况和心理素质不同、驾驶操作技能也有差异，因此驾驶行为存在差异。不同驾驶人表现出不同的驾驶行为，同一名驾驶人在不同的外部环境和自身状态下的驾驶行为也不同。驾驶人行为特性具体的外在表现主要包括，在动态交通条件下，驾驶人的反应时间，速度选择，加速度选择，跟驰距离选择，变道决策与间隙接受等一系列特性。
 
@@ -42,18 +42,41 @@ Bonzani（2000）研究了一阶流体力学模型中Diffusion项与驾驶员行
 
 \section{研究内容和论文框架}
 
+\subsection{项目依托}
 
-\begin{table}[htbp]
- \centering
- \caption{Add caption}
- \begin{tabular}{cccc}
-   \addlinespace
-    \toprule
-    Face database & Yale  & Caltech & ORL \\
-    \midrule
-    Number of training & \multicolumn{ 1}{c}{5} & \multicolumn{ 1}{c}{3} & \multicolumn{ 1}{c}{3} \\
-    samples per class  & \multicolumn{ 1}{c}{} & \multicolumn{ 1}{c}{} & \multicolumn{ 1}{c}{} \\
-    \bottomrule
-    \end{tabular}
-  \label{tab:addlabel}
-\end{table}
+本论文依托于国家自然科学基金项目：“驾驶人员驾驶特性对道路交通流的影响机理”(50708019)，以及霍英东教育基金优选项目：驾驶人员驾驶特性研究(104010)开展研究。
+
+\subsection{研究内容}
+(1)驾驶人驾驶行为特性主要参数和交通流参数采集
+
+以专业和非专业驾驶人为研究对象，调查其性别、年龄、驾龄、行驶里程等基本信息。对其进行相关的心理学实验以研究其决策行为。选择典型的城市道路单向两车道和单向多车道路段，在良好天气条件下，采集实际交通流状态下驾驶人的跟车速度、跟车间距、加速度、变道间隙接受等驾驶行为的主要参数和相应道路交通流的平均速度、平均密度、平均车速差等交通流参数。
+
+(2)驾驶人行为特性分析
+
+根据实验所得的测试车轨迹数据与其邻近车辆的相对速度和相对位置的时间序列数据，分析驾驶人在其动态变化的驾驶环境中的反应时间，速度选择，加速度选择，跟驰距离选择，变道决策与间隙接受等一系列特性。比较驾驶动态过程中的不同驾驶人行为的差异性，根据驾驶人行为的差异性对驾驶人进行分类，并与驾驶人的心理实验数据进行关联性的分析。
+
+(3)驾驶人行为特性对交通流影响分析
+
+根据实验所得数据，对驾驶人驾驶行为进行建模。建模时考虑驾驶员对其他车辆运动的预计性和驾驶人周围车辆的动态对驾驶人驾驶行为的影响，考虑相邻驾驶员的相互作用。对于不同行为特性的驾驶人采用不同的结构或不同的参数进行模型的建立。
+
+基于所建立的驾驶人的驾驶行为模型，编写仿真程序，针对不同情况分别进行模拟研究：1）研究不同类型驾驶人的行为对其周围局部交通流的平均车速、平均密度、平均车速差等参数的影响。2）通过对驾驶人模型参数以及不同类型驾驶人混合比例的调整，通过模拟，研究驾驶人行为特性微观差异对于路段交通流宏观特性的影响。
+
+
+
+
+\subsection{论文框架}
+
+%\begin{table}[htbp]
+% \centering
+% \caption{Add caption}
+% \begin{tabular}{cccc}
+%   \addlinespace
+%    \toprule
+%    Face database & Yale  & Caltech & ORL \\
+%    \midrule
+%    Number of training & \multicolumn{ 1}{c}{5} & \multicolumn{ 1}{c}{3} & \multicolumn{ 1}{c}{3} \\
+%    samples per class  & \multicolumn{ 1}{c}{} & \multicolumn{ 1}{c}{} & \multicolumn{ 1}{c}{} \\
+%    \bottomrule
+%    \end{tabular}
+%  \label{tab:addlabel}
+%\end{table}
