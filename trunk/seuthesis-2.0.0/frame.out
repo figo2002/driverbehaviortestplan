@@ -14,6 +14,10 @@
 \BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 研究内容}{section.1.3}
 \BOOKMARK [2][-]{subsection.1.3.3}{1.3.3 论文框架}{section.1.3}
 \BOOKMARK [0][-]{chapter.2}{2 驾驶人行为特性的内涵}{}
+\BOOKMARK [1][-]{section.2.1}{2.1 跟驰行为特性}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 跟驰行为特性参数}{section.2.1}
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 跟驰行为差异性}{section.2.1}
+\BOOKMARK [1][-]{section.2.2}{2.2 变道行为特性}{chapter.2}
 \BOOKMARK [0][-]{chapter.3}{3 驾驶人行为特性实验}{}
 \BOOKMARK [1][-]{section.3.1}{3.1 有关驾驶人行为特性实验方法回顾}{chapter.3}
 \BOOKMARK [1][-]{section.3.2}{3.2 实验设计}{chapter.3}
@@ -22,8 +26,23 @@
 \BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 实验设备}{section.3.2}
 \BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 实验原理}{section.3.2}
 \BOOKMARK [2][-]{subsection.3.2.5}{3.2.5 实验方法}{section.3.2}
-\BOOKMARK [0][-]{section*.10}{致谢}{}
-\BOOKMARK [0][-]{section*.13}{参考文献}{}
+\BOOKMARK [0][-]{chapter.4}{4 驾驶人行为特性的差异性分析}{}
+\BOOKMARK [1][-]{section.4.1}{4.1 数据处理}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 数据构成}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 数据筛选}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{4.2 跟驰行为特性的差异}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 时间间隔分布}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 速度\205跟驰距离}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 加速度\205相对速度}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 对不同跟驰模型的参数标定及其表现比较}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{4.3 变道选择与间隙接受特性差异}{chapter.4}
+\BOOKMARK [1][-]{section.4.4}{4.4 驾驶人行为特性相关性分析}{chapter.4}
+\BOOKMARK [0][-]{chapter.5}{5 驾驶人行为特性对交通流影响分析}{}
+\BOOKMARK [1][-]{section.5.1}{5.1 驾驶行为建模}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{5.2 路段交通流仿真}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{5.3 交通流影响分析}{chapter.5}
+\BOOKMARK [0][-]{section*.18}{致谢}{}
+\BOOKMARK [0][-]{section*.21}{参考文献}{}
 \BOOKMARK [0][-]{appendix.A}{A 第一个附录}{}
 \BOOKMARK [0][-]{appendix.B}{B 第二个附录}{}
-\BOOKMARK [0][-]{section*.14}{作者简介}{}
+\BOOKMARK [0][-]{section*.22}{作者简介}{}
