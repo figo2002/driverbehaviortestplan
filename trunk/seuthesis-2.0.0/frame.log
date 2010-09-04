@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  27 JUL 2010 19:56
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  4 SEP 2010 15:34
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -609,95 +609,95 @@ LaTeX Warning: Unused global option(s):
 ) (./chapter5.aux))
 \openout1 = `frame.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid this).
- on input line 14.
+ on input line 15.
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
-LaTeX Font Info:    Redeclaring math accent \check on input line 14.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
+LaTeX Font Info:    Redeclaring math accent \check on input line 15.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 14.
+(Font)              `operators' in the math version `normal' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-14.
+15.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 14.
+(Font)              `operators' in the math version `bold' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 14.
+ 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 14.
+n input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 14.
+n input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 14.
+e 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 14.
+e 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 14.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 14.
+on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 14.
+on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 14.
+ine 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 14.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 14.
-Package hyperref Info: Link coloring OFF on input line 14.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 15.
+Package hyperref Info: Link coloring OFF on input line 15.
  (c:/texlive/2009/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -706,8 +706,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count157
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
  (./frame.out)
 (./frame.out)
 \@outlinefile=\write3
@@ -767,11 +767,11 @@ driver: pdftex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.5pt
-(hyperref)                replaced by space on input line 31.
+(hyperref)                replaced by space on input line 32.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 31.
+(hyperref)                removing `\@ifnextchar' on input line 32.
 
 File: figures/front-cover.jpg Graphic file (type QTm)
 <use  "figures/front-cover.jpg" >
@@ -780,87 +780,87 @@ File: figures/master.png Graphic file (type QTm)
 File: figures/seu-color-logo.png Graphic file (type QTm)
 
 <use  "figures/seu-color-logo.png" >
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 31.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 32.
 LaTeX Font Info:    Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 31.
+(Font)              size <10.95> substituted on input line 32.
 LaTeX Font Info:    Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 31.
+(Font)              size <10.95> substituted on input line 32.
 LaTeX Font Info:    Font shape `OMX/cmex/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 31.
+(Font)              size <10.95> substituted on input line 32.
 LaTeX Font Info:    Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 31.
+(Font)              size <10.95> substituted on input line 32.
 
-Underfull \hbox (badness 10000) detected at line 31
+Underfull \hbox (badness 10000) detected at line 32
 \rm/m/n/10.5 分 类 号
  []
 
 
-Underfull \hbox (badness 10000) detected at line 31
+Underfull \hbox (badness 10000) detected at line 32
 \rm/m/n/10.5 密 级
  []
 
 
-Underfull \hbox (badness 10000) detected at line 31
+Underfull \hbox (badness 10000) detected at line 32
 \EU1/TimesNewRoman(0)/m/n/10.5 U D C
  []
 
 
-Underfull \hbox (badness 10000) detected at line 31
+Underfull \hbox (badness 10000) detected at line 32
 \rm/m/n/10.5 学 号
  []
 
 
-Overfull \hbox (6.61525pt too wide) detected at line 31
+Overfull \hbox (6.61525pt too wide) detected at line 32
 \zhsong/m/n/18 研 究 生 姓 名：| 
  []
 
 
-Overfull \hbox (6.61525pt too wide) detected at line 31
+Overfull \hbox (6.61525pt too wide) detected at line 32
 \zhsong/m/n/18 导  师  姓  名：| 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 31
+Overfull \hbox (18.11812pt too wide) detected at line 32
  \zhsong/m/n/14 申 请 学 位 类 别 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 31
+Overfull \hbox (18.11812pt too wide) detected at line 32
  \zhsong/m/n/14 学 位 授 予 单 位 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 31
+Overfull \hbox (18.11812pt too wide) detected at line 32
  \zhsong/m/n/14 一 级 学 科 名 称 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 31
+Overfull \hbox (18.11812pt too wide) detected at line 32
  \zhsong/m/n/14 论 文 答 辩 日 期 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 31
+Overfull \hbox (18.11812pt too wide) detected at line 32
  \zhsong/m/n/14 二 级 学 科 名 称 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 31
+Overfull \hbox (18.11812pt too wide) detected at line 32
  \zhsong/m/n/14 学 位 授 予 日 期 $[]$ 
  []
 
 
-Overfull \hbox (17.89174pt too wide) detected at line 31
+Overfull \hbox (17.89174pt too wide) detected at line 32
  \zhsong/m/n/14 答 辩 委 员 会 主 席 $[]$ 
  []
 
 
-Overfull \hbox (8.78493pt too wide) detected at line 31
+Overfull \hbox (8.78493pt too wide) detected at line 32
  \zhsong/m/n/14 评       阅       人 $[]$ 
  []
 
 
-Overfull \hbox (19.47638pt too wide) detected at line 31
+Overfull \hbox (19.47638pt too wide) detected at line 32
  [] $[]$ 
  []
 
@@ -881,9 +881,9 @@ Overfull \hbox (19.47638pt too wide) detected at line 31
 ]
 
 Package xeCJK Warning: Unknown CJK family `sf' is ignored.
-Use \setCJKfamilyfont to define a CJK family. on input line 35.
+Use \setCJKfamilyfont to define a CJK family. on input line 36.
 
-LaTeX Font Info:    Try loading font information for EU1+lmss on input line 35.
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 36.
 
 (c:/texlive/2009/texmf-dist/tex/xelatex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
@@ -900,17 +900,13 @@ File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
 
 ] [8
 
-] (./frame.toc
-Underfull \vbox (badness 2229) has occurred while \output is active []
-
- [9
+] (./frame.toc [9
 
 ])
 \tf@toc=\write5
 \openout5 = `frame.toc'.
 
-
-[10]
+ [10]
 \openout2 = `chapter1.aux'.
 
  (./chapter1.tex
@@ -943,31 +939,47 @@ Underfull \vbox (badness 2556) has occurred while \output is active []
 
 ]
 第\CJKnumber {2}章 2.
-) [7]
+File: fig/following_blockdia.pdf Graphic file (type QTm)
+<use  "fig/following_blockdia.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Missing character: There is no 反 in font Times New Roman/ICU!
+Missing character: There is no 应 in font Times New Roman/ICU!
+Missing character: There is no 敏 in font Times New Roman/ICU!
+Missing character: There is no 感 in font Times New Roman/ICU!
+Missing character: There is no 度 in font Times New Roman/ICU!
+Missing character: There is no 刺 in font Times New Roman/ICU!
+Missing character: There is no 激 in font Times New Roman/ICU!
+
+Underfull \vbox (badness 3343) has occurred while \output is active []
+
+ [8]
+[9]) [10]
 \openout2 = `chapter3.aux'.
 
- (./chapter3.tex [8
-
-
-
-]
+ (./chapter3.tex
 第\CJKnumber {3}章 3.
 
 Overfull \hbox (2.55367pt too wide) in paragraph at lines 29--41
  [][] 
  []
 
-[9]
+[11
+
+
+
+]
 Underfull \vbox (badness 3826) has occurred while \output is active []
 
- [10]
-[11]) [12]
+ [12]
+[13]) [14]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 第\CJKnumber {4}章 4.
-File: o1.pdf Graphic file (type QTm)
-<use  "o1.pdf" >
+File: fig/o1.pdf Graphic file (type QTm)
+<use  "fig/o1.pdf" >
 Underfull \hbox (badness 10000) in paragraph at lines 23--28
 
  []
@@ -990,14 +1002,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--45
 
 Underfull \vbox (badness 3735) has occurred while \output is active []
 
- [13
+ [15
 
 
 
 ]
-File: o2.pdf Graphic file (type QTm)
+File: fig/o2.pdf Graphic file (type QTm)
 
-<use  "o2.pdf" >
+<use  "fig/o2.pdf" >
 Underfull \hbox (badness 10000) in paragraph at lines 59--64
 
  []
@@ -1020,69 +1032,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [16]
 Underfull \hbox (badness 10000) in paragraph at lines 80--83
 
  []
 
-File: non_spd_dist.pdf Graphic file (type QTm)
-<use  "non_spd_dist.pdf" >
-File: pro_spd_dist.pdf Graphic file (type QTm)
- <use  "pro_spd_dist.pdf" >
+File: fig/non_spd_dist.pdf Graphic file (type QTm)
+<use  "fig/non_spd_dist.pdf" >
+File: fig/pro_spd_dist.pdf Graphic file (type QTm)
+ <use  "fig/pro_spd_dist.pdf" >
 File: all_spd_dist.pdf Graphic file (type QTm)
 
 <use  "all_spd_dist.pdf" >
-File: non_rspd_acc.pdf Graphic file (type QTm)
- <use  "non_rspd_acc.pdf" >
+File: fig/non_rspd_acc.pdf Graphic file (type QTm)
+ <use  "fig/non_rspd_acc.pdf" >
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [15]
-[16]
-File: pro_rspd_acc.pdf Graphic file (type QTm)
- <use  "pro_rspd_acc.pdf" >
+ [17]
+[18]
+File: fig/pro_rspd_acc.pdf Graphic file (type QTm)
+ <use  "fig/pro_rspd_acc.pdf" >
 File: all_rspd_acc.pdf Graphic file (type QTm)
- <use  "all_rspd_acc.pdf" >) [17] [18] [19]
+ <use  "all_rspd_acc.pdf" >) [19] [20]
+[21]
 \openout2 = `chapter5.aux'.
 
-
-(./chapter5.tex [20
+ (./chapter5.tex [22
 
 
 
 ]
 第\CJKnumber {5}章 5.
-) [21] [22
+) [23] [24
 
 
 
-] (./frame.bbl [23
+] (./frame.bbl [25
 
 
-] [24
+] [26
 
 ]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-) [25] [26
+) [27] [28
 
 
 ]
 附录 A A.
-[27] [28
+[29] [30
 
 ]
 附录 B B.
-[29]
+[31]
 No file frame.ind.
-[30
+[32
 
 
-] [31
+] [33
 
 ]
 File: figures/back-cover.png Graphic file (type QTm)
- <use  "figures/back-cover.png" > [32
+ <use  "figures/back-cover.png" > [34
 
 ] (./frame.aux (./chapter1.aux)
 (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux))
@@ -1090,12 +1102,12 @@ LaTeX Font Info:    Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
  ) 
 Here is how much of TeX's memory you used:
- 12634 strings out of 494665
- 198409 string characters out of 3165984
- 363922 words of memory out of 3000000
- 15576 multiletter control sequences out of 15000+200000
+ 12648 strings out of 494665
+ 198692 string characters out of 3165984
+ 364023 words of memory out of 3000000
+ 15585 multiletter control sequences out of 15000+200000
  9012 words of font info for 78 fonts, out of 3000000 for 9000
  669 hyphenation exceptions out of 8191
- 50i,12n,61p,1049b,635s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,12n,61p,1677b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on frame.pdf (46 pages).
+Output written on frame.pdf (48 pages).
