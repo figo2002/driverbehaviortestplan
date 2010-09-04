@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  4 SEP 2010 15:34
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  4 SEP 2010 15:48
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -944,14 +944,6 @@ File: fig/following_blockdia.pdf Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Missing character: There is no 反 in font Times New Roman/ICU!
-Missing character: There is no 应 in font Times New Roman/ICU!
-Missing character: There is no 敏 in font Times New Roman/ICU!
-Missing character: There is no 感 in font Times New Roman/ICU!
-Missing character: There is no 度 in font Times New Roman/ICU!
-Missing character: There is no 刺 in font Times New Roman/ICU!
-Missing character: There is no 激 in font Times New Roman/ICU!
-
 Underfull \vbox (badness 3343) has occurred while \output is active []
 
  [8]
