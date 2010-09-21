@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  4 SEP 2010 15:48
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2010.5.6)  21 SEP 2010 20:12
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -939,15 +939,36 @@ Underfull \vbox (badness 2556) has occurred while \output is active []
 
 ]
 第\CJKnumber {2}章 2.
-File: fig/following_blockdia.pdf Graphic file (type QTm)
-<use  "fig/following_blockdia.pdf" >
+File: fig/drv_blockdia.pdf Graphic file (type QTm)
+<use  "fig/drv_blockdia.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 3343) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-[9]) [10]
+[9] [10] [11]
+File: fig/gap_accpet.pdf Graphic file (type QTm)
+ <use  "fig/gap_accpet.pdf" > [12]
+File: fig/lc_logic.pdf Graphic file (type QTm)
+ <use  "fig/lc_logic.pdf" >
+Underfull \vbox (badness 5802) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
+
+ []
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+[16]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
@@ -957,15 +978,15 @@ Overfull \hbox (2.55367pt too wide) in paragraph at lines 29--41
  [][] 
  []
 
-[11
+[17
 
 
 
 ]
 Underfull \vbox (badness 3826) has occurred while \output is active []
 
- [12]
-[13]) [14]
+ [18]
+[19]) [20]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
@@ -994,7 +1015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--45
 
 Underfull \vbox (badness 3735) has occurred while \output is active []
 
- [15
+ [21
 
 
 
@@ -1024,7 +1045,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 80--83
 
  []
@@ -1033,60 +1054,99 @@ File: fig/non_spd_dist.pdf Graphic file (type QTm)
 <use  "fig/non_spd_dist.pdf" >
 File: fig/pro_spd_dist.pdf Graphic file (type QTm)
  <use  "fig/pro_spd_dist.pdf" >
-File: all_spd_dist.pdf Graphic file (type QTm)
+File: fig/all_spd_dist.pdf Graphic file (type QTm)
 
-<use  "all_spd_dist.pdf" >
+<use  "fig/all_spd_dist.pdf" >
 File: fig/non_rspd_acc.pdf Graphic file (type QTm)
  <use  "fig/non_rspd_acc.pdf" >
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [17]
-[18]
+ [23]
+[24]
 File: fig/pro_rspd_acc.pdf Graphic file (type QTm)
  <use  "fig/pro_rspd_acc.pdf" >
-File: all_rspd_acc.pdf Graphic file (type QTm)
- <use  "all_rspd_acc.pdf" >) [19] [20]
-[21]
+File: fig/all_rspd_acc.pdf Graphic file (type QTm)
+ <use  "fig/all_rspd_acc.pdf" >) [25]
+[26] [27]
 \openout2 = `chapter5.aux'.
 
- (./chapter5.tex [22
+ (./chapter5.tex [28
 
 
 
 ]
 第\CJKnumber {5}章 5.
-) [23] [24
+) [29] [30
 
 
 
-] (./frame.bbl [25
+] (./frame.bbl [31
 
 
-] [26
+] [32
 
 ]
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+Package xeCJK Warning: Unknown CJK family `tt' is ignored.
+Use \setCJKfamilyfont to define a CJK family. on input line 12.
 
-) [27] [28
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 12.
+
+(c:/texlive/2009/texmf-dist/tex/xelatex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+Underfull \hbox (badness 4001) in paragraph at lines 50--55
+[]\EU1/TimesNewRoman(0)/m/n/10.5 Low D J, Addison P S.  A Nonlinear Temporal He
+adway Model of Traffic Dynamics[J].
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 50--55
+\EU1/TimesNewRoman(0)/m/n/10.5 Nonlinear Dynamics, 1998, 16:127--151.  []$[][][
+][] [] [] [] [][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][][]
+[][][][][][][]$[].
+ []
+
+[33]
+Underfull \hbox (badness 1194) in paragraph at lines 116--124
+[]\EU1/TimesNewRoman(0)/m/n/10.5 Yang Q, Koutsopoulos H N.  A Microscopic Traff
+ic Simulator for evaluation of dynamic traf-
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 116--124
+\EU1/TimesNewRoman(0)/m/n/10.5 fic management systems[J].  Transportation Resea
+rch Part C: Emerging Technologies, 1996,
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 116--124
+\EU1/TimesNewRoman(0)/m/n/10.5 4(3):113 -- 129.  []$[][][][] [] [] [] [][][] []
+ [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] []
+[][][][][][][][][][][][][][][][] [] [] []
+ []
+
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Missing character: There is no � in font SimSun/ICU!
+[34]) [35] [36
 
 
 ]
 附录 A A.
-[29] [30
+[37] [38
 
 ]
 附录 B B.
-[31]
+[39]
 No file frame.ind.
-[32
+[40
 
 
-] [33
+] [41
 
 ]
 File: figures/back-cover.png Graphic file (type QTm)
- <use  "figures/back-cover.png" > [34
+ <use  "figures/back-cover.png" > [42
 
 ] (./frame.aux (./chapter1.aux)
 (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux))
@@ -1094,12 +1154,12 @@ LaTeX Font Info:    Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
  ) 
 Here is how much of TeX's memory you used:
- 12648 strings out of 494665
- 198692 string characters out of 3165984
- 364023 words of memory out of 3000000
- 15585 multiletter control sequences out of 15000+200000
- 9012 words of font info for 78 fonts, out of 3000000 for 9000
+ 12786 strings out of 494665
+ 201246 string characters out of 3165984
+ 364983 words of memory out of 3000000
+ 15716 multiletter control sequences out of 15000+200000
+ 9020 words of font info for 79 fonts, out of 3000000 for 9000
  669 hyphenation exceptions out of 8191
- 50i,12n,61p,1677b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,14n,61p,1677b,683s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on frame.pdf (48 pages).
+Output written on frame.pdf (56 pages).
