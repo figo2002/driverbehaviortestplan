@@ -1,8 +1,204 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chandler~等(1958)]{Chandler1958}
+Chandler R~E, Herman R, Montroll E~W.
+\newblock Traffic Dynamics: Studies in Car Following[J].
+\newblock Operations Research, 1958, 6(2):pp. 165--184.
+\newblock \url{http://www.jstor.org/stable/167610}.
+
+\bibitem[Gazis et al.(1959)]{Gazis1959}
+Gazis D~C, Herman R, Potts R~B.
+\newblock Car-Following Theory of Steady-State Traffic Flow[J].
+\newblock OPERATIONS RESEARCH, 1959, 7(4):499--505.
+\newblock \url{http://or.journal.informs.org/cgi/content/abstract/7/4/499}.
+
+\bibitem[Gazis et al.(1961)]{Gazis1961}
+Gazis D~C, Herman R, Rothery R~W.
+\newblock Nonlinear Follow-the-Leader Models of Traffic Flow[J].
+\newblock OPERATIONS RESEARCH, 1961, 9(4):545--567.
+\newblock \url{http://or.journal.informs.org/cgi/content/abstract/9/4/545}.
+
+\bibitem[Helly(1961)]{Helly1961}
+Helly W.
+\newblock Simulation of bottlenecks in single lane traffic flow[C].
+\newblock In: Theory Traffic Flow.
+\newblock 1961. 207--238.
+
+\bibitem[Koshi et al.(1992)]{M.Koshi1992}
+Koshi M, Kuwahara M, H.Akahane.
+\newblock Capacity of sags and tunnels on Japanese motorways[J].
+\newblock ITE Journal, 1992, 65:17--22.
+
+\bibitem[Bando et al.(1995)]{Bando1995}
+Bando M, Hasebe K, Nakayama A, et al.
+\newblock Dynamical model of traffic congestion and numerical simulation[J].
+\newblock Phys. Rev. E, 1995, 51(2):1035--1042.
+
+\bibitem[Addison and Low(1998)]{Addison1998}
+Addison P~S, Low D~J.
+\newblock A novel nonlinear car-following model[J].
+\newblock Chaos: An Interdisciplinary Journal of Nonlinear Science, 1998,
+  8(4):791--799.
+\newblock \url{http://link.aip.org/link/?CHA/8/791/1}.
+
+\bibitem[Low and Addison(1998)]{Low1998}
+Low D~J, Addison P~S.
+\newblock A Nonlinear Temporal Headway Model of Traffic Dynamics[J].
+\newblock Nonlinear Dynamics, 1998, 16:127--151.
+\newblock \url{http://dx.doi.org/10.1023/A:1008279031113}.
+\newblock 10.1023/A:1008279031113.
+
+\bibitem[Treiber et al.(2000)]{Treiber2000}
+Treiber M, Hennecke A, Helbing D.
+\newblock Congested Traffic States in Empirical Observations and Microscopic
+  Simulations[J].
+\newblock Rev. E 62, Issue, 2000, 62:2000.
+
+\bibitem[Treiber and Helbing(2003)]{Treiber2003}
+Treiber M, Helbing D.
+\newblock Memory effects in microscopic traffic models and wide scattering in
+  flow-density data[J].
+\newblock Phys. Rev. E, 2003, 68(4):046119.
+
+\bibitem[Newell(1961)]{Newell1961}
+Newell G~F.
+\newblock Nonlinear Effects in the Dynamics of Car Following[J].
+\newblock Operations Research, 1961, 9(2):pp. 209--229.
+\newblock \url{http://www.jstor.org/stable/167493}.
+
+\bibitem[Herman~等(1959)]{Herman1959}
+Herman R, Montroll E~W, Potts R~B,等.
+\newblock Traffic Dynamics: Analysis of Stability in Car Following[J].
+\newblock Operations Research, 1959, 7(1):pp. 86--106.
+\newblock \url{http://www.jstor.org/stable/167596}.
+
+\bibitem[Forbes(1963)]{Forbes1963}
+Forbes T.
+\newblock Human factor consideration in traffic flow theory[J].
+\newblock Highway Research Record, 1963, 15:60--66.
+
+\bibitem[Foote(1965)]{Foote1965}
+Foote R.
+\newblock Single lane traffic flow control[C].
+\newblock In: Proceedings of the Second International Symposium on the Theory
+  of Road Traffic Flow.
+\newblock 1965. 84--103.
+
+\bibitem[Newell(1965)]{Newell1965}
+Newell G.
+\newblock Instability in dense highway traffic, a review[C].
+\newblock In: Proceedings of the Second International Symposium on
+  Transportation and Traffic Theory.
+\newblock 1965. 73--83.
+
+\bibitem[Gipps(1986)]{Gipps1986}
+Gipps P~G.
+\newblock A model for the structure of lane-changing decisions[J].
+\newblock Transportation Research Part B: Methodological, 1986, 20(5):403 --
+  414.
+\newblock
+  \url{http://www.sciencedirect.com/science/article/B6V99-466CF0G-69/2/fd7b84c%
+9244295329e1e128c16cc009e}.
+
+\bibitem[Halati et al.(1997)]{Halati1997}
+Halati A, Lieu H, Walker S.
+\newblock CORSIM - Corridor Traffic Simulation Model[C].
+\newblock In: Traffic Congestion and Traffic Safety in the 21st Century:
+  Challenges, Innovations, and Opportunities.
+\newblock 1997. 570--576.
+
+\bibitem[Yang and Koutsopoulos(1996)]{Yang1996}
+Yang Q, Koutsopoulos H~N.
+\newblock A Microscopic Traffic Simulator for evaluation of dynamic traffic
+  management systems[J].
+\newblock Transportation Research Part C: Emerging Technologies, 1996, 4(3):113
+  -- 129.
+\newblock
+  \url{http://www.sciencedirect.com/science/article/B6VGJ-3VWT8KB-1/2/4bfda912%
+70dcf22f26439123b886be90}.
+
+\bibitem[Ahmed et al.(1996)]{Ahmed1996}
+Ahmed K, Moshe E, Koutsopoulos H, et al.
+\newblock Models of freeway lane changing and gap acceptance behavior[C], [No
+  booktitle].
+\newblock 1996.
+\newblock \url{http://citeseer.ifi.unizh.ch/contextsummary/1996655/0}.
+
+\bibitem[Ahmed(1999)]{Ahmed1999}
+Ahmed K~I.
+\newblock
+\newblock Modeling drivers' acceleration and lane changing behavior[D]:[PhD
+  Thesis].[S.l.]: Massachusetts Institute of Technology, 1999.
+
+\bibitem[Ben-Akiva~M. and Toledo(2006)]{Ben-AkivaM.2006}
+Ben-Akiva~M. C~C, Toledo T.
+\newblock Lane-changing Models[C].
+\newblock In: 2nd International Symposium of Transport Simulation.
+\newblock 2006.
+
+\bibitem[Kita(1993)]{Kita1993}
+Kita H.
+\newblock Effects of merging lane length on the merging behaviour at expressway
+  on-ramps[C].
+\newblock In: Daganzo, C. (Ed.),Proceedings of the 12th International Symposium
+  on the Theory of Traffic Flow and Transportation.
+\newblock 1993. 37--51.
+
+\bibitem[Kesting et al.(2007)]{Kesting2007}
+Kesting A, Treiber M, Helbing D.
+\newblock General Lane-Changing Model MOBIL for Car-Following Models[J].
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board, 2007, 1999(-1):86--94.
+\newblock \url{http://dx.doi.org/10.3141/1999-10}.
+
+\bibitem[Zhang et al.(1998)]{Zhang1998a}
+Zhang Y, Owen L, Clark J.
+\newblock Multiregime Approach for Microscopic Traffic Simulation[J].
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board, 1998, 1644(-1):103--114.
+\newblock \url{http://dx.doi.org/10.3141/1644-11}.
+
+\bibitem[Toledo et al.(2007)]{Toledo2007}
+Toledo T, Koutsopoulos H~N, Ben-Akiva M.
+\newblock Integrated driving behavior modeling[J].
+\newblock Transportation Research Part C: Emerging Technologies, 2007,
+  15(2):96--112.
+
+\bibitem[葛红霞(2005)]{葛红霞2005}
+葛红霞 �, 祝会兵.
+\newblock 智能交通系统的元胞自动机交通流模型[J].
+\newblock 物理学报, 2005, 54(10):4621--4626.
+
+\bibitem[Farzaneh and Rakha(2006)]{Farzaneh2006}
+Farzaneh M, Rakha A, Hesham.
+\newblock Impact of Differences in Driver-Desired Speed on Steady-State Traffic
+  Stream Behavior[J].
+\newblock Transportation Research Record, 2006, 1965(1965):142--151.
+
+\bibitem[Hamdar(2009)]{Hamdar2009a}
+Hamdar S.
+\newblock
+\newblock Modeling driver behavior as a stochastic hazard-based risk-taking
+  process[D]:[PhD Thesis].[S.l.]: Northwestern University, 2009.
+
+\bibitem[Ossen(2008)]{Ossen2008}
+Ossen S.
+\newblock
+\newblock Longitudinal driving behavior: theory and empirics[D]:[PhD
+  Thesis].[S.l.]: Technische Universiteit Delft, 2008.
+
+\bibitem[Kesting et al.(2010)]{Kesting2010}
+Kesting A, Treiber M, Helbing D.
+\newblock Enhanced intelligent driver model to access the impact of driving
+  strategies on traffic capacity[J].
+\newblock Philosophical Transactions of the Royal Society A:
+  Mathematical,Physical and Engineering Sciences, 2010, 368(1928):4585--4605.
+\newblock
+  \url{http://rsta.royalsocietypublishing.org/content/368/1928/4585.abstract}.
 
 \end{thebibliography}
