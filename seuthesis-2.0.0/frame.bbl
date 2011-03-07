@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -200,5 +200,101 @@ Kesting A, Treiber M, Helbing D.
   Mathematical,Physical and Engineering Sciences, 2010, 368(1928):4585--4605.
 \newblock
   \url{http://rsta.royalsocietypublishing.org/content/368/1928/4585.abstract}.
+
+\bibitem[Thiemann et al.(2008)]{Thiemann2008}
+Thiemann C, Treiber M, Kesting A.
+\newblock Estimating Acceleration and Lane-Changing Dynamics from Next
+  Generation Simulation Trajectory Data[J].
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board, 2008, 2088(2088):90--101.
+
+\bibitem[MacAdam et al.(2000)]{Ervin2000}
+MacAdam E~R~C, Walker J, Bogard S, et al.
+\newblock
+\newblock System for Assessment of the Vehicle Motion Environment (SAVME):
+  volume II[R].[S.l.]: Transportation Research Institute, University of
+  Michigan, Ann Arbor, 2000.
+
+\bibitem[Punzo et al.(2009)]{Punzo2009}
+Punzo V, Borzacchiello M~T, Ciuffo F, Biagio.
+\newblock Estimation of Vehicle Trajectories from Observed Discrete Positions
+  and Next-Generation Simulation Program (NGSIM) Data[C].
+\newblock In: Transportation Research Board 88th Annual Meeting.
+\newblock 2009. 17p--.
+
+\bibitem[Tol(2007)]{Toledo2007a}
+
+\newblock
+\newblock Toledo T, Koutsopoulos N, Haris, Ahmed I, Kazi.[S.l.]: Transportation
+  Research Board, 2007: pp 161--169--.
+
+\bibitem[Cleveland(1979)]{Cleveland1979}
+Cleveland W~S.
+\newblock Robust Locally Weighted Regression and Smoothing Scatterplots[J].
+\newblock Journal of the American Statistical Association, 1979, 74:829--836.
+
+\bibitem[Vogel(2002)]{Vogel2002}
+Vogel K.
+\newblock What characterizes a "free vehicle" in an urban area?[J].
+\newblock Transportation Research Part F: Traffic Psychology and Behaviour,
+  2002, 5(1):15 -- 29.
+\newblock
+  \url{http://www.sciencedirect.com/science/article/B6VN8-45579W1-2/2/5949f795%
+2a57ea521aa1a0955e471a42}.
+
+\bibitem[Xin et al.(2008)]{Xin2008}
+Xin W, Hourdos J, Michalopoulos P, et al.
+\newblock The Less-Than-Perfect Driver: A Model of Collision-Inclusive
+  Car-Following Behavior[J].
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board, 2008, 2088(-1):126--137.
+\newblock \url{http://dx.doi.org/10.3141/2088-14}.
+
+\bibitem[Hayward(1972)]{Hayward1972}
+Hayward J.
+\newblock
+\newblock Near miss determination through use of a scale of danger[R].[S.l.]:
+  The Pennsylvania State University, 1972.
+
+\bibitem[Lee(1976)]{Lee1976}
+Lee D.
+\newblock A theory of visual control of braking based on information about
+  time-to-collision.[J].
+\newblock Perception, 1976, 5(4)(0301-0066 (Linking)):347--59.
+
+\bibitem[Balas and Balas(2006)]{Balas2006}
+Balas V, Balas M.
+\newblock Driver Assisting by Inverse Time to Collision[C].
+\newblock In: Automation Congress, 2006. WAC '06. World.
+\newblock 2006. 1--6.
+
+\bibitem[Kesting and Treiber(2008)]{Kesting2008}
+Kesting A, Treiber M.
+\newblock Calibrating Car-Following Models by Using Trajectory Data:
+  Methodological Study[J].
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board, 2008, 2088(-1):148--156.
+\newblock \url{http://dx.doi.org/10.3141/2088-16}.
+
+\bibitem[WR~Mebane et al.(2009)]{WRMebane2009}
+WR~Mebane J, Jr., Sekhon J~S.
+\newblock Genetic Optimization Using Derivatives: The {rgenoud} Package for
+  {R}[J].
+\newblock Journal of Statistical Software, 2009, Forthcoming:1.
+\newblock \url{http://www.jstatsoft.org/}.
+\newblock Forthcoming.
+
+\bibitem[Greene(2000)]{Greene2000}
+Greene W~H.
+\newblock Econometric Analysis[M].
+\newblock
+\newblock  Vol. 97.[S.l.]: Prentice Hall, 2000: 1004.
+\newblock \url{http://books.google.com/books?id=YiC7AAAAIAAJ&pgis=1}.
+
+\bibitem[Efron(1979)]{Efron1979}
+Efron B.
+\newblock Bootstrap Methods: Another Look at the Jackknife[J].
+\newblock The Annals of Statistics, 1979, 7(1):pp. 1--26.
+\newblock \url{http://www.jstor.org/stable/2958830}.
 
 \end{thebibliography}

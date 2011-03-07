@@ -61,31 +61,35 @@
 \contentsline {subsubsection}{\numberline {3.2.5.4}实验过程}{20}{subsubsection.3.2.5.4}
 \contentsline {chapter}{\numberline {4}驾驶人行为特性的差异性分析}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}数据处理}{21}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}数据构成}{21}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}数据筛选}{21}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}跟驰行为特性的差异}{21}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}时间间隔分布}{21}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}非专业}{21}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}专业}{22}{subsubsection.4.2.1.2}
-\contentsline {subsection}{\numberline {4.2.2}速度--跟驰距离}{23}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}加速度--相对速度}{23}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}对不同跟驰模型的参数标定及其表现比较}{25}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.4.1}各模型简述}{25}{subsubsection.4.2.4.1}
-\contentsline {subsubsection}{\numberline {4.2.4.2}轨迹数据的平滑处理}{25}{subsubsection.4.2.4.2}
-\contentsline {subsubsection}{\numberline {4.2.4.3}参数标定方法}{25}{subsubsection.4.2.4.3}
-\contentsline {subsubsection}{\numberline {4.2.4.4}模型拟合程度的量化}{25}{subsubsection.4.2.4.4}
-\contentsline {subsubsection}{\numberline {4.2.4.5}比较结果}{25}{subsubsection.4.2.4.5}
-\contentsline {section}{\numberline {4.3}变道选择与间隙接受特性差异}{25}{section.4.3}
-\contentsline {section}{\numberline {4.4}驾驶人行为特性相关性分析}{25}{section.4.4}
-\contentsline {chapter}{\numberline {5}驾驶人行为特性对交通流影响分析}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}驾驶行为建模}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}路段交通流仿真}{29}{section.5.2}
-\contentsline {section}{\numberline {5.3}交通流影响分析}{29}{section.5.3}
-\contentsline {chapter}{致谢}{31}{section*.21}
-\contentsline {chapter}{参考文献}{33}{section*.24}
+\contentsline {subsection}{\numberline {4.1.1}数据基本情况}{21}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}驾驶人构成}{21}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}数据的基本情况}{21}{subsubsection.4.1.1.2}
+\contentsline {subsection}{\numberline {4.1.2}数据处理}{22}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}局部加权回归}{24}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}处理结果}{24}{subsubsection.4.1.2.2}
+\contentsline {section}{\numberline {4.2}跟驰行为特性的集计分析}{25}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}自由行驶与跟驰的临界点}{26}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}稳定状态下跟驰距离与速度的关系}{27}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}加速度与车辆相互运动的关系}{28}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}集计分析小节}{30}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}跟驰模型参数标定}{30}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}标定方法框架}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}跟驰模型}{31}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}目标函数}{32}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}优化算法与搜索范围}{32}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}轨迹数据与标定结果}{32}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}所得估计参数的可靠程度}{33}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Bootstrap与置信区间估计}{34}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}本章小结}{37}{section.4.4}
+\contentsline {chapter}{\numberline {5}驾驶人行为特性对交通流影响分析}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}驾驶行为建模}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}路段交通流仿真}{39}{section.5.2}
+\contentsline {section}{\numberline {5.3}交通流影响分析}{39}{section.5.3}
+\contentsline {chapter}{致谢}{41}{section*.9}
+\contentsline {chapter}{参考文献}{43}{section*.12}
 \ttl@change@i {\@ne }{chapter}{0pt}{\vspace {.5\baselineskip }\bfseries }{附录 \thecontentslabel \quad }{}{\hspace {.5em}\titlerule *[10pt]{$\cdot $}\contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {A}第一个附录}{37}{appendix.A}
-\contentsline {chapter}{\numberline {B}第二个附录}{39}{appendix.B}
-\contentsline {chapter}{作者简介}{41}{section*.25}
+\contentsline {chapter}{\numberline {A}第一个附录}{47}{appendix.A}
+\contentsline {chapter}{\numberline {B}第二个附录}{49}{appendix.B}
+\contentsline {chapter}{作者简介}{51}{section*.13}
 \contentsfinish 
