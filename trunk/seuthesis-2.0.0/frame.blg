@@ -15,45 +15,62 @@ You can't pop an empty literal stack for entry Hamdar2009a
 while executing---line 3540 of file seuthesis.bst
 You can't pop an empty literal stack for entry Ossen2008
 while executing---line 3540 of file seuthesis.bst
-You've used 30 entries,
+You can't pop an empty literal stack for entry Ervin2000
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Toledo2007a
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Toledo2007a
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Toledo2007a
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Toledo2007a
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Hayward1972
+while executing---line 3540 of file seuthesis.bst
+Warning--can't use both author and editor fields in Greene2000
+You can't pop an empty literal stack for entry Greene2000
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Greene2000
+while executing---line 3540 of file seuthesis.bst
+You've used 44 entries,
             6690 wiz_defined-function locations,
-            1426 strings with 13988 characters,
-and the built_in function-call counts, 10281 in all, are:
-= -- 966
-> -- 279
-< -- 17
-+ -- 160
-- -- 65
-* -- 717
-:= -- 1473
-add.period$ -- 110
-call.type$ -- 30
-change.case$ -- 30
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 458
-empty$ -- 1226
-format.name$ -- 126
-if$ -- 2437
+            1522 strings with 16616 characters,
+and the built_in function-call counts, 15171 in all, are:
+= -- 1441
+> -- 406
+< -- 27
++ -- 234
+- -- 95
+* -- 1041
+:= -- 2159
+add.period$ -- 162
+call.type$ -- 44
+change.case$ -- 44
+chr.to.int$ -- 44
+cite$ -- 46
+duplicate$ -- 689
+empty$ -- 1790
+format.name$ -- 181
+if$ -- 3614
 int.to.chr$ -- 1
-int.to.str$ -- 31
-missing$ -- 33
-newline$ -- 178
-num.names$ -- 60
-pop$ -- 234
+int.to.str$ -- 45
+missing$ -- 51
+newline$ -- 258
+num.names$ -- 87
+pop$ -- 338
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 44
 quote$ -- 0
-skip$ -- 313
+skip$ -- 493
 stack$ -- 0
-substring$ -- 616
-swap$ -- 30
-text.length$ -- 0
+substring$ -- 883
+swap$ -- 69
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
-warning$ -- 0
-while$ -- 59
+type$ -- 173
+warning$ -- 1
+while$ -- 90
 width$ -- 0
-write$ -- 421
-(There were 3 error messages)
+write$ -- 618
+(There were 11 error messages)
