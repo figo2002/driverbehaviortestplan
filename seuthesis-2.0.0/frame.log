@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  16 MAR 2011 13:36
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  16 MAR 2011 20:27
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -618,7 +618,7 @@ LaTeX Warning: Unused global option(s):
     [10.5pt].
 
 (./frame.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux
-) (./chapter5.aux))
+) (./chapter5.aux) (./chapter6.aux))
 \openout1 = `frame.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -911,17 +911,24 @@ File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
 ]
 [6
 
-] [7
+] (./frame.toc
+Underfull \vbox (badness 1796) has occurred while \output is active []
 
-] [8
+ [7
 
-] (./frame.toc [9
+]
+Underfull \vbox (badness 3386) has occurred while \output is active []
 
-])
+ [8])
 \tf@toc=\write5
 \openout5 = `frame.toc'.
 
- [10]
+
+[9] [10
+
+
+
+]
 \openout2 = `chapter1.aux'.
 
  (./chapter1.tex
@@ -932,9 +939,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 
-
-
-
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -942,7 +946,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \vbox (badness 2556) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4])
 [5]
@@ -979,25 +983,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--378
 
  []
 
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
-[16]
+[14]) [15]
 \openout2 = `chapter3.aux'.
 
- (./chapter3.tex
+ (./chapter3.tex [16
+
+
+
+]
 第\CJKnumber {3}章 3.
 
 Overfull \hbox (2.55367pt too wide) in paragraph at lines 29--41
  [][] 
  []
 
-[17
-
-
-
-]
+[17]
 Underfull \vbox (badness 3826) has occurred while \output is active []
 
  [18]
@@ -1442,80 +1442,91 @@ File: images/combined_ttc_per100.pdf Graphic file (type QTm)
 File: images/combined_box_avttc.pdf Graphic file (type QTm)
 
 <use  "images/combined_box_avttc.pdf" >) [46] [47] [48] [49] [50] [51] [52]
-[53] [54] [55] [56] (./frame.bbl [57
+[53] [54] [55] [56]
+\openout2 = `chapter6.aux'.
 
-
+ (./chapter6.tex
+第\CJKnumber {6}章 6.
+) [57
 
 
 
 ] [58
 
-] [59] [60]
-Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+
+
+] (./frame.bbl [59
+
+
+] [60
+
+] [61]
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
 Missing character: There is no � in font SimSun/ICU!
 
 
 Package xeCJK Warning: Unknown CJK family `tt' is ignored.
-Use \setCJKfamilyfont to define a CJK family. on input line 280.
+Use \setCJKfamilyfont to define a CJK family. on input line 164.
 
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 280
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 164
 .
 (y:/TeXLive/current/texmf-dist/tex/xelatex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-Underfull \hbox (badness 4001) in paragraph at lines 318--323
+Underfull \hbox (badness 4001) in paragraph at lines 208--213
 []\EU1/TimesNewRoman(0)/m/n/10.5 Low D J, Addison P S.  A Nonlinear Temporal He
 adway Model of Traffic Dynamics[J].
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 318--323
+Underfull \hbox (badness 4608) in paragraph at lines 208--213
 \EU1/TimesNewRoman(0)/m/n/10.5 Nonlinear Dynamics, 1998, 16:127--151.  []$[][][
 ][] [] [] [] [][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][][]
 [][][][][][][]$[].
  []
 
-[61]
-Underfull \hbox (badness 1194) in paragraph at lines 384--392
+[62]
+Underfull \hbox (badness 1194) in paragraph at lines 274--282
 []\EU1/TimesNewRoman(0)/m/n/10.5 Yang Q, Koutsopoulos H N.  A Microscopic Traff
 ic Simulator for evaluation of dynamic traf-
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 384--392
+Underfull \hbox (badness 3861) in paragraph at lines 274--282
 \EU1/TimesNewRoman(0)/m/n/10.5 fic management systems[J].  Transportation Resea
 rch Part C: Emerging Technologies, 1996,
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 384--392
+Underfull \hbox (badness 2221) in paragraph at lines 274--282
 \EU1/TimesNewRoman(0)/m/n/10.5 4(3):113 -- 129.  []$[][][][] [] [] [] [][][] []
  [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] []
 [][][][][][][][][][][][][][][][] [] [] []
  []
 
-[62] [63]) [64]
+[63] [64]) [65] [66
+
+
+]
 附录 A A.
-[65
-
-
-] [66
+[67] [68
 
 ]
 附录 B B.
-[67]
+[69]
 No file frame.ind.
-[68
+[70
 
 
-] [69
+] [71
 
 ]
 File: figures/back-cover.png Graphic file (type QTm)
- <use  "figures/back-cover.png" > [70
+ <use  "figures/back-cover.png" > [72
 
 ] (./frame.aux (./chapter1.aux)
-(./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux))
+(./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux)
+(./chapter6.aux))
 LaTeX Font Info:    Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
@@ -1524,12 +1535,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13504 strings out of 495713
- 216157 string characters out of 3188306
- 378584 words of memory out of 3000000
- 16249 multiletter control sequences out of 15000+200000
+ 13450 strings out of 495713
+ 215261 string characters out of 3188306
+ 384683 words of memory out of 3000000
+ 16188 multiletter control sequences out of 15000+200000
  9028 words of font info for 80 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 50i,14n,64p,1677b,864s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,14n,64p,1677b,882s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on frame.pdf (84 pages).
+Output written on frame.pdf (86 pages).
