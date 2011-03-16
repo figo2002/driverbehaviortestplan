@@ -1,4 +1,4 @@
-\begin{thebibliography}{90}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,37 +12,18 @@ Kou C~C.
   freeway merge maneuvers[D]:[PhD Thesis].[S.l.]: The University of Texas at
   Austin, 1997.
 
-\bibitem[Salvucci and Liu(2002)]{Salvucci2002}
-Salvucci D~D, Liu A.
-\newblock The time course of a lane change: Driver control and eye-movement
-  behavior[J].
-\newblock Transportation Research Part F: Traffic Psychology and Behaviour,
-  2002, 5(2):123--132.
-
-\bibitem[Hamdar(2004)]{Hamdar2004}
-Hamdar S~H.
-\newblock
-\newblock Towards modeling driver behavior under extreme conditions[D]:[PhD
-  Thesis].[S.l.]: University of Maryland, College Park, 2004.
-
-\bibitem[Yang(2008)]{Yang2008}
-Yang L.
-\newblock
-\newblock Driver speed and acceleration behaviour on Canadian roads[D]:[PhD
-  Thesis].[S.l.]: Carleton University (Canada), 2008.
-
-\bibitem[Xu(2007)]{Xu2007}
-Xu F.
-\newblock
-\newblock Driver behavior and gap acceptance studies at roundabouts[D]:[PhD
-  Thesis].[S.l.]: University of Nevada, Reno, 2007.
-
 \bibitem[Heaslip(2007)]{Heaslip2007}
 Heaslip I, K.
 \newblock
 \newblock Modeling driver behavior in work zones: An evaluation of traffic flow
   impacts in freeway work zones with full lane closures[D]:[PhD Thesis].[S.l.]:
   University of Massachusetts Amherst, 2007.
+
+\bibitem[Xu(2007)]{Xu2007}
+Xu F.
+\newblock
+\newblock Driver behavior and gap acceptance studies at roundabouts[D]:[PhD
+  Thesis].[S.l.]: University of Nevada, Reno, 2007.
 
 \bibitem[Said(2008)]{Said2008}
 Said D.
@@ -51,16 +32,16 @@ Said D.
   highway design and safety[D]:[PhD Thesis].[S.l.]: Carleton University
   (Canada), 2008.
 
-\bibitem[Yeo(2008)]{Yeo2008}
-Yeo H.
-\newblock
-\newblock Asymmetric microscopic driving behavior theory[D]:[PhD
-  Thesis].[S.l.]: University of California, Berkeley, 2008.
-
 \bibitem[孔繁森(2004)]{孔繁森2004}
 孔繁森.
 \newblock 驾驶员行为的Kuipers定性仿真算法[J].
 \newblock 系统仿真学报, 2004, 16(1):118--121.
+
+\bibitem[Yang(2008)]{Yang2008}
+Yang L.
+\newblock
+\newblock Driver speed and acceleration behaviour on Canadian roads[D]:[PhD
+  Thesis].[S.l.]: Carleton University (Canada), 2008.
 
 \bibitem[张开冉(2008)]{张开冉2008}
 张开冉.
@@ -74,20 +55,6 @@ Yeo H.
   Thesis].
 \newblock 北京: 北京工业大学, 2008.
 
-\bibitem[范红静(2008)]{范红静2008}
-范红静.
-\newblock
-  驾驶员动态视觉特性及对交叉口通行能力的影响研究[D]:[Ma%
-ster's Thesis].
-\newblock 南京: 东南大学, 2008.
-
-\bibitem[武睿(2008)]{武睿2008}
-武睿.
-\newblock
-  基于驾驶人眼部运动特征的交通标志视认性研究[D]:[Master's
-  Thesis].
-\newblock 南京: 东南大圩, 2008.
-
 \bibitem[徐上(2009)]{徐上2009}
 徐上.
 \newblock
@@ -95,23 +62,11 @@ ster's Thesis].
   Thesis].
 \newblock 南京: 东南大学, 2009.
 
-\bibitem[李娅(2009)]{李娅2009}
-李娅.
-\newblock
-  基于驾驶员视觉特性的指路标志设置方法研究[D]:[Master's
-  Thesis].
-\newblock 南京: 东南大学, 2009.
-
-\bibitem[裴玉龙(2009)]{裴玉龙2009}
-裴玉龙.
-\newblock 车道变换进程中驾驶员视点转移特性研究[J].
-\newblock 交通信息与安全, 2009, 27(2):92--95.
-
-\bibitem[Ahmed(1999)]{Ahmed1999}
-Ahmed K~I.
-\newblock Modeling drivers' acceleration and lane changing behavior[D]:[PhD
-  Thesis].
-\newblock Cambridge,MA: Massachusetts Institute of Technology, 1999.
+\bibitem[Toledo et al.(2007)]{Toledo2007}
+Toledo T, Koutsopoulos H~N, Ben-Akiva M.
+\newblock Integrated driving behavior modeling[J].
+\newblock Transportation Research Part C: Emerging Technologies, 2007,
+  15(2):96--112.
 
 \bibitem[Oliver and Pentland(2000)]{Oliver2000}
 Oliver N, Pentland A~P.
@@ -120,18 +75,10 @@ Oliver N, Pentland A~P.
 \newblock Times Cited: 2 Verly, JG Conference on Enhanced and Synthetic Vision
   2000 Apr 24-25, 2000 Orlando, fl.
 
-\bibitem[Chen and Ulsoy(2001)]{Chen2001}
-Chen L~K, Ulsoy A~G.
-\newblock Identification of a Driver Steering Model, and Model Uncertainty,
-  From Driving Simulator Data[J].
-\newblock Journal of Dynamic Systems, Measurement, and Control, 2001,
-  123(4):623--629.
-
-\bibitem[Lin(2005)]{Lin2005}
-Lin Y.
-\newblock Artificial neural network modelling of driver handling behaviour in a
-  driver-vehicle-environment system[J].
-\newblock International Journal of Vehicle Design, 2005, 37(no.1):24--45.
+\bibitem[邱凌云(2005)]{邱凌云2005}
+邱凌云.
+\newblock 基于Agent的驾驶员-车辆建模研究与实现[J].
+\newblock 计算机仿真, 2005, 22(11):222--225.
 
 \bibitem[Salvucci(2006)]{Salvucci2006}
 Salvucci D~D.
@@ -139,55 +86,11 @@ Salvucci D~D.
 \newblock Human Factors: The Journal of the Human Factors and Ergonomics
   Society, 2006, 48(2):362--380.
 
-\bibitem[Toledo et al.(2007)]{Toledo2007}
-Toledo T, Koutsopoulos H~N, Ben-Akiva M.
-\newblock Integrated driving behavior modeling[J].
-\newblock Transportation Research Part C: Emerging Technologies, 2007,
-  15(2):96--112.
-
-\bibitem[Hamdar(2009)]{Hamdar2009a}
-Hamdar S.
-\newblock
-\newblock Modeling driver behavior as a stochastic hazard-based risk-taking
-  process[D]:[PhD Thesis].[S.l.]: Northwestern University, 2009.
-
-\bibitem[王家波(2001)]{王家波2001}
-王家波.
-\newblock 汽车驾驶员模型[J].
-\newblock 人类工效学, 2001, 7(1):64--67.
-
-\bibitem[李谦(2003)]{李谦2003}
-李谦.
-\newblock
-  汽车方向与速度综合控制的驾驶员行为特性建模[D]:[PhD
-  Thesis].
-\newblock 吉林: 吉林大学, 2003.
-
-\bibitem[邱凌云(2005)]{邱凌云2005}
-邱凌云.
-\newblock 基于Agent的驾驶员-车辆建模研究与实现[J].
-\newblock 计算机仿真, 2005, 22(11):222--225.
-
 \bibitem[杨新月(2006)]{杨新月2006}
 杨新月.
 \newblock 基于认知活动链的驾驶员行为建模及仿真[D]:[Master's
   Thesis].
 \newblock 山东: 山东理工大学, 2006.
-
-\bibitem[朱山江(2006)]{朱山江2006}
-朱山江.
-\newblock 对智能驾驶员模型的改进及其应用[J].
-\newblock 中南公路工程, 2006, 31(3):135--138.
-
-\bibitem[吴超仲(2007)]{吴超仲2007}
-吴超仲.
-\newblock 考虑驾驶员性格特性的跟驰模型[J].
-\newblock 交通运输工程与信息学报, 2007, 5(4):18--22.
-
-\bibitem[张磊(2008)]{张磊2008}
-张磊.
-\newblock 基于神经网络方法的集成式驾驶员跟车模型[J].
-\newblock 清华大学学报（自然科学版）, 2008, 48(11):1985--1988.
 
 \bibitem[许骏(2008)]{许骏2008}
 许骏.
@@ -199,53 +102,11 @@ Hamdar S.
 \newblock 基于决策树的驾驶行为决策机制研究[J].
 \newblock 系统仿真学报, 2008, 20(2):415--419.
 
-\bibitem[刘兵(2008)]{刘兵2008}
-刘兵.
+\bibitem[Hamdar(2009)]{Hamdar2009a}
+Hamdar S.
 \newblock
-  基于驾驶员视知觉的车速控制和车道保持机理研究[D]:[Maste%
-r's Thesis].
-\newblock 武汉: 武汉理工大学, 2008.
-
-\bibitem[李勇(2008)]{李勇2008}
-李勇.
-\newblock 微观交通仿真中的驾驶员模型研究[D]:[Master's Thesis].
-\newblock 成都: 西南交通大学, 2008.
-
-\bibitem[Bonzani(2000)]{Bonzani2000}
-Bonzani I.
-\newblock Hydrodynamic models of traffic flow: Drivers' behaviour and nonlinear
-  diffusion[J].
-\newblock Mathematical and Computer Modelling, 2000, 31(6-7):1--8.
-
-\bibitem[Hoogendoorn and Bovy(2000)]{Hoogendoorn2000}
-Hoogendoorn S~P, Bovy P~H~L.
-\newblock Continuum modeling of multiclass traffic flow[J].
-\newblock Transportation Research Part B: Methodological, 2000, 34(2):123--146.
-
-\bibitem[Bellomo et al.(2002)]{Bellomo2002}
-Bellomo N, Marasco A, Romano A.
-\newblock From the modelling of driver's behavior to hydrodynamic models and
-  problems of traffic flow[J].
-\newblock Nonlinear Analysis: Real World Applications, 2002, 3(3):339--363.
-
-\bibitem[Zhang(2003)]{Zhang2003a}
-Zhang H~M.
-\newblock Driver memory, traffic viscosity and a viscous vehicular traffic flow
-  model[J].
-\newblock Transportation Research Part B: Methodological, 2003, 37(1):27--41.
-
-\bibitem[H.~B.~ZHU(2007)]{H.B.ZHU2007}
-H.~B.~ZHU S~Q~D, H. X.~GE.
-\newblock A New Cellular Automaton Model for Traffic Flow with Different
-  Probability for Drivers[J].
-\newblock International Journal of Modern Physics C, 2007, 18(5):773--782.
-
-\bibitem[Zhu and Dai(2008)]{Zhu2008}
-Zhu H~B, Dai S~Q.
-\newblock Analysis of car-following model considering driver's physical delay
-  in sensing headway[J].
-\newblock Physica A: Statistical Mechanics and its Applications, 2008,
-  387(13):3290--3298.
+\newblock Modeling driver behavior as a stochastic hazard-based risk-taking
+  process[D]:[PhD Thesis].[S.l.]: Northwestern University, 2009.
 
 \bibitem[雷丽(2003)]{雷丽2003}
 雷丽.
@@ -262,16 +123,45 @@ Zhu H~B, Dai S~Q.
 \newblock 驾驶员的驾驶特性对交通流的影响[J].
 \newblock 广西科学, 2006, 13(1):27--30.
 
+\bibitem[Farzaneh and Rakha(2006)]{Farzaneh2006}
+Farzaneh M, Rakha A, Hesham.
+\newblock Impact of Differences in Driver-Desired Speed on Steady-State Traffic
+  Stream Behavior[J].
+\newblock Transportation Research Record, 2006, 1965(1965):142--151.
+
+\bibitem[H.~B.~ZHU(2007)]{H.B.ZHU2007}
+H.~B.~ZHU S~Q~D, H. X.~GE.
+\newblock A New Cellular Automaton Model for Traffic Flow with Different
+  Probability for Drivers[J].
+\newblock International Journal of Modern Physics C, 2007, 18(5):773--782.
+
+\bibitem[Zhu and Dai(2008)]{Zhu2008}
+Zhu H~B, Dai S~Q.
+\newblock Analysis of car-following model considering driver's physical delay
+  in sensing headway[J].
+\newblock Physica A: Statistical Mechanics and its Applications, 2008,
+  387(13):3290--3298.
+
+\bibitem[Ossen(2008)]{Ossen2008}
+Ossen S.
+\newblock
+\newblock Longitudinal driving behavior: theory and empirics[D]:[PhD
+  Thesis].[S.l.]: Technische Universiteit Delft, 2008.
+
 \bibitem[祝会兵(2008)]{祝会兵2008}
 祝会兵.
 \newblock 基于驾驶行为细致分析的交通流建模和模拟[D]:[PhD
   Thesis].
 \newblock 上海: 上海大学, 2008.
 
-\bibitem[王欣(2008)]{王欣2008}
-王欣.
-\newblock 基于驾驶行为共性建模的速度-密度关系研究[J].
-\newblock 公路交通科技, 2008, 25(9):116--120.
+\bibitem[Kesting et al.(2010)]{Kesting2010}
+Kesting A, Treiber M, Helbing D.
+\newblock Enhanced intelligent driver model to access the impact of driving
+  strategies on traffic capacity[J].
+\newblock Philosophical Transactions of the Royal Society A:
+  Mathematical,Physical and Engineering Sciences, 2010, 368(1928):4585--4605.
+\newblock
+  \url{http://rsta.royalsocietypublishing.org/content/368/1928/4585.abstract}.
 
 \bibitem[Chandler~等(1958)]{Chandler1958}
 Chandler R~E, Herman R, Montroll E~W.
@@ -397,6 +287,12 @@ Ahmed K, Moshe E, Koutsopoulos H, et al.
 \newblock 1996.
 \newblock \url{http://citeseer.ifi.unizh.ch/contextsummary/1996655/0}.
 
+\bibitem[Ahmed(1999)]{Ahmed1999}
+Ahmed K~I.
+\newblock Modeling drivers' acceleration and lane changing behavior[D]:[PhD
+  Thesis].
+\newblock Cambridge,MA: Massachusetts Institute of Technology, 1999.
+
 \bibitem[Ben-Akiva~M. and Toledo(2006)]{Ben-AkivaM.2006}
 Ben-Akiva~M. C~C, Toledo T.
 \newblock Lane-changing Models[C].
@@ -417,34 +313,6 @@ Kesting A, Treiber M, Helbing D.
 \newblock Transportation Research Record: Journal of the Transportation
   Research Board, 2007, 1999(-1):86--94.
 \newblock \url{http://dx.doi.org/10.3141/1999-10}.
-
-\bibitem[Zhang et al.(1998)]{Zhang1998a}
-Zhang Y, Owen L, Clark J.
-\newblock Multiregime Approach for Microscopic Traffic Simulation[J].
-\newblock Transportation Research Record: Journal of the Transportation
-  Research Board, 1998, 1644(-1):103--114.
-\newblock \url{http://dx.doi.org/10.3141/1644-11}.
-
-\bibitem[Farzaneh and Rakha(2006)]{Farzaneh2006}
-Farzaneh M, Rakha A, Hesham.
-\newblock Impact of Differences in Driver-Desired Speed on Steady-State Traffic
-  Stream Behavior[J].
-\newblock Transportation Research Record, 2006, 1965(1965):142--151.
-
-\bibitem[Ossen(2008)]{Ossen2008}
-Ossen S.
-\newblock
-\newblock Longitudinal driving behavior: theory and empirics[D]:[PhD
-  Thesis].[S.l.]: Technische Universiteit Delft, 2008.
-
-\bibitem[Kesting et al.(2010)]{Kesting2010}
-Kesting A, Treiber M, Helbing D.
-\newblock Enhanced intelligent driver model to access the impact of driving
-  strategies on traffic capacity[J].
-\newblock Philosophical Transactions of the Royal Society A:
-  Mathematical,Physical and Engineering Sciences, 2010, 368(1928):4585--4605.
-\newblock
-  \url{http://rsta.royalsocietypublishing.org/content/368/1928/4585.abstract}.
 
 \bibitem[Thiemann et al.(2008)]{Thiemann2008}
 Thiemann C, Treiber M, Kesting A.
@@ -518,7 +386,7 @@ Kesting A, Treiber M.
 \newblock Calibrating Car-Following Models by Using Trajectory Data:
   Methodological Study[J].
 \newblock Transportation Research Record: Journal of the Transportation
-  Research Board, 2008, 2088(-1):148--156.
+  Research Board, 2008, 2088:148--156.
 
 \bibitem[WR~Mebane et al.(2009)]{WRMebane2009}
 WR~Mebane J, Jr., Sekhon J~S.
