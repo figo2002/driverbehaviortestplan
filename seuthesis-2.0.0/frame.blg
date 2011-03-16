@@ -9,7 +9,19 @@ A level-1 auxiliary file: chapter5.aux
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: seuthesis.bib
-You can't pop an empty literal stack for entry Ahmed1999
+You can't pop an empty literal stack for entry Kou1997
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Hamdar2004
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Yang2008
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Xu2007
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Heaslip2007
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Said2008
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Yeo2008
 while executing---line 3540 of file seuthesis.bst
 You can't pop an empty literal stack for entry Hamdar2009a
 while executing---line 3540 of file seuthesis.bst
@@ -32,45 +44,53 @@ You can't pop an empty literal stack for entry Greene2000
 while executing---line 3540 of file seuthesis.bst
 You can't pop an empty literal stack for entry Greene2000
 while executing---line 3540 of file seuthesis.bst
-You've used 44 entries,
+You can't pop an empty literal stack for entry Krajzewicz2005
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Krauss1998
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry Krauss1998
+while executing---line 3540 of file seuthesis.bst
+You can't pop an empty literal stack for entry S.Kerner2009
+while executing---line 3540 of file seuthesis.bst
+You've used 90 entries,
             6690 wiz_defined-function locations,
-            1522 strings with 16616 characters,
-and the built_in function-call counts, 15171 in all, are:
-= -- 1441
-> -- 406
-< -- 27
-+ -- 234
-- -- 95
-* -- 1041
-:= -- 2159
-add.period$ -- 162
-call.type$ -- 44
-change.case$ -- 44
-chr.to.int$ -- 44
-cite$ -- 46
-duplicate$ -- 689
-empty$ -- 1790
-format.name$ -- 181
-if$ -- 3614
+            1787 strings with 22634 characters,
+and the built_in function-call counts, 28374 in all, are:
+= -- 2655
+> -- 668
+< -- 71
++ -- 405
+- -- 158
+* -- 1872
+:= -- 4103
+add.period$ -- 302
+call.type$ -- 90
+change.case$ -- 90
+chr.to.int$ -- 90
+cite$ -- 92
+duplicate$ -- 1340
+empty$ -- 3460
+format.name$ -- 312
+if$ -- 6794
 int.to.chr$ -- 1
-int.to.str$ -- 45
-missing$ -- 51
-newline$ -- 258
-num.names$ -- 87
-pop$ -- 338
+int.to.str$ -- 91
+missing$ -- 116
+newline$ -- 490
+num.names$ -- 181
+pop$ -- 659
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 90
 quote$ -- 0
-skip$ -- 493
+skip$ -- 908
 stack$ -- 0
-substring$ -- 883
-swap$ -- 69
-text.length$ -- 2
+substring$ -- 1491
+swap$ -- 122
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 173
+type$ -- 355
 warning$ -- 1
-while$ -- 90
+while$ -- 164
 width$ -- 0
-write$ -- 618
-(There were 11 error messages)
+write$ -- 1199
+(There were 21 error messages)
