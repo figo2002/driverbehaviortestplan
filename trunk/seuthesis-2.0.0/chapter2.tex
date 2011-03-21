@@ -1,15 +1,76 @@
-\chapter{驾驶人行为特性及对交通流影响的含义}
-最基本的驾驶行为可以划分为三个不断交替的子过程，感知与信息收集，驾驶决策和对车辆的操控。感知与信息收集过程中，驾驶人主要依靠视觉采集相关的信息，这些信息来源于周围车辆和自身车辆。其中驾驶人只对部分信息变量敏感，包括速度，加速度，跟驰距离，相对速度，以及这些变量的某些函数（如时间间隔）。驾驶人收集到信息后通过采样与整合对这些信息进行解释，这种解释依靠驾驶人的对于车辆动态特性的理解以及其积累的驾驶经验。通过对信息解释的整合处理，最终形成驾驶决策。驾驶决策形成后，驾驶人通过对车辆机件的操作，对车辆的动态施加控制。而本文所研究的的驾驶人行为特性是指驾驶人通过操控车辆，使得车辆所表现出的一系列特性，而不具体研究驾驶人操控动作。其中驾驶过程框图如
-\autoref{drv_blockdia}
+\chapter{驾驶人行为特性的含义}
+\section{驾驶人行为在出行行为层次中的位置}
+根据Hranac等（2004）的NGSIM核心算法评估报告\cite{Hranac2004}，完整的出行行为可以划分为5个层次如\autoref{traveldecision}。
 
+1.出行前计划：出行者在出行前制定的计划，如是否出行、出发时间、目的地、路径等。
+
+2.途中策略：出行前计划制定后，出行者在途中可以选择按照原计划出行，或者对计划进行修改，比如改变目的地，改变路径或者是停车选择等。出行前计划和途中策略的用时一般超过30s。
+
+3.路径执行：这一层次的出行行为的时间在5s至30s之间，在执行路径时，驾驶人根据一系列子目标执行战术性的操作，例如保持理想的车速，避开大车，预先换到合适的车道等。这一层次的行为会形成低层次的战术性计划组合。
+
+4.驾驶操作：这一层次所需时间一般在5s以内，这一层次的行为包括，变换车道，变道的间隙接受，加减速等。
+
+5.车辆控制：这一层次的行为只需很短的时间，包括转动方向盘，踩加速踏板等。
 
 \begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.4\linewidth]{traveldecision}
+	\caption{出行行为层次图,摘自文献\citet{Hranac2004}}
+	\label{traveldecision}
+\end{figure}
+
+本文所指的驾驶人行为指的是层次4，即驾驶操作这一层次，这也是大多数驾驶人行为模型所研究的层次。
+
+%According to the NGSIM Core Algorithm Analysis Report (Hranac et al. 2004a), 
+%travel decisions can be classified into the following categories based on the time scale of 
+%application (shown in Figure  1.1): 
+%
+%1. Pre-trip traveler decisions: These strategic decisions are taken before starting a trip 
+%and constitute the pre-trip plan of the traveler. Examples include, deciding whether or not 
+%to travel, selecting the time of departure, destination, mode of transportation and route 
+%etc.  
+%
+%2. Strategic en-route traveler decisions:  Once the pre-trip decisions are made, the 
+%traveler either executes the originally selected plan without any change, or makes one or 
+%more modifications to the initial plan. This category of decisions includes modification of 
+%destination, mode or route, parking choice etc.  
+%The decisions in category 1 and 2 take over 30 seconds (and in most cases much 
+%longer) to make and execute. 
+% 
+%3. Tactical route execution decisions:  This category deals with traveler decisions that 
+%take between 5 and 30 seconds to make and execute. While executing a route from an 
+%origin to a destination, a series of tactical maneuvers are performed by drivers based on 
+%sub-goals generated from a variety of factors. Examples include, maintaining a desired 
+%travel speed, making up lost time from a previous delay, avoiding large trucks, pre-
+%positioning to get into the appropriate lane, etc. These broad set of route execution 
+%decisions result in a combination of lower-level tactical plans.  
+%
+%4. Operational driving decisions:  The operational behaviors of travelers include 
+%decisions to control their vehicle at a time scale of less than five seconds. These include 
+%lane shifting, gap acceptance for executing a lane change or for maneuver at an 
+%unsignalized intersection, acceleration/deceleration, queue discharge behavior etc.  
+%
+%5. Vehicle control decisions: This category deals with driver decisions related to 
+%controlling the vehicle at a nanoscopic time-scale level, steering the wheel of the vehicle 
+%or pressing the accelerator for example. 
+%Driving behavior models encompass the tactical route execution and operational 
+%driving decisions. It should be noted that only the actions associated with the operational driving decisions and sometimes the vehicle control decisions are observed. The strategic 
+%and tactical plans that lead to that action are generally unobserved or latent.
+\section{驾驶人行为的子过程}
+驾驶人行为可以划分为三个不断交替的子过程，感知与信息收集，驾驶决策和对车辆的操控。感知与信息收集过程中，驾驶人主要依靠视觉采集相关的信息，这些信息来源于周围车辆和自身车辆。其中驾驶人只对部分信息变量敏感，包括速度，加速度，跟驰距离，相对速度，以及这些变量的某些函数（如时间间隔）。驾驶人收集到信息后通过采样与整合对这些信息进行解释，这种解释依靠驾驶人的对于车辆动态特性的理解以及其积累的驾驶经验。通过对信息解释的整合处理，最终形成驾驶决策。驾驶决策形成后，驾驶人通过对车辆机件的操作，对车辆的动态施加控制。
+
+而本文所研究的的驾驶人行为特性是指驾驶人通过操控车辆，使得车辆所表现出的一系列特性，而不具体研究驾驶人操控动作。其中驾驶过程框图如\autoref{drv_blockdia}
+
+
+\begin{figure}[!h]
 	\centering
 	\includegraphics[totalheight=10cm]{drv_blockdia}
 	\caption{驾驶过程框图}
 	\label{drv_blockdia}
 \end{figure}
-驾驶人行为可以分为跟驰行为和变道行为，两者事实上存在紧密联系，但是现阶段主要的交通流模型研究中仍然分别对这两种行为独立地进行分析，这种两者相对独立的假设便于开展研究，并且有利于交通流模拟系统的实现。本章中将对驾驶人的跟驰和变道行为特性的内涵分别进行阐述，并分析两者的联系，最后对驾驶人行为特征影响交通流的含义进行阐述。
+驾驶人行为又可以分为跟驰行为和变道行为，跟驰行为是指驾驶人控制车辆跟随前方车辆保持一定距离，一定速度行驶的行为，这也是驾驶人最常面对的驾驶任务。变道行为是指，驾驶人暂时脱离跟驰状态，为了超车、转向或者提升驾驶条件而变换车道的行为。
+
+两种行为事实上存在紧密联系，但是现阶段研究中仍然分别对这两种行为独立地进行分析，这种两者相对独立的假设便于开展研究，并且有利于交通流模拟系统的实现。本章中将对驾驶人的跟驰和变道行为特性的含义分别进行阐述。
 %\begin{table}[htbp]
 % \centering
 % \caption{Add caption}
@@ -27,24 +88,25 @@
 
 \section{跟驰行为特性}
 
+
 \subsection{跟驰行为特性参数}
 描述微观的驾驶人跟驰行为时,对于每一个人车单元DVU（driver-vehicle-unit）（也就是外在所表现出来的车辆，下文不再对此进行区分）有若干的特性参数来反映驾驶人的行为，这些参数包括两类，一类是可以直接测量或经由简单计算所得的变量，直接测量的变量包括车辆的即时速度，即时加速度，相对速度和跟驰距离。由直接测量变量经过计算得出的变量，包括跟车对的时间间隔。第二类是不可直接或很难测得也不可经由简单计算得出的变量，这些变量也反映了驾驶人行为的重要特征，因无法直接测量，需要根据前一类变量通过估计的方法得出合理的近似值,包括驾驶人的期望速度，期望跟驰距离，反应时间，期望时间间隔。
 
 \subsubsection{速度}
-车辆速度是$v$是跟驰过程中最为基本的变量，速度为车辆单位时间内的位移，在水平面上包括沿道路轴向和横向的速度分量。在跟驰过程中，车辆的沿道路轴向速度为影响跟驰车辆对相互作用的主要因素，而在正常的跟驰过程中车辆的沿道路横向速度相对轴向很小，因此在数量上，车辆速度与车辆沿道路轴向速度几乎总是非常相近。若以道路上一点作为起点，将车辆前保险杠点的沿道路方向的位移$x$看作是时间的函数，则速度为沿道路方向的位移的一阶导数，即$v=x'$。
+车辆速度是$v$是跟驰过程中最为基本的变量，速度为车辆单位时间内的位移，在水平面上包括沿道路轴向和横向的速度分量。在跟驰过程中，车辆的沿道路纵向速度为影响跟驰车辆对相互作用的主要因素，而在正常的跟驰过程中车辆的沿道路横向速度相对轴向很小，因此在数量上，车辆速度与车辆沿道路轴向速度几乎总是非常相近。若以道路上一点作为起点，将车辆前保险杠点的沿道路方向的位移$X$看作是时间的函数，则速度为沿道路方向的位移的一阶导数，即$v=\dot{X}$。
 
 \subsubsection{加速度}
-加速度与速度类似的包括沿道路轴向和横向的上分量，加速度是速度的一阶导数，是位移的二阶导数，即$a=v'=x''$。按照加速度可将车辆的运行状态分为三类，$a>0$时为加速状态，$a<0$时为减速状态，$a=0$时为巡航状态，驾驶人通过控制油门踏板和减速踏板的开合度改变车辆的加速度。众多的跟驰模型将加速度看作驱动人车单元状态改变的变量。
+加速度与速度类似的包括沿道路纵向和横向的上分量，加速度是速度的一阶导数，是位移的二阶导数，即$a=\dot{v}=\ddot{X}$。按照加速度可将车辆的运行状态分为三类，$a>0$时为加速状态，$a<0$时为减速状态，$a=0$时为巡航状态，驾驶人通过控制油门踏板和减速踏板的开合度改变车辆的加速度。
 
 \subsubsection{相对速度}
 相对速度为跟车对的速度差，为引导车辆速度值减去跟驰车辆速度值。以$v_{n-1}$表示引导车辆速度，以$v_n$表示跟驰车辆速度，则相对速度$v_r=v_{n-1}-v_n$。一般认为相对速度是跟驰过程中驾驶人接受的主要刺激，驾驶人根据前后车辆的速度差相应的调整自身车辆的行驶状态。
 
 \subsubsection{跟驰距离与车头间距}
-车头间距是跟车对车头之间的距离$s_n=x_{n-1}-x_n$。跟驰距离则指车头间距减去引导车车身的长度$l_{n-1}$，即$d_n=s_n-l_{n-1}=x_{n-1}-x_n-l_{n-1}$。跟车实验中一般容易测得的是跟车距离，一般认为当跟驰距离大于或等于最恶劣条件下的安全距离能保证不发生追尾事故，其中恶劣条件下的安全距离是指前车t时刻瞬时停止的情况下，跟驰车辆从t时刻开始从反应到制动直至完全停下所运动的距离。而跟驰模型中则更多的使用车头间距，平均的车头间距反映了交通流的密度情况。
+车头间距是跟车对车头之间的距离$\Delta X_n=X_{n-1}-X_n$。跟驰距离则指车头间距减去前车车身的长度$l_{n-1}$，即$D_n=\Delta X_n-l_{n-1}=X_{n-1}-X_n-l_{n-1}$。跟车实验中一般容易测得的是跟车距离，一般认为当跟驰距离大于或等于最坏条件下的安全距离能保证不发生追尾事故，其中最坏条件下的安全距离是指前车t时刻瞬时停止的情况下，跟驰车辆从t时刻开始从反应到制动直至完全停下所运动的距离。而跟驰模型中则更多的使用车头间距，平均的车头间距反映了交通流的密度情况。
 %而最小安全距离的根据跟车对之间相对速度的关系和不同的定义而变化。
 
 \subsubsection{时间间隔与车头时距}
-车头时距为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车车头位置所需要的时间，$h_t=\frac{x_{n-1}-x_n}{v_n}$，车头时距一般通过点设备（如线圈）测量，平均车头时距反映了交通流的流量情况。时间间隔为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车后保险杠位置所需要的时间，$g_t=\frac{x_{n-1}-x_n-l_{n-1}}{v_n}$，时间间隔体现了驾驶人出于安全性考虑而保留的一定的可用于驾驶操作的余地。
+车头时距为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车车头位置所需要的时间，$h_t=\frac{X_{n-1}-X_n}{v_n}$，车头时距一般通过点设备（如线圈）测量，平均车头时距反映了交通流的流量情况。时间间隔为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车后保险杠位置所需要的时间，$g_t=\frac{X_{n-1}-X_n-l_{n-1}}{v_n}$，时间间隔体现了驾驶人出于安全性考虑而保留的一定的可用于驾驶操作的余地。
 
 \subsubsection{反应时间}
 反应时间是驾驶人从外界条件发生改变的一刻开始到其控制自身车辆使其运动发生相应改变所需要的时间，此处反应时间指人车单元即车辆的总反应时间$t_l$，包括驾驶人的感知时间$t_p$，反应操作时间$t_r$和车辆机械延迟时间$t_m$,即$t_l=t_p+t_r+t_m$。
@@ -52,7 +114,7 @@
 
 \subsubsection{期望参数}
 %Gipps ?Newell模型里的期望速度？
-考虑期望参数即打破了驾驶人跟驰过程是完全反应式行为的假设，期望参数考虑了驾驶人的主观愿望，也就是说驾驶人在跟驰过程中会期望达到理想的跟驰状态，并在受限制的条件下对跟驰行为进行相应的调整。理想的跟驰状态由期望参数体现，具体期望参数主要有期望速度、期望车头间距和期望时间间隔等。不同的期望参数有其特定的含义，一般意义上驾驶人所期望的跟车行驶状态要满足驾驶人对于效率性，安全性等方面的需求，下一节将对部分具体的期望参数的含义进行讨论。
+考虑期望参数即打破了驾驶人跟驰过程是完全反应式行为的假设，期望参数考虑了驾驶人的主观愿望，也就是说驾驶人在跟驰过程中会期望达到理想的跟驰状态，并在受限制的条件下对跟驰行为进行相应的调整。理想的跟驰状态由期望参数体现，具体期望参数主要有期望速度、期望车头间距和期望时间间隔等。不同的期望参数有其特定的含义，一般意义上驾驶人所期望的跟车行驶状态要满足驾驶人对于效率性，安全性等方面的需求。
 
 
 %期望速度(又称为心理速度，以符号$v_{dsr}$表示)是指在特定的道路条件下，车辆行驶过程中不受或基本不受其他车辆约束的条件下其驾驶员心目中希望达到的最高“安全”速度
@@ -69,34 +131,32 @@
 
 
 \subsection{跟驰行为的一般模型}
+跟驰模型对驾驶人的跟驰行为的目标作出各种假设而简历数学模型。在众多的跟驰模型中影响较为广泛的有如下几类。
 \subsubsection{刺激反应模型}
-刺激反应模型的基本形式为，$\text{反应}(t+\Delta t)=\text{敏感度}{\times}\text{刺激}(t)$。
 
-刺激反应模型假设跟驰中驾驶人通过视觉感知与前车的距离以及前车后部面积在视野中的大小变化来判断与前车接近或是离去及其快慢程度，通过接受这一刺激并作出判断，实施操纵从而达到安全而紧密地跟随前车行驶。其中最为典型的刺激反应模型是Chandler等(1958),Gaziz等(1959,1961)于20世纪在美国通用汽车公司研究实验室开发的一系列模型\cite{Chandler1958,Gazis1959,Gazis1961}。
+刺激反应模型假设跟驰中驾驶人通过视觉感知与前车的距离以及前车后部面积在视野中的大小变化来判断与前车接近或是离去及其快慢程度，通过接受这一刺激并作出判断，实施操纵从而达到安全而紧密地跟随前车行驶。刺激反应模型的基本形式为，$\text{反应}(t+\Delta t)=\text{敏感度}{\times}\text{刺激}(t)$。其中最为典型的刺激反应模型是Chandler等(1958),Gaziz等(1959,1961)于20世纪在美国通用汽车公司研究实验室开发的一系列模型\cite{Chandler1958,Gazis1959,Gazis1961}。
 
 其中Gaziz等(1961)给出了最一般形式的非线性GM模型\cite{Gazis1961}。非线性GM模型基于如下假设:在时刻$t+\Delta t$跟驰车的反应依赖于跟驰车对刺激的敏感度和引导车所给的刺激强度，刺激强度以引导车与跟驰车之间的相对速度、距离的形式给出，跟驰车的反应通过加速度测得，敏感特性描绘出单位刺激的反应，$\Delta t$为反应时间。GM模型的一般形式如下式:
 \begin{equation}
-\ddot{x}_{n+1}(t+\Delta t)=\frac{\alpha_{l,m}[\dot{x}_{n+1}(t+\Delta t)]^m}{[x_n(t)-x_{n+1}(t)]^l}\cdot [\dot{x}_n(t)-\dot{x}_{n+1}(t)],
+\ddot{X}_{n+1}(t+\Delta t)=\frac{\alpha_{l,m}[\dot{X}_{n+1}(t+\Delta t)]^m}{[X_n(t)-X_{n+1}(t)]^l}\cdot [\dot{X}_n(t)-\dot{X}_{n+1}(t)],
 \end{equation}
 式中：
 \begin{displaymath}
 {\begin{aligned}
-m&-\text{对速度}\dot{x}_{n+1}(t+\Delta t)\text{的敏感性参数}\\
-l&-\text{对车头间距}x_n(t)-x_{n+1}(t)\text{的敏感性参数}\\
+m&-\text{对速度}\dot{X}_{n+1}(t+\Delta t)\text{的敏感性参数}\\
+l&-\text{对车头间距}X_n(t)-X_{n+1}(t)\text{的敏感性参数}\\
 \alpha_{l,m}&-\text{常数}\\
 \end{aligned}}
 \end{displaymath}
 
-
-
 \subsubsection{期望参数模型}
 %Several models were developed assuming that drivers
 %try to attain some desired measure. 
-期望参数模型考虑了驾驶人的主观愿望，假设驾驶人在跟驰过程中会期望达到理想的跟驰状态，理想跟驰状态的参数主要有车速，车头间距和车头时距。
+期望参数模型针对GM模型中速度差为零时跟驰距离可能很小的不合理情况，考虑了驾驶人的主观愿望，假设驾驶人在跟驰过程中会期望达到理想的跟驰状态，理想跟驰状态的参数主要有车速，车头间距和车头时距。
 
 Helly模型，Helly(1961)提出驾驶人的反应不仅与相对速度有关，还与期望车头间距与实际车头间距差值有关\cite{Helly1961}。其模型如下：
 \begin{equation}
-a_n(t)=a_1\Delta V(t-\tau_n)+a_2[\Delta x_n(t-\tau_n)-D_n(t-\tau_n)],
+a_n(t)=a_1\Delta V(t-\tau_n)+a_2[\Delta X_n(t-\tau_n)-D_n(t-\tau_n)],
 \end{equation}
 
 其中$D_n$是期望车头间距，其大小受到本车速度的影响。Helly模型指出并解决了GM模型中如果两车以相同速度行驶则任何车头间距均可接受的这一缺陷。
@@ -105,17 +165,36 @@ a_n(t)=a_1\Delta V(t-\tau_n)+a_2[\Delta x_n(t-\tau_n)-D_n(t-\tau_n)],
 %at the same speed, any value of the spacing between them is acceptable. Bekey
 %et al. (1977) develop a similar model from optimal control considerations.
 
-Koshi等(1992)提出了这一模型的非线性版本\cite{M.Koshi1992}. 
-%
-%Gabard et al. (1982) implement it in the SITRA-B simulation model. 
-
-%In their model, the desired space head-
-%way is given by:
-他们的模型中期望车头间距给出如下：
+Koshi等(1992)提出了这一模型的非线性版本\cite{M.Koshi1992}. 他们的模型中期望车头间距给出如下：
 \begin{equation}
 D_n(t-\tau_n)=L_{n-1}+V_n(t-\tau_n)T,
 \end{equation}
 其中$L_{n-1}$为引导车长度，$T$是假定为恒定的期望车头时距。
+
+Addison和Low(1998)以及Low和Addison(1998)将车头间距项加入GM模型提出了新的模型\cite{Addison1998,Low1998}。
+%propose a model that
+%combines a desired spacing term with the traditional GM term: 
+%m
+\begin{equation}
+a_n(t)=a_1\frac{V_n(t)^m\Delta V_n(t-\tau_n)}{\Delta X_n(t-\tau_n)^l}+a_2(\Delta X_n(t-\tau_n)-D_n(t-\tau_n))^3,
+\end{equation}
+其期望车头间距的形式给出如下：
+\begin{equation}
+D_n(t-\tau)=\lambda V_n(t-\tau),
+\end{equation}
+
+\subsubsection{优化速度模型}
+优化速度模型假设驾驶人在跟驰过程中根据车辆运动关系有使用最优速度的趋势。
+
+Newell(1961)研究了速度与车头间距的关系，其假设为车速为车头间距的非线性函数\cite{Newell1961}：
+\begin{equation}
+V_n(t)=G_n[\Delta X_n(t-\tau)],
+\end{equation}
+函数$G_n$的形式体现了驾驶人的跟驰行为，Newell(1961)研究了$G_n$的具体形式\cite{Newell1961}：
+\begin{equation}
+V_n(t)=V_{max}\left[1-exp\left(\frac{-\lambda}{V_{max}}(\Delta X_n(t-\tau)+D)\right)\right],
+\end{equation}
+其中$V_{max},\lambda$和$D$为参数。$V_{max}$和$\lambda$可以相应的理解为最高车速和最小车头间距。
 
 Bando等(1995)假设驾驶人施加的加速度跟其实际车辆速度与期望速度的差值成正比，而期望速度由与前车间距决定\cite{Bando1995}。模型忽略了反应时间，其形式如下：
 % assume that the acceleration drivers apply is proportional to
@@ -133,54 +212,69 @@ a_n(t)=\alpha[DV_n(t)-V_n(t)],
 DV_n(t)=\mathrm{tan}h(\Delta X_n(t)-2)+\mathrm{tan}h(2),
 \end{equation}
 
+\subsubsection{Gipps模型}
+Gipps（1981）\cite{Gipps1981}提出了基于安全跟驰距离的模型，其模型假设驾驶人与前车保持一定的安全从而保证在前车以最大减速度减速的条件下，仍能够在最小停车间距的距离停车。其跟驰状态下的速度形式如下：
 
-Addison和Low(1998)以及Low和Addison(1998)将车头间距项加入GM模型提出了新的模型\cite{Addison1998,Low1998}。
-%propose a model that
-%combines a desired spacing term with the traditional GM term: 
-%m
+\begin{eqnarray}
+&&v_n^{con}(t+T_r)=b^{max}*(\frac{T_r}{2}+\theta)\nonumber\\
+&&+\sqrt{(b^{max})^2*(\frac{T_r}{2}+\theta)^2-b^{max}*[2*(\Delta X_{n-1,n}(t)-d)-v_n(t)*T_r-\frac{v_{n-1}(t)^2}{b_{n-1}^{max}}]}
+\end{eqnarray}
+其中，
+\begin{displaymath}
+{\begin{aligned}
+b^{max}&=\text{最大减速度}\\
+d&=\text{停车时的最小车头间距}\\
+b_{n-1}^{max}&=\text{驾驶人估计的前车最大减速度}\\
+T_r&=\text{反应时间}\\
+\theta&=\text{安全反应时间}\\
+\end{aligned}}
+\end{displaymath}
+
+其自由行驶状态下的速度如下：
 \begin{equation}
-a_n(t)=a_1\frac{V_n(t)^m\Delta V_n(t-\tau_n)}{\Delta X_n(t-\tau_n)^l}+a_2(\Delta X_n(t-\tau_n)-D_n(t-\tau_n))^3,
-\end{equation}
-其期望车头间距的形式给出如下：
-\begin{equation}
-D_n(t-\tau)=\lambda V_n(t-\tau),
+v_n^{free}(t+T_r)=v_n(t)+2.5*a^{max}*T_r(1-\frac{v_n(t)}{v^*})*\sqrt{0.025+\frac{v_n(t)}{v^*}})
 \end{equation}
 
-Treiber等(2000)和Treiber和Helbing(2003)假设加速度受到期望速度和期望最小车头间距的影响，其模型还考虑了车辆性能的影响，但同样忽略了反应时间\cite{Treiber2000,Treiber2003}。其形式如下：
+则驾驶人车辆最终的速度为两者的最小值：
+\begin{equation}
+v_n(t+T_r)=min(v_n^{con}(t+T_r),v_n^{free}(t+T_r))
+\end{equation}
+
+\subsubsection{IDM模型}
+Treiber等(2000)\cite{Treiber2000}和Treiber和Helbing(2003)\cite{Treiber2003}假设加速度受到期望速度和期望跟驰距离的影响提出了IDM模型，其形式如下：
 % assume that the acceleration is
 %affected by both the desired speed and the desired minimum space headway. The
 %model also incorporates the impact of vehicle capabilities, but ignores reaction
 %time: 
 \begin{equation}
-a_n(t)=a_{max}\left[1-\left(\frac{V_n(t)}{DV_n(t)}\right)^\beta-\left(\frac{D_n(t)}{\Delta X_n(t)}\right )^2\right],
+a_n(t)=a_{max}\left[1-\left(\frac{V_n(t)}{DV_n(t)}\right)^4-\left(\frac{D_n(t)}{\Delta X_n(t)}\right )^2\right],
 \end{equation}
-其中$a_{max}$为车辆的最大加速度，$\beta$为参数，其最小车头间距给出如下：
-%where a
-%max
-% is the maximum acceleration; and β  is a parameter. The desired mini-
-%mum space headway is given by: 
+其中$a_{max}$为车辆的最大舒适加速度。$V_n$为实际车速，$DV$为期望速度，$D_n$为期望跟驰距离，$\Delta X_n$为实际跟驰距离。
+
+%其期望车头间距给出如下：
+%
+%\begin{equation}
+%D_n(t)=\Delta X_n^*+V_n(t)T_n(t)+\frac{V_n(t)\Delta V_n(t)}{2\sqrt{a_{max}b_{max}}},
+%\end{equation}
+
+驾驶人车辆的加速度由两个部分组成，其趋向自由行驶部分的加速度为：
 \begin{equation}
-D_n(t)=\Delta X_{jam}+V_n(t)T_n(t)+\frac{V_n(t)\Delta V_n(t)}{2\sqrt{a_{max}a_{comf}}},
+a_{max}\left[1-\left(\frac{V_n(t)}{DV_n(t)}\right)^4\right],
 \end{equation}
 
-
-\subsection{本文关注的跟驰行为特性}
-本文的目的在于研究驾驶人行为特性对交通流的影响，除了研究单独的行为特性参数，将着重关注可能对交通流状态产生显著影响的跟驰行为特性。直观上，速度-跟驰距离特性对于交通流效率有较大影响，而加速度-相对速度特性对于交通流稳定性和安全性有较大影响。这两方面是驾驶人跟驰过程中最为基本的任务，速度和加速度的选择既有本质的区别又存在联系。速度的选择体现了跟驰过程中驾驶人一种相对稳定的需求（例如对于安全性和执行出行计划的需要），加速度的选择则体现了驾驶人跟驰过程中对于驾驶环境的适应以及驾驶状态的改变；而两方面的联系在于，速度-跟驰距离状态的改变需要通过驾驶人施加操作来实现，也就是说速度的改变通过加速度来实现。本文将在实际测量数据的基础上，对驾驶人一般的和个体的跟驰行为特性进行研究，以期加深对驾驶人跟驰行为特性的认识。
-\subsubsection{速度-跟驰距离选择}
-速度-跟驰距离选择反应了驾驶人跟驰行为特性中相对稳定的部分，一方面，驾驶人根据出行计划，道路条件，交通流条件来选择车速，当车辆的加速度小于一定的阈值时则认为处于稳定的跟驰状态，此时驾驶人根据其选择的车速会与引导车保持一定的安全跟驰距离。另一方面，由于驾驶人对于外界条件的估计存在误差以及对于自身车辆的控制存在不稳定性，车辆的行驶状态会与驾驶人期望的状态出现偏差，驾驶人需要在一定的跟驰距离下调整自身相应的车速。因此驾驶人的速度-跟驰距离选择是一种组合性的选择。对于驾驶人的速度-跟驰距离选择特性研究的最为经典的结论为Newell(1961)模型。
-
-Newell(1961)研究了速度与车头间距的关系，其假设为车速为车头间距的非线性函数\cite{Newell1961}：
+受前车影响部分的加速度为：
 \begin{equation}
-V_n(t)=G_n[\Delta X_n(t-\tau)],
+-a_{max}\left[\left(\frac{D_n(t)}{\Delta X_n(t)}\right )^2\right],
 \end{equation}
-函数$G_n$的形式体现了驾驶人的跟驰行为，Newell(1961)研究了$G_n$的具体形式\cite{Newell1961}：
-\begin{equation}
-V_n(t)=V_{max}\left[1-exp\left(\frac{-\lambda}{V_{max}}(\Delta X_n(t-\tau)+D)\right)\right],
-\end{equation}
-其中$V_{max},\lambda$和$D$为参数。$V_{max}$和$\lambda$可以相应的理解为最高车速和最小车头间距。
-跟驰距离与车头间距相差的部分为引导车的车身长度，跟驰距离与车头间距两者虽不存在固定不变的算术关系，但是两者的相关性是客观存在的。跟驰模型中出于简便的需要一般使用车头间距，而不是实际中更容易测的跟驰距离。
+当实际的跟驰距离小于期望跟驰距离时，此项成为加速度的主要部分。
 
-本文将在现有研究以及实测数据的基础上对驾驶人的速度-跟驰距离选择特性进行分析，研究其在驾驶人中的差异性，并通过模拟的方法研究其对交通流的影响。
+其期望车头间距给出如下：
+\begin{equation}
+D_n(t)=\Delta X_n^*+V_n(t)T_n(t)+\frac{V_n(t)\Delta V_n(t)}{2\sqrt{a_{max}b_{max}}},
+\end{equation}
+其中$\Delta X_n^*$为停车间距，$T_n$为期望车头时距，当距离较小时$\Delta X_n^*$占期望跟驰距离的主要部分，$T_n$期望车头时距体现了驾驶人对安全跟驰距离的一种期望。$b_{max}$为最大舒适减速度。在大多数情况下将减速度的绝对值限制在其以下。
+
+
 
 
 %Spacing models.  Spacing models hypothesize that the driver reacts to the leader
@@ -199,11 +293,7 @@ V_n(t)=V_{max}\left[1-exp\left(\frac{-\lambda}{V_{max}}(\Delta X_n(t-\tau)+D)\ri
 %Kometani and Sasaki (1958, 1959) propose a model based on the assumption
 
 
-\subsubsection{加速度-相对速度选择}
-加速度-相对速度选择反应了驾驶人跟驰行为特性中相对随机的部分。按照刺激反应模型的假设，驾驶人在一定的相对速度下选择相应的合适的加速度。现有的研究中，Herman等(1958)讨论了基于刺激反应模型的交通流局部和渐进稳定性\cite{Herman1959}。结果表明驾驶人的敏感性参数与反应时间的乘积决定了单车道交通流的局部和渐进稳定性。因此驾驶人的加速度-相对速度选择特性对于交通流存在不可忽略的影响。驾驶人的加速度行为的一个重要特征是加速和减速的不对称性，Forbes(1963)发现驾驶人加速过程中的反应要比减速过程中的慢\cite{Forbes1963}。Foote(1965)跟踪观测了隧道中的车队，发现在同样车速下减速车队具有更高的流量\cite{Foote1965}。Newell(1965)解释了驾驶人加减速的不对称性，认为如果前车加速跟随车会空出一段距离再做决定\cite{Newell1965}。
 
-
-本文将在现有研究以及实测数据的基础上对驾驶人的加速度-相对速度选择特性进行分析，研究其在驾驶人中的差异性，并通过模拟的方法研究其对交通流的影响。
 %驾驶人的加速选择对于交通流稳定产生影响，目前的研究中考虑了交通流的局部稳定性和渐进稳定性。局部稳定性是指引导车和跟驰车两辆车在特定的速度、加速度初始条件下，驾驶人通过操作是否会发生碰撞的性质，若不会发生碰撞则局部稳定，否则为局部不稳定。而渐近稳定性是指
 
 %关于驾驶人跟驰过程的加速度-相对速度选择特性，
@@ -480,16 +570,72 @@ Kesting等(2007)提出了基于加速度效用的变道模型即MOBIL模型\cite
 %Toledo (2002), who consider the effect of lane changing on acceleration behav-
 %iour, 
 
-\section{驾驶行为的差异性}
 
 
-\section{驾驶人行为特性对交通流的影响}
-%\subsection{交通流状态参数}
-%\subsubsection{效率状态参数}
-%\subsubsection{安全性状态参数}
-表征交通流状态的参数主要可分为两类，一类体现交通流的效率性，另一类体现交通流的安全性。交通流效率性参数包括平均速度，流量，通行能力，行程时间等。交通流的安全性参数包括TTC，交通冲突计数，加速度噪音等。具体的参数内容将在第五章进行阐述。
+\section{驾驶人行为的差异性}
+本文的一个重要假设就是驾驶人行为的差异性，正是由于驾驶人行为的差异性，驾驶人组成情况的改变才可能导致对交通流的影响。
 
-目前关于驾驶人行为特性对交通流的影响主要关注了驾驶人行为特性对交通流效率参数的影响。
+驾驶人行为的差异性有两层含义，一是不同驾驶人之间的行为差异性，二是驾驶人在不同交通条件，生心理条件下的行为差异性。
+
+不同驾驶人之间行为的差异可以由驾驶人驾驶操作的目标，习惯，熟练程度的差异等多种因素造成。而驾驶人自身，在交通条件，生心理条件发生改变时 会改变自己的驾驶行为而作出适应性的调整，最典型的现象是驾驶人加减速的不对称性。
+%
+%Driver heterogeneity 
+%
+%It can be assumed that all driver/vehicle combinations apply the same objective, i.e. 
+%react to the same stimuli, while only the extents to which these respective stimuli play 
+%a role and to which the driver is able to react differ. In modeling language this means 
+%that only parameter values are assumed to differ between individual driver/vehicle 
+%combinations. 
+%
+%The extent of heterogeneity may also be assumed more substantial, such that there are 
+%also differences between the objectives of driver/vehicle combinations. In this case 
+%models following different logics are assumed to apply to different driver/vehicle 
+%combinations. 
+%
+%has a clear impact on the flow specific lane distributions, especially desired speeds are a key 
+%point in this sense. Also the role of heterogeneity with respect to other aspects of car-
+%following can not simply be neglected. In dense traffic for example, lane changing 
+%possibilities decrease considerably forcing vehicles to drive behind each other on the same 
+%lane. In this situation it seems reasonable to assume that car-following heterogeneity can 
+%influence the resulting traffic flow dynamics
+%
+%In modeling changes in the longitudinal behavior of a driver again the same options can be 
+%identified, i.e. the control objective of a driver can either be assumed to change over time or to 
+%remain the same.  
+%
+%This overview shows that parameters are often separately estimated for 
+%accelerating and decelerating cars. In such a study presented in (Treiterer and Myers, 1974) it 
+%is found that drivers tend to place more emphasis on both their own velocity and the spacing 
+%between themselves and the leading vehicle while decelerating than while accelerating. 
+%Intuitively this can be easily interpreted by considering that drivers decelerate to avoid 
+%dangerous situations, while drivers accelerate to improve their situation.  
+
+\section{本文关注的驾驶人行为特性}
+
+本文主要关注驾驶人的跟驰行为特性，主要的原因是驾驶人的变道行为量化的观测十分困难，并且很难区分强制变道和非强制变道，虽然变道行为对交通流可能产生显著的影响，由于研究条件的限制本文不再对驾驶人的变道行为特性作更多的讨论。
+
+本文的目的在于研究驾驶人行为特性对交通流的影响，除了研究单独的行为特性参数，将着重关注可能对交通流状态产生显著影响的跟驰行为特性。直观上，速度-跟驰距离特性对于交通流效率有较大影响，而加速度-相对速度特性对于交通流稳定性和安全性有较大影响。这两方面是驾驶人跟驰过程中最为基本的任务，速度和加速度的选择既有本质的区别又存在联系。速度的选择体现了跟驰过程中驾驶人一种相对稳定的需求（例如对于安全性和执行出行计划的需要），加速度的选择则体现了驾驶人跟驰过程中对于驾驶环境的适应以及驾驶状态的改变；而两方面的联系在于，速度-跟驰距离状态的改变需要通过驾驶人施加操作来实现，也就是说速度的改变通过加速度来实现。本文将在实际测量数据的基础上，对驾驶人一般的跟驰行为特性进行研究，以期加深对驾驶人跟驰行为特性的认识。
+
+\subsection{速度-跟驰距离选择}
+速度-跟驰距离选择反应了驾驶人跟驰行为特性中相对稳定的部分，一方面，驾驶人根据出行计划，道路条件，交通流条件来选择车速，当车辆的加速度小于一定的阈值时则认为处于稳定的跟驰状态，此时驾驶人根据其选择的车速会与引导车保持一定的安全跟驰距离。另一方面，由于驾驶人对于外界条件的估计存在误差以及对于自身车辆的控制存在不稳定性，车辆的行驶状态会与驾驶人期望的状态出现偏差，驾驶人需要在一定的跟驰距离下调整自身相应的车速。因此驾驶人的速度-跟驰距离选择是一种组合性的选择。
+跟驰距离与车头间距相差的部分为引导车的车身长度，跟驰距离与车头间距两者虽不存在固定不变的算术关系，但是两者的相关性是客观存在的。跟驰模型中出于简便的需要一般使用车头间距，而不是实际中更容易测的跟驰距离
+%
+%本文将在现有研究以及实测数据的基础上对驾驶人的速度-跟驰距离选择特性进行分析，研究其在驾驶人中的差异性，并通过模拟的方法研究其对交通流的影响。
+
+\subsection{加速度-相对速度选择}
+加速度-相对速度选择反应了驾驶人跟驰行为特性中相对随机的部分。按照刺激反应模型的假设，驾驶人在一定的相对速度下选择相应的合适的加速度。现有的研究中，Herman等(1958)讨论了基于刺激反应模型的交通流局部和渐进稳定性\cite{Herman1959}。结果表明驾驶人的敏感性参数与反应时间的乘积决定了单车道交通流的局部和渐进稳定性。因此驾驶人的加速度-相对速度选择特性对于交通流存在不可忽略的影响。驾驶人的加速度行为的一个重要特征是加速和减速的不对称性，Forbes(1963)发现驾驶人加速过程中的反应要比减速过程中的慢\cite{Forbes1963}。Foote(1965)跟踪观测了隧道中的车队，发现在同样车速下减速车队具有更高的流量\cite{Foote1965}。Newell(1965)解释了驾驶人加减速的不对称性，认为如果前车加速跟随车会空出一段距离再做决定\cite{Newell1965}。
+
+%
+%本文将在现有研究以及实测数据的基础上对驾驶人的加速度-相对速度选择特性进行分析，研究其在驾驶人中的差异性，并通过模拟的方法研究其对交通流的影响。
+
+%
+%\section{驾驶人行为特性对交通流的影响}
+%%\subsection{交通流状态参数}
+%%\subsubsection{效率状态参数}
+%%\subsubsection{安全性状态参数}
+%表征交通流状态的参数主要可分为两类，一类体现交通流的效率性，另一类体现交通流的安全性。交通流效率性参数包括平均速度，流量，通行能力，行程时间等。交通流的安全性参数包括TTC，交通冲突计数，加速度噪音等。具体的参数内容将在第五章进行阐述。
+%
+%目前关于驾驶人行为特性对交通流的影响主要关注了驾驶人行为特性对交通流效率参数的影响。
 
 %With respect to the influence of heterogeneity on the fundamental diagram, we made a 
 %distinction between the influence of driving style heterogeneity and the influence of within 
@@ -519,8 +665,9 @@ Kesting等(2007)提出了基于加速度效用的变道模型即MOBIL模型\cite
 %vehicles having different characteristics, was important for how the disturbance propagated 
 %through traffic flow. 
  
-
-可以看到目前目前关于驾驶人行为特性对交通流的影响还很少涉及交通流的安全性参数，本文将通过模拟的方法，从微观和宏观两个方面分析驾驶人行为特性对交通流效率性和安全性的综合影响。
+%
+%可以看到目前目前关于驾驶人行为特性对交通流的影响还很少涉及交通流的安全性参数，本文将通过模拟的方法，从微观和宏观两个方面分析驾驶人行为特性对交通流效率性和安全性的综合影响。
 
 
 \section{本章小结}
+本章主要阐述本文的研究对象和范围，介绍了表征驾驶人行为特性以及交通流状态的参数和主要有影响力的跟驰和变道模型，简要论述了驾驶人行为特性差异性的含义以及本文主要关注驾驶人行为特性。

@@ -53,31 +53,29 @@
 
 \subsubsection{数据的基本情况}
 
-通过实验获取共60041s（约16.6hr）的数据，就单个驾驶人而言最短的数据741s，最长的数据3623s。\autoref{d_density,v_density,acc_density}给出了原始数据中测试车的跟驰距离，速度和加速度分布情况。由于城市路段交通情况的特点，跟驰距离主要集中在20米以内，峰值出现在2－6m之间。车速的分布，由于停车较多，速度为0的分布频次最多，而在0－40km/h的区间内分布比较平均，40－60km/h分布逐渐减少，很少有超过60km/h的车速。实验车加速度的分布峰值出现在0$m/s^2$，分布范围主要在[-2,2]$m/s^2$的区间。总体上数据的基本情况符合实际测试的交通状况。
+通过实验获取共60041s（约16.6hr）的数据，就单个驾驶人而言最短的数据741s，最长的数据3623s。\autoref{d_density}，\autoref{v_density}和\autoref{acc_density}分别给出了原始数据中测试车的跟驰距离，速度和加速度分布情况。由于城市路段交通情况的特点，跟驰距离主要集中在20米以内，峰值出现在2－6m之间。车速的分布，由于停车较多，速度为0的分布频次最多，而在0－40km/h的区间内分布比较平均，40－60km/h分布逐渐减少，很少有超过60km/h的车速。实验车加速度的分布峰值出现在0$m/s^2$，分布范围主要在[-2,2]$m/s^2$的区间。总体上数据的基本情况符合实际测试的交通状况。
 
 
 
 
 
-\begin{figure}[h]
-\begin{minipage}[t]{0.48\linewidth}
+\begin{figure}[htbp]
+\begin{minipage}[t]{0.3\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-d_density}
 \caption{跟驰距离的核密度估计图}
 \label{d_density}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.05\linewidth}
+\begin{minipage}[t]{0.3\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-v_density}
 \caption{车速的核密度估计图}
 \label{v_density}
 \end{minipage}
-\end{figure}
-
-\begin{figure}[htbp]
+\hspace*{0.05\linewidth}
 \centering
-\includegraphics[width=0.48\linewidth]{chapter4-acc_density}
+\includegraphics[width=0.3\linewidth]{chapter4-acc_density}
 \caption{加速度的核密度估计图}
 \label{acc_density}
 \end{figure}
@@ -206,34 +204,32 @@ d&=t_0\text{到窗口外最近一点的距离}\\
 \subsubsection{处理结果}
 \label{process-result}
 %start from here 2011
-经过数据处理与数据筛选后，60041s的数据中共24374s大约40.6\%的数据成为最终用于分析的数据。经过处理后的数据中实验车数据的跟驰距离，车速和加速度分布如\autoref{postprocess-d-density,postprocess-v-density,postprocess-acc-density}
+经过数据处理与数据筛选后，60041s的数据中共24374s大约40.6\%的数据成为最终用于分析的数据。经过处理后的数据中实验车数据的跟驰距离，车速和加速度分布如\autoref{postprocess-d-density}，\autoref{postprocess-v-density}和\autoref{postprocess-acc-density}
 
 
 \begin{figure}[htbp]
-\begin{minipage}[t]{0.48\linewidth}
+\begin{minipage}[t]{0.3\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-postprocess-d-density}
 \caption{处理后跟驰距离概率核密度估计图}
 \label{postprocess-d-density}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.05\linewidth}
+\begin{minipage}[t]{0.3\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-postprocess-v-density}
 \caption{处理后速度概率核密度估计图}
 \label{postprocess-v-density}
 \end{minipage}
-\end{figure}
-
-\begin{figure}[htbp]
+\hspace*{0.05\linewidth}
 \centering
-\includegraphics[width=0.48\linewidth]{chapter4-postprocess-acc-density}
+\includegraphics[width=0.3\linewidth]{chapter4-postprocess-acc-density}
 \caption{处理后加速度概率核密度估计图}
 \label{postprocess-acc-density}
 \end{figure}
 
 
-处理后的数据参数分布，其形状对比\autoref{d_density,v_density,acc_density}，可以看出数据处理并未对数据的固有特征造成显著的影响，因此可以认为数据处理未对原始数据进行有偏差的抽取。
+处理后的数据参数分布，其形状对比\autoref{d_density}，\autoref{v_density}，\autoref{acc_density}，可以看出数据处理并未对数据的固有特征造成显著的影响，因此可以认为数据处理未对原始数据进行有偏差的抽取。
 
 %\section{问卷信息}
 \section{跟驰行为特性的集计分析}
@@ -251,7 +247,7 @@ Vogel（2002）\cite{Vogel2002}提出了通过定点测量的车头时距和车�
 本文中针对所获取的数据，基于Vogel的方法，使用时间间隔替换车头时距分别对专业和非专业驾驶人的数据进行了自由行驶与跟驰的临界点的确定。
 对于所有的数据，将时间间隔数据舍入到最近的秒数，例如时间间隔在0.5至1.5秒坐开右闭区间的归入到1秒的组别，在1.5至2.5秒坐开右闭区间的归入到2秒的组别，依此类推。对于超过20.5秒的数据由于数据量很少不能得到可靠的速度相关系数值，因此排除在考察数据之外。
 
-对专业和非专业驾驶人，分别计算速度相关系数，并进行线性回归的试算，其结果如\autoref{tab-free-discern}，回归示意图如\autoref{nonpro-tgap-discern,pro-tgap-discern}。
+对专业和非专业驾驶人，分别计算速度相关系数，并进行线性回归的试算，其结果如\autoref{tab-free-discern}，回归示意图如\autoref{nonpro-tgap-discern}和\autoref{pro-tgap-discern}。
 
 \begin{table}[htbp]
   \centering
@@ -269,7 +265,7 @@ Vogel（2002）\cite{Vogel2002}提出了通过定点测量的车头时距和车�
     自由行驶拟合方程 & y=-0.02613x+ 0.69439 & y=-0.00752x+ 0.31514 \\
     \bottomrule
     \end{tabular}%
-  \label{tgap-discern}%
+  % \label{tgap-discern}%
 \label{tab-free-discern}
 \end{table}%
 
@@ -303,7 +299,8 @@ Vogel（2002）\cite{Vogel2002}提出了通过定点测量的车头时距和车�
 % For beginners group with a time gap of 1s the correlation value was also about r=0.9. For each additional second in time gap, up to 12s, the correlation value r decreased substantially, for time gaps of more than 12s the curves appear to level out. For headways of 12s and longer, the speed of frontal vehicle accounted for no more than 10% of the speed of subject vehicle.
 结果显示，对于专业驾驶人1s的时间间隔其速度相关系数为0.9，也就是说超过80\%的泵车速度变化可以由前车的速度解释，到6s之前每增加1s的时间间隔，速度相关系数均显著下降。在6s与12s之间速度相关系数产生一些波动，总体上仍呈现下降趋势。超过12s后速度相关系数减小到0.4以下；对于非专业驾驶人，1s的时间间隔其速度相关系数也约为0.9，直到12s速度相关系数均显著下降，超过12s后速度相关系数减小到0.1以下。
 % Based on these observations, for each driver group possible split points were chosen. One linear regression was computed on the correlation values below the split point; another linear regression was computed above the split point. The best split point turned out to be 6.5 s and 11.5 s for experienced and beginner group respectively. Results are provided in Table 1, regressions are shown in Figure. 5 and Figure. 6 
-从专业与非专业自由行驶与跟驰临界点结果看，专业驾驶人的临界点为6.5s，非专业驾驶人为11.5s，这似乎意味着非专业更早的受到前车的影响而进入跟驰的状态，但是结合速度相关系数的数值，在(6.5,11.5]的时间间隔区间内，专业驾驶人的速度相关系数要大于非专业驾驶人的相应数值。将(6.5,11.5]的时间间隔区间内的数据选出，得到专业驾驶人8159组数据，非专业驾驶人7245组数据，计算前后车辆的速度差值，两组数据基本上呈正态分布。分别统计得到专业驾驶人速度差中位数为0.3281m/s，标准差4.357m/s；非专业驾驶人速度差中位数为0.3677m/s，标准差4.801m/s。通过Levene检验，专业组与非专业组的速度差方差存在统计意义的显著差别(P<0.01)。以上结果表明在(6.5,11.5]的时间间隔区间内，驾驶人仍然有与前车保持速度一致的趋势，同时专业驾驶人的速度差分散程度要小于非专业驾驶人。综合所得结果可以推断，对于专业和非专业驾驶人在一定的时间间隔内，均受到前车速度影响，相比于非专业驾驶人专业驾驶人似乎能更好地将自身的车速与前车保持一致，尤其是在稍大的时间间隔区间，因此可以认为专业驾驶人有更为“平滑”的驾驶特性。
+从专业与非专业自由行驶与跟驰临界点结果看，专业驾驶人的临界点为6.5s，非专业驾驶人为11.5s，这似乎意味着非专业更早的受到前车的影响而进入跟驰的状态，但是结合速度相关系数的数值，在(6.5,11.5]的时间间隔区间内，专业驾驶人的速度相关系数要大于非专业驾驶人的相应数值。将(6.5,11.5]的时间间隔区间内的数据选出，得到专业驾驶人8159组数据，非专业驾驶人7245组数据，计算前后车辆的速度差值，两组数据基本上呈正态分布。分别统计得到专业驾驶人速度差中位数为0.3281m/s，标准差4.357m/s；非专业驾驶人速度差中位数为0.3677m/s，标准差4.801m/s。通过Levene检验，专业组与非专业组的速度差方差存在统计意义的显著差别(P<0.01)。以上结果表明在(6.5,11.5]的时间间隔区间内，驾驶人仍然有与前车保持速度一致的趋势，同时专业驾驶人的速度差分散程度要小于非专业驾驶人。综合所得结果可以推断，对于专业和非专业驾驶人在一定的时间间隔内，均受到前车速度影响，相比于非专业驾驶人专业驾驶人似乎能更好地将自身的车速与前车保持一致，尤其是在稍大的时间间隔区间。
+%，因此可以认为专业驾驶人有更为“平滑”的驾驶特性。
 %The results presented above suggest a 6.5s time gap separation between free driving and car following for the experienced group and accordingly 11.5s for the beginners group. It would seem that beginner drivers start to engage leading vehicle earlier in the time gap sense than experienced drivers. However, the results needs careful interpretation. Although the separation point for the experienced group is 5s longer than that of the beginners group, the speed correlation for the experienced group was generally larger in between the (6.5,11.5] time gap section. For both group the speed correlation dropped almost linearly as time gap increase before the separation point. Before the separation point, time gap all explained over 90% variance of speed correlation. But above the separation point, time gap only accounted for less than 10% of the speed correlation variance for beginners group, yet accounted for 33% of the speed correlation variance for experienced group. Based on the findings,  it is possible to surmise drivers do not differ in perceiving influence from frontal vehicle but differ in taking action. Thus it would be reasonable to choose 12s time gap to be a separation point between free driving and car-following.
 % The 12s time gap value is greater than the former proposed 6s time headway value reported by K. Vogel. This clearly suggests the separation point between free driving and car-following is not universal. The variation could come from different sources, e.g. the different road and traffic conditions, different driving behaviors and certainly the different technology used to measure the behavioral data. In order to account for this variation , further investigation is needed and should focus on the influence of different road and traffic conditions.
 %In addition, the patterns showed in Figs indicate a difference between the two driver groups. Further analysis was done to explore the difference between driver groups. Data in the (6.5, 11.5] time gap section was picked out for both groups. The experienced group consisted of 8159 observations and the beginners group consisted of 7245 observations. The speed difference (speed of leading vehicle minus speed of subject vehicle) of each observation was calculated for both groups. Central tendency of speed differences was given by the median value: 0.3677m/s for beginners and 0.3281m/s for experienced drivers and sample standard deviations were 4.801 and 4.357 respectively. The low median values suggest drivers tend to adapt their speed to frontal vehicle in the (6.5, 11.5] time gap section. Levene’s test was performed to check the equality of variances. The result showed the speed difference variance of the two groups differed significantly (P<0.01). This combined with the S.D. values indicate experienced drivers adapt his speed to frontal vehicle better.
@@ -334,7 +331,6 @@ d=h_1 \cdot PRO+h_2\cdot v + h_3 \cdot PRO \cdot v +b
 得到\autoref{h-b-df}，结果表明两组线性回归的斜率与截距均无统计意义的显著差异（P＝0.05水平下，不能拒绝$h_1=0$或$h_3=0$的假设）。因此此处集计分析的证据，不能支持专业与非专业驾驶人的稳定状态下跟驰距离与速度关系特性存在显著差异的观点。
 
 \begin{table}[htbp]
-\label{h-b-df}
 \begin{center}
 \caption{专业组和非专业组的跟驰距离与速度关系回归系数的差异显著性检验}
 \begin{tabular}{rrrrr}
@@ -349,10 +345,12 @@ b & 2.69 & 1.83 & 1.47 & 0.14 \\
    \bottomrule
 \end{tabular}
 \end{center}
+\label{h-b-df}
 \end{table}
 
 
 \subsection{加速度与车辆相互运动的关系}
+\label{ttc}
 %acceleration-speed-difference profile
 加速度与车辆相互运动的关系反应了驾驶人跟驰行为特性中相对不稳定的部分。按照刺激反应模型的假设，驾驶人在一定的相对速度下选择相应的合适的加速度，当与前车有接近趋势时则选择负的加速度，有远离趋势时选择正的加速度，而驾驶人采取的加速度与受到的刺激（速度差）成正比。一般化的GM模型认为加速度不仅与速度差有关还与跟驰距离以及车速有关。
 
@@ -396,7 +394,7 @@ D(t)&=t\text{时刻的车头间距}\\
 
 在交通冲突技术中Time-To-Collision(TTC)被证明是有效的度量交通冲突严重程度的手段。Hayward(1972)\cite{Hayward1972}定义TTC为；“两车保持当前速度和路线而相撞所需要的时间。”Lee（1976）\cite{Lee1976}定义TTC为两物体距离比上其相对速度。Balas和Balas（2006）\cite{Balas2006}比较了TTC倒数和TTC，认为TTC倒数比TTC更为直接和连续的反映了碰撞的危险，并且认为TTC倒数可用于解释驾驶人的驾驶行为。
 
-基于加速度与速度差跟驰距离有关的观点，假设前车宽度基本不变，将实验中所获取的数据分组集计：分别对专业组和非专业组驾驶人按照速度差距离比$\frac{\Delta V}{D}$即TTC倒数，加速度与速度差距离平方比$\frac{\Delta V}{D^2}$进行分组，计算每组相应的平均速度差距离比，平均速度差距离平方比，以及平均加速度，得到关系如\autoref{a-deltavbyd,a-deltavbyd2}。
+基于加速度与速度差跟驰距离有关的观点，假设前车宽度基本不变，将实验中所获取的数据分组集计：分别对专业组和非专业组驾驶人按照速度差距离比$\frac{\Delta V}{D}$即TTC倒数，加速度与速度差距离平方比$\frac{\Delta V}{D^2}$进行分组，计算每组相应的平均速度差距离比，平均速度差距离平方比，以及平均加速度，得到关系如\autoref{a-deltavbyd}和\autoref{a-deltavbyd2}。
 
 \begin{figure}[htbp]
 \begin{minipage}[t]{0.48\linewidth}
@@ -415,10 +413,10 @@ D(t)&=t\text{时刻的车头间距}\\
 \end{figure}
 
 
-对于前车速度小于跟驰车辆的情况，由\autoref{a-deltavbyd,a-deltavbyd2}中的速度差轴左侧可以发现速度差距离比(TTC倒数)与驾驶人的负减速度存在明显的线性关系，说明驾驶人对于减速情况减速度的选择与速度差距离比有较大的相关性。而加速度与速度差距离平方比的线性关系则较不明显。而当速度差为正时驾驶人的加速度的分布均十分的分散，这表明驾驶人减速与加速之间存在不对称性。同时专业组和非专业组之间并未表现出明显的差别。
+对于前车速度小于跟驰车辆的情况，由\autoref{a-deltavbyd}和\autoref{a-deltavbyd2}中的速度差轴左侧可以发现速度差距离比(TTC倒数)与驾驶人的负减速度存在明显的线性关系，说明驾驶人对于减速情况减速度的选择与速度差距离比有较大的相关性。而加速度与速度差距离平方比的线性关系则较不明显。而当速度差为正时驾驶人的加速度的分布均十分的分散，这表明驾驶人减速与加速之间存在不对称性。同时专业组和非专业组之间并未表现出明显的差别。
 
 
-\subsection{集计分析小节}
+\subsection{集计分析小结}
 从集计分析的结果可以发现专业和非专业驾驶人驾驶行为特性的差异得到了混合的结果，在自由行驶与跟驰的临界点方面存在明显的差别，而在稳定状态下速度与跟驰距离，加速度与车辆相互运动的关系特性方面不存在明显的差别。
 
 %一方面可能是样本的代表性问题，专业组和非专业组的差别除了驾驶经验以外还有年龄和职业等的差异，因此专业组与非专业组的区别并不是一个单纯的影响因子。
@@ -478,7 +476,7 @@ y_n(t_1))& k=1\\
 
 
 
-Treiber等(2000)\cite{Treiber2000}和Treiber和Helbing(2003)\cite{Treiber2003}假设加速度受到期望速度和期望跟驰距离的影响提出了IDM模型，Kesting和Treiber（2008）\cite{Kesting2008}对其参数进行了标定。其形式如下：
+Treiber等(2000)\cite{Treiber2000}和Treiber和Helbing(2003)\cite{Treiber2003}假设加速度受到期望速度和期望跟驰距离的影响提出了IDM模型，其形式如下：
 % assume that the acceleration is
 %affected by both the desired speed and the desired minimum space headway. The
 %model also incorporates the impact of vehicle capabilities, but ignores reaction
@@ -552,7 +550,7 @@ g(y_n,\hat{z}_n)=\frac{\sqrt{\frac{1}{K} \sum\limits_{k=1}^{K}(y_n(t_k)-\hat{z}_
 \subsection{轨迹数据与标定结果}
 \refsec{process-result}提到经过数据处理大约40.6\%的数据为有效数据，由于测量系统的特性，数据并不连续。为保证轨迹数据含有足够的信息量从而保证参数标定的可靠性，本文选取长度不小于10s的轨迹数据用于参数标定。
 
-结果表明参数标定可以得到拟合良好的轨迹，\autoref{sample-calib-d,sample-calib-v}为标定结果样例，图中可以看到跟驰距离和车速的模型预测值与实际值吻合良好。
+结果表明参数标定可以得到拟合良好的轨迹，\autoref{sample-calib-d}和\autoref{sample-calib-v}为标定结果样例，图中可以看到跟驰距离和车速的模型预测值与实际值吻合良好。
 
 结果样例如\autoref{sample-calib-table}。
 
@@ -653,88 +651,159 @@ g(y_n,\hat{z}_n)=\frac{\sqrt{\frac{1}{K} \sum\limits_{k=1}^{K}(y_n(t_k)-\hat{z}_
 
 
 \subsection{Bootstrap与置信区间估计}
-为了得到两组各参数有效的估计，本文中选取目标函数g值0.2以下，并且参数二次偏导数不小于20（则规格化参数改变0.1，目标函数的改变量应在$20\times 0.1^2=0.2$的数量级）的参数估计作为最后的结果进行分析。最终，各参数估计值的分布情况如\autoref{weighted-distr-np1,weighted-distr-pp1,weighted-distr-np2,weighted-distr-pp2,weighted-distr-np3,weighted-distr-pp3,weighted-distr-np4,weighted-distr-pp4,weighted-distr-np5,weighted-distr-pp5,}
+为了得到两组各参数有效的估计，本文中选取目标函数g值0.2以下，并且参数二次偏导数不小于20（则规格化参数改变0.1，目标函数的改变量应在$20\times 0.1^2=0.2$的数量级）的参数估计作为最后的结果进行分析。最终，各参数估计值的分布情况如\autoref{weighted-distr-np1}至\autoref{weighted-distr-pp5}。
 
+% \autoref{weighted-distr-np1}，\autoref{weighted-distr-pp1}，\autoref{weighted-distr-np2}，\autoref{weighted-distr-pp2}，\autoref{weighted-distr-np3}，\autoref{weighted-distr-pp3}，\autoref{weighted-distr-np4}，\autoref{weighted-distr-pp4}，\autoref{weighted-distr-np5}，\autoref{weighted-distr-pp5}
 
 \begin{figure}[htbp]
-\begin{minipage}[t]{0.48\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-np1}
 \caption{非专业期望速度$DV$分布}
 \label{weighted-distr-np1}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp1}
 \caption{专业期望速度$DV$分布}
 \label{weighted-distr-pp1}
 \end{minipage}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-np2}
 \caption{非专业最大舒适加速度$a_{max}$分布}
 \label{weighted-distr-np2}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp2}
 \caption{专业最大舒适加速度$a_{max}$分布}
 \label{weighted-distr-pp2}
 \end{minipage}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{minipage}[t]{0.48\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-np3}
 \caption{非专业最大舒适减速度$b_{max}$分布}
 \label{weighted-distr-np3}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp3}
 \caption{专业最大舒适减速度$b_{max}$分布}
 \label{weighted-distr-pp3}
 \end{minipage}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-np4}
 \caption{非专业停车间距$\Delta X^*$分布}
 \label{weighted-distr-np4}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp4}
 \caption{专业停车间距$\Delta X^*$分布}
 \label{weighted-distr-pp4}
 \end{minipage}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{minipage}[t]{0.48\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-np5}
 \caption{非专业期望车头时距$T$分布}
 \label{weighted-distr-np5}
 \end{minipage}%
-\hspace*{0.04\linewidth}
-\begin{minipage}[t]{0.48\linewidth}
+\hspace*{0.03\linewidth}
+\begin{minipage}[t]{0.225\linewidth}
 \centering
 \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp5}
 \caption{专业期望车头时距$T$分布}
 \label{weighted-distr-pp5}
 \end{minipage}
 \end{figure}
+
+% \begin{figure}[htbp]
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-np1}
+% \caption{非专业期望速度$DV$分布}
+% \label{weighted-distr-np1}
+% \end{minipage}%
+% \hspace*{0.04\linewidth}
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp1}
+% \caption{专业期望速度$DV$分布}
+% \label{weighted-distr-pp1}
+% \end{minipage}
+% \end{figure}
+
+% \begin{figure}[htbp]
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-np2}
+% \caption{非专业最大舒适加速度$a_{max}$分布}
+% \label{weighted-distr-np2}
+% \end{minipage}%
+% \hspace*{0.04\linewidth}
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp2}
+% \caption{专业最大舒适加速度$a_{max}$分布}
+% \label{weighted-distr-pp2}
+% \end{minipage}
+% \end{figure}
+
+% \begin{figure}[htbp]
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-np3}
+% \caption{非专业最大舒适减速度$b_{max}$分布}
+% \label{weighted-distr-np3}
+% \end{minipage}%
+% \hspace*{0.04\linewidth}
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp3}
+% \caption{专业最大舒适减速度$b_{max}$分布}
+% \label{weighted-distr-pp3}
+% \end{minipage}
+% \end{figure}
+
+% \begin{figure}[htbp]
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-np4}
+% \caption{非专业停车间距$\Delta X^*$分布}
+% \label{weighted-distr-np4}
+% \end{minipage}%
+% \hspace*{0.04\linewidth}
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp4}
+% \caption{专业停车间距$\Delta X^*$分布}
+% \label{weighted-distr-pp4}
+% \end{minipage}
+% \end{figure}
+
+% \begin{figure}[htbp]
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-np5}
+% \caption{非专业期望车头时距$T$分布}
+% \label{weighted-distr-np5}
+% \end{minipage}%
+% \hspace*{0.04\linewidth}
+% \begin{minipage}[t]{0.48\linewidth}
+% \centering
+% \includegraphics[width=\textwidth]{chapter4-weighted-distr-pp5}
+% \caption{专业期望车头时距$T$分布}
+% \label{weighted-distr-pp5}
+% \end{minipage}
+% \end{figure}
 
 由图中可以明显看出各参数的样本分布均不符合正态分布，为了得到各参数在总体中的有效估计，并且比较两组驾驶人各参数的异同。本文使用Bootstrap，也称自助法来根据样本数据估计各参数的置信区间。
 %bootstrap介绍
@@ -810,7 +879,7 @@ Bootstrap结果中样本均值与总体均值的95\%置信区间估计如\autore
 %做均值和SD
 
 
-对样本的分层Bootstrap，可以获得总体的非专业与专业驾驶人参数均值差的置信区间估计，期望速度$DV(m/s)$和最大舒适减速度$b_{max}(m/s^2)$的Bootstrap分布及正态Q-Q如\autoref{p1-df-qq,p3-df-qq}，图中的Bootstrap分布基本上符合正态分布，且样本均值差具有较小的偏差，因此其总体均值差的95\%置信区间是可靠的。置信区间估计结果如\autoref{boot-df}，可以看到非专业驾驶人的期望速度大于专业驾驶人，而其最大舒适减速度小于专业驾驶人。
+对样本的分层Bootstrap，可以获得总体的非专业与专业驾驶人参数均值差的置信区间估计，期望速度$DV(m/s)$和最大舒适减速度$b_{max}(m/s^2)$的Bootstrap分布及正态Q-Q如\autoref{p1-df-qq}和\autoref{p3-df-qq}，图中的Bootstrap分布基本上符合正态分布，且样本均值差具有较小的偏差，因此其总体均值差的95\%置信区间是可靠的。置信区间估计结果如\autoref{boot-df}，可以看到非专业驾驶人的期望速度大于专业驾驶人，而其最大舒适减速度小于专业驾驶人。
 
 综合以上结果，可以推断在不同的驾驶人之间其期望速度和最大减速度存在差异。期望速度的差异说明驾驶人在大致相同条件下其希望的行驶速度是不同的，这反映了不同驾驶人综合考虑自身需求和对道路交通条件适应的结果。由于样本中非专业组与专业组的年龄存在差异，期望速度的差异可能因为年龄或其他差异而非驾驶经验的差异。而不同驾驶人间最大减速度的差异，反应了驾驶人减速的能力，非专业驾驶人由于驾驶经验较短可能对于潜在的危险情况认识不足，导致其减速能力较低。
 
