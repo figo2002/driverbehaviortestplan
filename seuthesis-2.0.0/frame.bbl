@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{75}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -7,30 +7,27 @@
 
 \bibitem[Kou(1997)]{Kou1997}
 Kou C~C.
-\newblock
 \newblock Development of a methodology for modeling ramp driver behavior during
-  freeway merge maneuvers[D]:[PhD Thesis].[S.l.]: The University of Texas at
-  Austin, 1997.
+  freeway merge maneuvers[D]:[PhD Thesis].
+\newblock TX,United States: The University of Texas at Austin, 1997.
 
 \bibitem[Heaslip(2007)]{Heaslip2007}
 Heaslip I, K.
-\newblock
 \newblock Modeling driver behavior in work zones: An evaluation of traffic flow
-  impacts in freeway work zones with full lane closures[D]:[PhD Thesis].[S.l.]:
-  University of Massachusetts Amherst, 2007.
+  impacts in freeway work zones with full lane closures[D]:[PhD Thesis].
+\newblock MA,,United States: University of Massachusetts Amherst, 2007.
 
 \bibitem[Xu(2007)]{Xu2007}
 Xu F.
-\newblock
 \newblock Driver behavior and gap acceptance studies at roundabouts[D]:[PhD
-  Thesis].[S.l.]: University of Nevada, Reno, 2007.
+  Thesis].
+\newblock NV, United States: University of Nevada, Reno, 2007.
 
 \bibitem[Said(2008)]{Said2008}
 Said D.
-\newblock
 \newblock Development of the interrelationship between driver behaviour and
-  highway design and safety[D]:[PhD Thesis].[S.l.]: Carleton University
-  (Canada), 2008.
+  highway design and safety[D]:[PhD Thesis].
+\newblock Ottawa, Canada: Carleton University (Canada), 2008.
 
 \bibitem[孔繁森(2004)]{孔繁森2004}
 孔繁森.
@@ -39,9 +36,9 @@ Said D.
 
 \bibitem[Yang(2008)]{Yang2008}
 Yang L.
-\newblock
 \newblock Driver speed and acceleration behaviour on Canadian roads[D]:[PhD
-  Thesis].[S.l.]: Carleton University (Canada), 2008.
+  Thesis].
+\newblock Ottawa, Canada: Carleton University (Canada), 2008.
 
 \bibitem[张开冉(2008)]{张开冉2008}
 张开冉.
@@ -62,7 +59,7 @@ Yang L.
   Thesis].
 \newblock 南京: 东南大学, 2009.
 
-\bibitem[Toledo et al.(2007)]{Toledo2007}
+\bibitem[Toledo et al.(2007){\natexlab{a}}]{Toledo2007}
 Toledo T, Koutsopoulos H~N, Ben-Akiva M.
 \newblock Integrated driving behavior modeling[J].
 \newblock Transportation Research Part C: Emerging Technologies, 2007,
@@ -104,9 +101,9 @@ Salvucci D~D.
 
 \bibitem[Hamdar(2009)]{Hamdar2009a}
 Hamdar S.
-\newblock
 \newblock Modeling driver behavior as a stochastic hazard-based risk-taking
-  process[D]:[PhD Thesis].[S.l.]: Northwestern University, 2009.
+  process[D]:[PhD Thesis].
+\newblock IL,United States: Northwestern University, 2009.
 
 \bibitem[雷丽(2003)]{雷丽2003}
 雷丽.
@@ -144,9 +141,8 @@ Zhu H~B, Dai S~Q.
 
 \bibitem[Ossen(2008)]{Ossen2008}
 Ossen S.
-\newblock
-\newblock Longitudinal driving behavior: theory and empirics[D]:[PhD
-  Thesis].[S.l.]: Technische Universiteit Delft, 2008.
+\newblock Longitudinal driving behavior: theory and empirics[D]:[PhD Thesis].
+\newblock Delft, Netherlands: Technische Universiteit Delft, 2008.
 
 \bibitem[祝会兵(2008)]{祝会兵2008}
 祝会兵.
@@ -160,26 +156,26 @@ Kesting A, Treiber M, Helbing D.
   strategies on traffic capacity[J].
 \newblock Philosophical Transactions of the Royal Society A:
   Mathematical,Physical and Engineering Sciences, 2010, 368(1928):4585--4605.
-\newblock
-  \url{http://rsta.royalsocietypublishing.org/content/368/1928/4585.abstract}.
+
+\bibitem[Hranac et al.(2004)]{Hranac2004}
+Hranac R, Gettman D, Toledo T, et al.
+\newblock NGSIM: Core Algorithms Assessment[R].
+\newblock United States: Federal Highway Administration, 2004.
 
 \bibitem[Chandler~等(1958)]{Chandler1958}
 Chandler R~E, Herman R, Montroll E~W.
 \newblock Traffic Dynamics: Studies in Car Following[J].
 \newblock Operations Research, 1958, 6(2):pp. 165--184.
-\newblock \url{http://www.jstor.org/stable/167610}.
 
 \bibitem[Gazis et al.(1959)]{Gazis1959}
 Gazis D~C, Herman R, Potts R~B.
 \newblock Car-Following Theory of Steady-State Traffic Flow[J].
 \newblock OPERATIONS RESEARCH, 1959, 7(4):499--505.
-\newblock \url{http://or.journal.informs.org/cgi/content/abstract/7/4/499}.
 
 \bibitem[Gazis et al.(1961)]{Gazis1961}
 Gazis D~C, Herman R, Rothery R~W.
 \newblock Nonlinear Follow-the-Leader Models of Traffic Flow[J].
 \newblock OPERATIONS RESEARCH, 1961, 9(4):545--567.
-\newblock \url{http://or.journal.informs.org/cgi/content/abstract/9/4/545}.
 
 \bibitem[Helly(1961)]{Helly1961}
 Helly W.
@@ -192,24 +188,31 @@ Koshi M, Kuwahara M, H.Akahane.
 \newblock Capacity of sags and tunnels on Japanese motorways[J].
 \newblock ITE Journal, 1992, 65:17--22.
 
-\bibitem[Bando et al.(1995)]{Bando1995}
-Bando M, Hasebe K, Nakayama A, et al.
-\newblock Dynamical model of traffic congestion and numerical simulation[J].
-\newblock Phys. Rev. E, 1995, 51(2):1035--1042.
-
 \bibitem[Addison and Low(1998)]{Addison1998}
 Addison P~S, Low D~J.
 \newblock A novel nonlinear car-following model[J].
 \newblock Chaos: An Interdisciplinary Journal of Nonlinear Science, 1998,
   8(4):791--799.
-\newblock \url{http://link.aip.org/link/?CHA/8/791/1}.
 
 \bibitem[Low and Addison(1998)]{Low1998}
 Low D~J, Addison P~S.
 \newblock A Nonlinear Temporal Headway Model of Traffic Dynamics[J].
 \newblock Nonlinear Dynamics, 1998, 16:127--151.
-\newblock \url{http://dx.doi.org/10.1023/A:1008279031113}.
-\newblock 10.1023/A:1008279031113.
+
+\bibitem[Newell(1961)]{Newell1961}
+Newell G~F.
+\newblock Nonlinear Effects in the Dynamics of Car Following[J].
+\newblock Operations Research, 1961, 9(2):pp. 209--229.
+
+\bibitem[Bando et al.(1995)]{Bando1995}
+Bando M, Hasebe K, Nakayama A, et al.
+\newblock Dynamical model of traffic congestion and numerical simulation[J].
+\newblock Phys. Rev. E, 1995, 51(2):1035--1042.
+
+\bibitem[Gipps(1981)]{Gipps1981}
+Gipps P.
+\newblock A behavioural car-following model for computer simulation[J].
+\newblock Transportation Research Part B: Methodological, 1981, 15(2):105--111.
 
 \bibitem[Treiber et al.(2000)]{Treiber2000}
 Treiber M, Hennecke A, Helbing D.
@@ -223,45 +226,11 @@ Treiber M, Helbing D.
   flow-density data[J].
 \newblock Phys. Rev. E, 2003, 68(4):046119.
 
-\bibitem[Newell(1961)]{Newell1961}
-Newell G~F.
-\newblock Nonlinear Effects in the Dynamics of Car Following[J].
-\newblock Operations Research, 1961, 9(2):pp. 209--229.
-\newblock \url{http://www.jstor.org/stable/167493}.
-
-\bibitem[Herman~等(1959)]{Herman1959}
-Herman R, Montroll E~W, Potts R~B,等.
-\newblock Traffic Dynamics: Analysis of Stability in Car Following[J].
-\newblock Operations Research, 1959, 7(1):pp. 86--106.
-\newblock \url{http://www.jstor.org/stable/167596}.
-
-\bibitem[Forbes(1963)]{Forbes1963}
-Forbes T.
-\newblock Human factor consideration in traffic flow theory[J].
-\newblock Highway Research Record, 1963, 15:60--66.
-
-\bibitem[Foote(1965)]{Foote1965}
-Foote R.
-\newblock Single lane traffic flow control[C].
-\newblock In: Proceedings of the Second International Symposium on the Theory
-  of Road Traffic Flow.
-\newblock 1965. 84--103.
-
-\bibitem[Newell(1965)]{Newell1965}
-Newell G.
-\newblock Instability in dense highway traffic, a review[C].
-\newblock In: Proceedings of the Second International Symposium on
-  Transportation and Traffic Theory.
-\newblock 1965. 73--83.
-
 \bibitem[Gipps(1986)]{Gipps1986}
 Gipps P~G.
 \newblock A model for the structure of lane-changing decisions[J].
 \newblock Transportation Research Part B: Methodological, 1986, 20(5):403 --
   414.
-\newblock
-  \url{http://www.sciencedirect.com/science/article/B6V99-466CF0G-69/2/fd7b84c%
-9244295329e1e128c16cc009e}.
 
 \bibitem[Halati et al.(1997)]{Halati1997}
 Halati A, Lieu H, Walker S.
@@ -276,22 +245,18 @@ Yang Q, Koutsopoulos H~N.
   management systems[J].
 \newblock Transportation Research Part C: Emerging Technologies, 1996, 4(3):113
   -- 129.
-\newblock
-  \url{http://www.sciencedirect.com/science/article/B6VGJ-3VWT8KB-1/2/4bfda912%
-70dcf22f26439123b886be90}.
 
 \bibitem[Ahmed et al.(1996)]{Ahmed1996}
 Ahmed K, Moshe E, Koutsopoulos H, et al.
-\newblock Models of freeway lane changing and gap acceptance behavior[C], [No
-  booktitle].
+\newblock Models of freeway lane changing and gap acceptance behavior[C].
+\newblock In: Internaional symposium on transportation and traffic theory.
 \newblock 1996.
-\newblock \url{http://citeseer.ifi.unizh.ch/contextsummary/1996655/0}.
 
 \bibitem[Ahmed(1999)]{Ahmed1999}
 Ahmed K~I.
 \newblock Modeling drivers' acceleration and lane changing behavior[D]:[PhD
   Thesis].
-\newblock Cambridge,MA: Massachusetts Institute of Technology, 1999.
+\newblock MA,United States: Massachusetts Institute of Technology, 1999.
 
 \bibitem[Ben-Akiva~M. and Toledo(2006)]{Ben-AkivaM.2006}
 Ben-Akiva~M. C~C, Toledo T.
@@ -312,7 +277,30 @@ Kesting A, Treiber M, Helbing D.
 \newblock General Lane-Changing Model MOBIL for Car-Following Models[J].
 \newblock Transportation Research Record: Journal of the Transportation
   Research Board, 2007, 1999(-1):86--94.
-\newblock \url{http://dx.doi.org/10.3141/1999-10}.
+
+\bibitem[Herman~等(1959)]{Herman1959}
+Herman R, Montroll E~W, Potts R~B,等.
+\newblock Traffic Dynamics: Analysis of Stability in Car Following[J].
+\newblock Operations Research, 1959, 7(1):pp. 86--106.
+
+\bibitem[Forbes(1963)]{Forbes1963}
+Forbes T.
+\newblock Human factor consideration in traffic flow theory[J].
+\newblock Highway Research Record, 1963, 15:60--66.
+
+\bibitem[Foote(1965)]{Foote1965}
+Foote R.
+\newblock Single lane traffic flow control[C].
+\newblock In: Proceedings of the Second International Symposium on the Theory
+  of Road Traffic Flow.
+\newblock 1965. 84--103.
+
+\bibitem[Newell(1965)]{Newell1965}
+Newell G.
+\newblock Instability in dense highway traffic, a review[C].
+\newblock In: Proceedings of the Second International Symposium on
+  Transportation and Traffic Theory.
+\newblock 1965. 73--83.
 
 \bibitem[Thiemann et al.(2008)]{Thiemann2008}
 Thiemann C, Treiber M, Kesting A.
@@ -323,9 +311,9 @@ Thiemann C, Treiber M, Kesting A.
 
 \bibitem[MacAdam et al.(2000)]{Ervin2000}
 MacAdam E~R~C, Walker J, Bogard S, et al.
-\newblock
 \newblock System for Assessment of the Vehicle Motion Environment (SAVME):
-  volume II[R].[S.l.]: Transportation Research Institute, University of
+  volume II[R].
+\newblock Michigan, Ann Arbor: Transportation Research Institute, University of
   Michigan, Ann Arbor, 2000.
 
 \bibitem[Punzo et al.(2009)]{Punzo2009}
@@ -335,11 +323,11 @@ Punzo V, Borzacchiello M~T, Ciuffo F, Biagio.
 \newblock In: Transportation Research Board 88th Annual Meeting.
 \newblock 2009. 17p--.
 
-\bibitem[Tol(2007)]{Toledo2007a}
-
-\newblock
-\newblock Toledo T, Koutsopoulos N, Haris, Ahmed I, Kazi.[S.l.]: Transportation
-  Research Board, 2007: pp 161--169--.
+\bibitem[Toledo et al.(2007){\natexlab{b}}]{Toledo2007a}
+Toledo T, Koutsopoulos N, Haris, Ahmed I, Kazi.
+\newblock Estimation of Vehicle Trajectories with Locally Weighted
+  Regression[C], [No booktitle].
+\newblock 2007. pp 161--169--.
 
 \bibitem[Cleveland(1979)]{Cleveland1979}
 Cleveland W~S.
@@ -351,9 +339,6 @@ Vogel K.
 \newblock What characterizes a "free vehicle" in an urban area?[J].
 \newblock Transportation Research Part F: Traffic Psychology and Behaviour,
   2002, 5(1):15 -- 29.
-\newblock
-  \url{http://www.sciencedirect.com/science/article/B6VN8-45579W1-2/2/5949f795%
-2a57ea521aa1a0955e471a42}.
 
 \bibitem[Xin et al.(2008)]{Xin2008}
 Xin W, Hourdos J, Michalopoulos P, et al.
@@ -361,13 +346,11 @@ Xin W, Hourdos J, Michalopoulos P, et al.
   Car-Following Behavior[J].
 \newblock Transportation Research Record: Journal of the Transportation
   Research Board, 2008, 2088(-1):126--137.
-\newblock \url{http://dx.doi.org/10.3141/2088-14}.
 
 \bibitem[Hayward(1972)]{Hayward1972}
 Hayward J.
-\newblock
-\newblock Near miss determination through use of a scale of danger[R].[S.l.]:
-  The Pennsylvania State University, 1972.
+\newblock Near miss determination through use of a scale of danger[R].
+\newblock United States: The Pennsylvania State University, 1972.
 
 \bibitem[Lee(1976)]{Lee1976}
 Lee D.
@@ -381,33 +364,31 @@ Balas V, Balas M.
 \newblock In: Automation Congress, 2006. WAC '06. World.
 \newblock 2006. 1--6.
 
+\bibitem[WR~Mebane et al.(2009)]{WRMebane2009}
+WR~Mebane J, Jr., Sekhon J~S.
+\newblock Genetic Optimization Using Derivatives: The {rgenoud} Package for
+  {R}[J].
+\newblock Journal of Statistical Software, 2009, Forthcoming:1.
+\newblock Forthcoming.
+
+\bibitem[Greene(2000)]{Greene2000}
+Greene W~H.
+\newblock Econometric Analysis[M].
+\newblock 6.
+\newblock  Vol. 97.
+\newblock New Jersey, USA: Prentice Hall, 2000: 1--1004.
+
+\bibitem[Efron(1979)]{Efron1979}
+Efron B.
+\newblock Bootstrap Methods: Another Look at the Jackknife[J].
+\newblock The Annals of Statistics, 1979, 7(1):pp. 1--26.
+
 \bibitem[Kesting and Treiber(2008)]{Kesting2008}
 Kesting A, Treiber M.
 \newblock Calibrating Car-Following Models by Using Trajectory Data:
   Methodological Study[J].
 \newblock Transportation Research Record: Journal of the Transportation
   Research Board, 2008, 2088:148--156.
-
-\bibitem[WR~Mebane et al.(2009)]{WRMebane2009}
-WR~Mebane J, Jr., Sekhon J~S.
-\newblock Genetic Optimization Using Derivatives: The {rgenoud} Package for
-  {R}[J].
-\newblock Journal of Statistical Software, 2009, Forthcoming:1.
-\newblock \url{http://www.jstatsoft.org/}.
-\newblock Forthcoming.
-
-\bibitem[Greene(2000)]{Greene2000}
-Greene W~H.
-\newblock Econometric Analysis[M].
-\newblock
-\newblock  Vol. 97.[S.l.]: Prentice Hall, 2000: 1004.
-\newblock \url{http://books.google.com/books?id=YiC7AAAAIAAJ&pgis=1}.
-
-\bibitem[Efron(1979)]{Efron1979}
-Efron B.
-\newblock Bootstrap Methods: Another Look at the Jackknife[J].
-\newblock The Annals of Statistics, 1979, 7(1):pp. 1--26.
-\newblock \url{http://www.jstor.org/stable/2958830}.
 
 \bibitem[Krajzewicz et al.(2006)]{Krajzewicz2006}
 Krajzewicz D, Bonert M, Wagner P.
@@ -419,27 +400,49 @@ Krajzewicz D, Bonert M, Wagner P.
 Krajzewicz D, Hartinger M, Hertkorn G, et al.
 \newblock Using the Road Traffic Simulation “SUMO” for Educational
   Purposes[M]//.
-\newblock
-\newblock In: Hoogendoorn S~P, Luding S, Bovy P~H~L, et al, eds. Traffic and
-  Granular Flow ’03.[S.l.]: Springer Berlin Heidelberg, 2005. 217--222.
+\newblock In: Traffic and Granular Flow 03.
+\newblock Netherlands: Springer Berlin Heidelberg, 2005. 217--222.
 
 \bibitem[Krauß(1998)]{Krauss1998}
 Krauß S.
-\newblock
 \newblock Microscopic Modeling of Traffic Flow: Investigation of Collision Free
-  Vehicle Dynamics[D]:[PhD Thesis].[S.l.]:
-  Mathematisch–Naturwissenschaftlichen Fakultät der Universität zu Köln,
-  1998: 116.
+  Vehicle Dynamics[D]:[PhD Thesis].
+\newblock Cologne, Germany: Mathematisch–Naturwissenschaftlichen Fakultät
+  der Universität zu Köln, 1998.
 
 \bibitem[S.Kerner(2009)]{S.Kerner2009}
 S.Kerner B.
-\newblock
-\newblock Introduction to Modern Traffic Flow Theory and Control[M].[S.l.]:
-  Springer Berlin / Heidelberg, 2009.
+\newblock Introduction to Modern Traffic Flow Theory and Control[M].
+\newblock Berlin: Springer Berlin / Heidelberg, 2009.
 
 \bibitem[Schönhof and Helbing(2009)]{Schoenhof2009}
 Schönhof M, Helbing D.
 \newblock Criticism of three-phase traffic theory[J].
 \newblock Transportation Research Part B: Methodological, 2009, 43(7):784--797.
+
+\bibitem[Kerner and Rehborn(1996){\natexlab{a}}]{Kerner1996}
+Kerner B~S, Rehborn H.
+\newblock Experimental properties of complexity in traffic flow[J].
+\newblock Phys. Rev. E, 1996, 53(5):R4275--R4278.
+
+\bibitem[Kerner and Rehborn(1996){\natexlab{b}}]{Kerner1996a}
+Kerner B~S, Rehborn H.
+\newblock Experimental features and characteristics of traffic jams[J].
+\newblock Phys. Rev. E, 1996, 53(2):R1297--R1300.
+
+\bibitem[Kerner and Rehborn(1997)]{Kerner1997}
+Kerner B~S, Rehborn H.
+\newblock Experimental Properties of Phase Transitions in Traffic Flow[J].
+\newblock Phys. Rev. Lett., 1997, 79(20):4030--4033.
+
+\bibitem[Kerner(1998)]{Kerner1998}
+Kerner B~S.
+\newblock Experimental Features of Self-Organization in Traffic Flow[J].
+\newblock Phys. Rev. Lett., 1998, 81(17):3797--3800.
+
+\bibitem[Kerner(2004)]{Kerner2004}
+Kerner B~S.
+\newblock The Physics of Traffic[M].
+\newblock Berlin: Springer Berlin / Heidelberg, 2004.
 
 \end{thebibliography}

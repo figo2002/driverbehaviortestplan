@@ -24,13 +24,13 @@
 	equations; numerical analysis},
   owner = {wf},
   publisher = {AIP},
-  timestamp = {2010.09.17},
-  url = {http://link.aip.org/link/?CHA/8/791/1}
+  timestamp = {2010.09.17}
 }
 
 @INPROCEEDINGS{Ahmed1996,
   author = {Ahmed, K. and Moshe, E. and Koutsopoulos, H. and Mishalani, R.},
   title = {Models of freeway lane changing and gap acceptance behavior},
+  booktitle = {Internaional symposium on transportation and traffic theory},
   year = {1996},
   citeulike-article-id = {2606422},
   citeulike-linkout-0 = {http://citeseer.ifi.unizh.ch/contextsummary/1996655/0},
@@ -38,8 +38,7 @@
   owner = {wf},
   posted-at = {2008-03-28 13:40:43},
   priority = {2},
-  timestamp = {2010.09.20},
-  url = {http://citeseer.ifi.unizh.ch/contextsummary/1996655/0}
+  timestamp = {2010.09.20}
 }
 
 @PHDTHESIS{Ahmed1999,
@@ -48,7 +47,7 @@
   school = {Massachusetts Institute of Technology},
   year = {1999},
   type = {0800391},
-  address = {Cambridge,MA},
+  address = {MA,United States},
   abstract = {This thesis contributes to the development of microscopic traffic
 	performance models which includes the acceleration and lane changing
 	models. It enhances the existing models and develops new ones. Another
@@ -555,8 +554,7 @@
   language = {English},
   owner = {wf},
   publisher = {INFORMS},
-  timestamp = {2010.09.16},
-  url = {http://www.jstor.org/stable/167610}
+  timestamp = {2010.09.16}
 }
 
 @ARTICLE{Chen2001,
@@ -885,8 +883,7 @@
   language = {English},
   owner = {Administrator},
   publisher = {Institute of Mathematical Statistics},
-  timestamp = {2011.03.02},
-  url = {http://www.jstor.org/stable/2958830}
+  timestamp = {2011.03.02}
 }
 
 @PHDTHESIS{Ehsani1999,
@@ -1163,8 +1160,7 @@
   doi = {10.1287/opre.7.4.499},
   eprint = {http://or.journal.informs.org/cgi/reprint/7/4/499.pdf},
   owner = {wf},
-  timestamp = {2010.09.16},
-  url = {http://or.journal.informs.org/cgi/content/abstract/7/4/499}
+  timestamp = {2010.09.16}
 }
 
 @ARTICLE{Gazis1961,
@@ -1188,8 +1184,18 @@
   doi = {10.1287/opre.9.4.545},
   eprint = {http://or.journal.informs.org/cgi/reprint/9/4/545.pdf},
   owner = {wf},
-  timestamp = {2010.09.16},
-  url = {http://or.journal.informs.org/cgi/content/abstract/9/4/545}
+  timestamp = {2010.09.16}
+}
+
+@ARTICLE{Gipps1981,
+  author = {Gipps, P.G.},
+  title = {A behavioural car-following model for computer simulation},
+  journal = {Transportation Research Part B: Methodological},
+  year = {1981},
+  volume = {15},
+  pages = {105-111},
+  number = {2},
+  month = {April}
 }
 
 @ARTICLE{Gipps1986,
@@ -1216,19 +1222,19 @@
   doi = {DOI: 10.1016/0191-2615(86)90012-3},
   issn = {0191-2615},
   owner = {wf},
-  timestamp = {2010.09.20},
-  url = {http://www.sciencedirect.com/science/article/B6V99-466CF0G-69/2/fd7b84c9244295329e1e128c16cc009e}
+  timestamp = {2010.09.20}
 }
 
 @BOOK{Greene2000,
   title = {Econometric Analysis},
   publisher = {Prentice Hall},
   year = {2000},
-  editor = {Hall, Pearson PrenticeEditor},
   author = {Greene, W H},
   volume = {97},
   number = {Book, Whole},
-  pages = {1004},
+  pages = {1-1004},
+  address = {New Jersey, USA},
+  edition = {6},
   abstractnote = {Computation and Optimization.The Classical Multiple Linear Regression
 	Model - Specification andEstimation. Inference and Prediction. Functional
 	Form, Nonlinearity, and Specification. Large Sample Results and Alternative
@@ -1238,8 +1244,7 @@
 	Equations. Simultaneous Equations Models. Regressions with Lagged
 	Variables. Time-Series Models. Models withDiscrete Dependent Variables.
 	Limited Dependent Variable and DurationModels.},
-  journal = {Econometric Analysis},
-  url = {http://books.google.com/books?id=YiC7AAAAIAAJ&pgis=1}
+  journal = {Econometric Analysis}
 }
 
 @ARTICLE{Gurusinghe2002,
@@ -1310,7 +1315,7 @@
 	process},
   school = {Northwestern University},
   year = {2009},
-  type = {3352515},
+  address = {IL,United States},
   abstract = {Acceleration models are at the core of operational driving behaviors,
 	and include car-following models which capture interactions between
 	a lead and following vehicles. The main assumption in these models
@@ -1357,7 +1362,7 @@
   title = {Towards modeling driver behavior under extreme conditions},
   school = {University of Maryland, College Park},
   year = {2004},
-  type = {1424063},
+  address = {MD,United States},
   abstract = {The purpose of this study is to investigate the representation of
 	driver behavior under extreme conditions, towards development of
 	a micro-simulation modeling framework of traffic flow to support
@@ -1432,6 +1437,7 @@
   title = {Near miss determination through use of a scale of danger},
   institution = {The Pennsylvania State University},
   year = {1972},
+  address = {United States},
   owner = {wf},
   timestamp = {2011.03.05}
 }
@@ -1442,7 +1448,7 @@
 	flow impacts in freeway work zones with full lane closures},
   school = {University of Massachusetts Amherst},
   year = {2007},
-  type = {3254921},
+  address = {MA,,United States},
   abstract = {About twenty percent of the U.S. National Highway System is under
 	construction during the peak summer roadwork season. Fifty percent
 	of all highway congestion is attributed to nonrecurring conditions
@@ -1515,8 +1521,7 @@
   language = {English},
   owner = {wf},
   publisher = {INFORMS},
-  timestamp = {2010.09.17},
-  url = {http://www.jstor.org/stable/167596}
+  timestamp = {2010.09.17}
 }
 
 @ARTICLE{RobertHerman01011959,
@@ -1613,6 +1618,17 @@
 	vehicles from other classes. Using the operationalized model, macroscopic
 	simulations provide insight into the model behavior for different
 	scenarios.}
+}
+
+@TECHREPORT{Hranac2004,
+  author = {Hranac ,R and Gettman ,D and Toledo ,T and Kovvali ,V and Alexiadis,
+	V},
+  title = {NGSIM: Core Algorithms Assessment},
+  institution = {Federal Highway Administration},
+  year = {2004},
+  address = {United States},
+  owner = {wf},
+  timestamp = {2011.03.16}
 }
 
 @ARTICLE{Hughes2003,
@@ -1716,6 +1732,80 @@
   url = {http://dx.doi.org/10.3141/1550-05}
 }
 
+@BOOK{Kerner2004,
+  title = {The Physics of Traffic},
+  publisher = {Springer Berlin / Heidelberg},
+  year = {2004},
+  author = {Kerner, Boris S.},
+  address = {Berlin},
+  owner = {wf},
+  timestamp = {2011.03.19}
+}
+
+@ARTICLE{Kerner1998,
+  author = {Kerner, B. S.},
+  title = {Experimental Features of Self-Organization in Traffic Flow},
+  journal = {Phys. Rev. Lett.},
+  year = {1998},
+  volume = {81},
+  pages = {3797--3800},
+  number = {17},
+  month = {Oct},
+  doi = {10.1103/PhysRevLett.81.3797},
+  numpages = {3},
+  owner = {wf},
+  publisher = {American Physical Society},
+  timestamp = {2011.03.19}
+}
+
+@ARTICLE{Kerner1997,
+  author = {Kerner, B. S. and Rehborn, H. },
+  title = {Experimental Properties of Phase Transitions in Traffic Flow},
+  journal = {Phys. Rev. Lett.},
+  year = {1997},
+  volume = {79},
+  pages = {4030--4033},
+  number = {20},
+  month = {Nov},
+  doi = {10.1103/PhysRevLett.79.4030},
+  numpages = {3},
+  owner = {wf},
+  publisher = {American Physical Society},
+  timestamp = {2011.03.19}
+}
+
+@ARTICLE{Kerner1996,
+  author = {Kerner, B. S. and Rehborn, H. },
+  title = {Experimental properties of complexity in traffic flow},
+  journal = {Phys. Rev. E},
+  year = {1996},
+  volume = {53},
+  pages = {R4275--R4278},
+  number = {5},
+  month = {May},
+  doi = {10.1103/PhysRevE.53.R4275},
+  numpages = {3},
+  owner = {wf},
+  publisher = {American Physical Society},
+  timestamp = {2011.03.19}
+}
+
+@ARTICLE{Kerner1996a,
+  author = {Kerner, B. S. and Rehborn, H. },
+  title = {Experimental features and characteristics of traffic jams},
+  journal = {Phys. Rev. E},
+  year = {1996},
+  volume = {53},
+  pages = {R1297--R1300},
+  number = {2},
+  month = {Feb},
+  doi = {10.1103/PhysRevE.53.R1297},
+  numpages = {3},
+  owner = {wf},
+  publisher = {American Physical Society},
+  timestamp = {2011.03.19}
+}
+
 @ARTICLE{Kesting2008,
   author = {Kesting, Arne and Treiber, Martin},
   title = {Calibrating Car-Following Models by Using Trajectory Data: Methodological
@@ -1725,8 +1815,6 @@
   year = {2008},
   volume = {2088},
   pages = {148--156},
-  number = {-1},
-  month = dec,
   __markedentry = {[wf]},
   abstract = {The car-following behavior of individual drivers in real city traffic
 	is studied on the basis of (publicly available) trajectory data sets
@@ -1787,8 +1875,7 @@
 	per cent. This sensitivity multiplies when considering travel times
 	at actual breakdowns.},
   owner = {wf},
-  timestamp = {2010.09.21},
-  url = {http://rsta.royalsocietypublishing.org/content/368/1928/4585.abstract}
+  timestamp = {2010.09.21}
 }
 
 @ARTICLE{Kesting2007,
@@ -1827,8 +1914,7 @@
 	lane-changing rate is investigated as a function of the spatial coordinate
 	as well as a function of traffic density.},
   owner = {wf},
-  timestamp = {2010.09.18},
-  url = {http://dx.doi.org/10.3141/1999-10}
+  timestamp = {2010.09.18}
 }
 
 @ARTICLE{Kiefer2005,
@@ -2014,7 +2100,7 @@
 	freeway merge maneuvers},
   school = {The University of Texas at Austin},
   year = {1997},
-  type = {9825001},
+  address = {TX,United States},
   abstract = {Freeway entrance ramp accelerations and merging processes are complex
 	and have significant impacts upon freeway traffic operations and
 	ramp junction geometric designs. The complexity is a result of the
@@ -2083,12 +2169,11 @@
   author = {Krajzewicz, D. and Hartinger, M. and Hertkorn, G. and Mieth, P. and
 	Rössel, C. and Zimmer, J. and Wagner, P.},
   title = {Using the Road Traffic Simulation “SUMO” for Educational Purposes},
-  booktitle = {Traffic and Granular Flow ’03},
+  booktitle = {Traffic and Granular Flow 03},
   publisher = {Springer Berlin Heidelberg},
   year = {2005},
-  editor = {Hoogendoorn, Serge P. and Luding, Stefan and Bovy, Piet H. L. and
-	Schreckenberg, Michael and Wolf, Dietrich E.},
   pages = {217-222},
+  address = {Netherlands},
   abstract = {Since the year 2000, the Centre of Applied Informatics and the Institute
 	for Transport Research at the German Aerospace Centre develops a
 	microscopic road traffic simulation package named ’SUMO’ — an acronym
@@ -2117,11 +2202,10 @@
   school = {Mathematisch–Naturwissenschaftlichen Fakultät der Universität zu
 	Köln},
   year = {1998},
+  address = {Cologne, Germany},
   institution = {Mathematisches Institut, Universit\"at zu K\"oln},
   keywords = {highway traffic, interacting random processes, statistical mechanics
-	type modells, statistical processes; 60K30, 60K35, 90B20},
-  number = {319},
-  pages = {116}
+	type modells, statistical processes; 60K30, 60K35, 90B20}
 }
 
 @MISC{Lanzilotta1995,
@@ -2271,7 +2355,6 @@
   year = {1998},
   volume = {16},
   pages = {127-151},
-  note = {10.1023/A:1008279031113},
   abstract = {In order to describe the dynamics of a group of road vehicles travelling
 	in a single lane, car-following models attempt to mimic the interactions
 	between individual vehicles where the behaviour of each vehicle is
@@ -2297,8 +2380,7 @@
   keyword = {Physics and Astronomy},
   owner = {wf},
   publisher = {Springer Netherlands},
-  timestamp = {2010.09.17},
-  url = {http://dx.doi.org/10.1023/A:1008279031113}
+  timestamp = {2010.09.17}
 }
 
 @PHDTHESIS{Ma2006,
@@ -2381,6 +2463,7 @@
 	volume II},
   institution = {Transportation Research Institute, University of Michigan, Ann Arbor},
   year = {2000},
+  address = {Michigan, Ann Arbor},
   owner = {Administrator},
   timestamp = {2011.01.05}
 }
@@ -2734,8 +2817,7 @@
   language = {English},
   owner = {wf},
   publisher = {INFORMS},
-  timestamp = {2010.09.17},
-  url = {http://www.jstor.org/stable/167493}
+  timestamp = {2010.09.17}
 }
 
 @PHDTHESIS{Nilsson2001,
@@ -2899,6 +2981,7 @@
   title = {Longitudinal driving behavior: theory and empirics},
   school = {Technische Universiteit Delft},
   year = {2008},
+  address = {Delft, Netherlands},
   owner = {wf},
   timestamp = {2010.09.21}
 }
@@ -3232,6 +3315,7 @@
   publisher = {Springer Berlin / Heidelberg},
   year = {2009},
   author = {Boris S.Kerner},
+  address = {Berlin},
   owner = {wf},
   timestamp = {2011.03.13}
 }
@@ -3242,7 +3326,7 @@
 	highway design and safety},
   school = {Carleton University (Canada)},
   year = {2008},
-  type = {NR43909},
+  address = {Ottawa, Canada},
   abstract = {The major goal of any transportation system is the safe and efficient
 	movement of people and goods. In the case of the highway infrastructure,
 	there are three components to this transportation system; the road,
@@ -3754,8 +3838,7 @@
   title = {Integrated driving behavior modeling},
   school = {MIT},
   year = {2002},
-  type = {0804763},
-  address = {Cambridge,MA},
+  address = {MA, United States},
   abstract = {A framework for integrated driving behavior modeling, based on the
 	concepts of short-term goal and short-term plan is proposed. Drivers
 	are assumed to conceive and perform short-term plans in order to
@@ -3828,10 +3911,13 @@
   keywords = {Driving behavior Lane changing Acceleration Traffic simulation}
 }
 
-@PROCEEDINGS{Toledo2007a,
+@CONFERENCE{Toledo2007a,
+  author = {Toledo, Tomer and Koutsopoulos, Haris, N and Ahmed, Kazi, Iftekhar},
   title = {Estimation of Vehicle Trajectories with Locally Weighted Regression},
   year = {2007},
   number = {1999},
+  pages = {pp 161-169--},
+  address = {Washington, DC},
   publisher = {Transportation Research Board},
   abstract = {Vehicle trajectory data are important for calibrating driver behavior
 	models (e.g., car following, acceleration, lane changing, and gap
@@ -3847,7 +3933,6 @@
 	trajectories and speed and acceleration profiles. The conducted sensitivity
 	analysis also shows that the method is rather robust regarding measurement
 	errors and missing values.},
-  author = {Toledo, Tomer and Koutsopoulos, Haris, N and Ahmed, Kazi, Iftekhar},
   issn = {9780309104258},
   journal = {Transportation Research Record: Journal of the Transportation Research
 	Board},
@@ -3856,7 +3941,6 @@
 	Human behavior, Lane changing, Regression, Regression analysis, Sensitivity
 	analysis, Traffic operations, Traffic speed, Vehicle trajectories},
   owner = {Administrator},
-  pages = {pp 161-169--},
   timestamp = {2011.01.05}
 }
 
@@ -4077,8 +4161,7 @@
   issn = {1369-8478},
   keywords = {Free vehicle},
   owner = {Administrator},
-  timestamp = {2011.02.21},
-  url = {http://www.sciencedirect.com/science/article/B6VN8-45579W1-2/2/5949f7952a57ea521aa1a0955e471a42}
+  timestamp = {2011.02.21}
 }
 
 @ARTICLE{Webster2008,
@@ -4116,8 +4199,7 @@
   year = {2009},
   volume = {Forthcoming},
   pages = {1},
-  note = {Forthcoming},
-  url = {http://www.jstatsoft.org/}
+  note = {Forthcoming}
 }
 
 @ARTICLE{Xin2008,
@@ -4162,8 +4244,7 @@
 	microscopic level and could enable safety-related system design improvements
 	and evaluation through microsimulation software.},
   owner = {Administrator},
-  timestamp = {2011.02.22},
-  url = {http://dx.doi.org/10.3141/2088-14}
+  timestamp = {2011.02.22}
 }
 
 @PHDTHESIS{Xu2007,
@@ -4171,7 +4252,7 @@
   title = {Driver behavior and gap acceptance studies at roundabouts},
   school = {University of Nevada, Reno},
   year = {2007},
-  type = {1442865},
+  address = {NV, United States},
   abstract = {This thesis addresses drivers' gap-acceptance behavior characteristics
 	at roundabouts and documents the measurement results of critical
 	headway and follow-up headway based on selected roundabout sites
@@ -4213,7 +4294,7 @@
   title = {Driver speed and acceleration behaviour on Canadian roads},
   school = {Carleton University (Canada)},
   year = {2008},
-  type = {MR36835},
+  address = {Ottawa, Canada},
   abstract = {Driver speed and acceleration/deceleration behaviour studies are often
 	used in highway facility design, vehicle fuel consumption and emission
 	studies, and traffic safety programs. This study analyzed driver
@@ -4262,8 +4343,7 @@
   doi = {DOI: 10.1016/S0968-090X(96)00006-X},
   issn = {0968-090X},
   owner = {wf},
-  timestamp = {2010.09.20},
-  url = {http://www.sciencedirect.com/science/article/B6VGJ-3VWT8KB-1/2/4bfda91270dcf22f26439123b886be90}
+  timestamp = {2010.09.20}
 }
 
 @PHDTHESIS{Yeo2008,
@@ -4272,6 +4352,7 @@
   school = {University of California, Berkeley},
   year = {2008},
   type = {3353364},
+  address = {CA, United States},
   abstract = {Numerous theories on traffic have been developed as traffic congestion
 	gains more and more interest in our daily life. To model traffic
 	phenomena, many traffic theorists have adopted theories from other

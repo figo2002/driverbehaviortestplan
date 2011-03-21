@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  16 MAR 2011 20:27
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  21 MAR 2011 23:51
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -621,97 +621,97 @@ LaTeX Warning: Unused global option(s):
 ) (./chapter5.aux) (./chapter6.aux))
 \openout1 = `frame.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 16.
+LaTeX Info: Redefining \subref on input line 17.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid this).
- on input line 16.
+ on input line 17.
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
-LaTeX Font Info:    Redeclaring math accent \check on input line 16.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
+LaTeX Font Info:    Redeclaring math accent \check on input line 17.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 16.
+(Font)              `operators' in the math version `normal' on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-16.
+17.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 16.
+(Font)              `operators' in the math version `bold' on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 16.
+ 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 16.
+n input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 16.
+n input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 16.
+e 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 16.
+e 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 16.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 16.
+on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 16.
+on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 16.
+ine 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 16.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 16.
-Package hyperref Info: Link coloring OFF on input line 16.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 17.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (y:/TeXLive/current/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2009/12/02 v2.33 Cross-referencing by name of section
@@ -721,8 +721,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
  (./frame.out)
 (./frame.out)
 \@outlinefile=\write3
@@ -782,11 +782,11 @@ driver: pdftex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.5pt
-(hyperref)                replaced by space on input line 33.
+(hyperref)                replaced by space on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 33.
+(hyperref)                removing `\@ifnextchar' on input line 34.
 
 File: figures/front-cover.jpg Graphic file (type QTm)
 <use  "figures/front-cover.jpg" >
@@ -795,87 +795,87 @@ File: figures/master.png Graphic file (type QTm)
 File: figures/seu-color-logo.png Graphic file (type QTm)
 
 <use  "figures/seu-color-logo.png" >
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 33.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 34.
 LaTeX Font Info:    Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 33.
+(Font)              size <10.95> substituted on input line 34.
 LaTeX Font Info:    Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 33.
+(Font)              size <10.95> substituted on input line 34.
 LaTeX Font Info:    Font shape `OMX/cmex/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 33.
+(Font)              size <10.95> substituted on input line 34.
 LaTeX Font Info:    Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 33.
+(Font)              size <10.95> substituted on input line 34.
 
-Underfull \hbox (badness 10000) detected at line 33
+Underfull \hbox (badness 10000) detected at line 34
 \rm/m/n/10.5 分 类 号
  []
 
 
-Underfull \hbox (badness 10000) detected at line 33
+Underfull \hbox (badness 10000) detected at line 34
 \rm/m/n/10.5 密 级
  []
 
 
-Underfull \hbox (badness 10000) detected at line 33
+Underfull \hbox (badness 10000) detected at line 34
 \EU1/TimesNewRoman(0)/m/n/10.5 U D C
  []
 
 
-Underfull \hbox (badness 10000) detected at line 33
+Underfull \hbox (badness 10000) detected at line 34
 \rm/m/n/10.5 学 号
  []
 
 
-Overfull \hbox (6.61525pt too wide) detected at line 33
+Overfull \hbox (6.61525pt too wide) detected at line 34
 \zhsong/m/n/18 研 究 生 姓 名：| 
  []
 
 
-Overfull \hbox (6.61525pt too wide) detected at line 33
+Overfull \hbox (6.61525pt too wide) detected at line 34
 \zhsong/m/n/18 导  师  姓  名：| 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 33
+Overfull \hbox (18.11812pt too wide) detected at line 34
  \zhsong/m/n/14 申 请 学 位 类 别 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 33
+Overfull \hbox (18.11812pt too wide) detected at line 34
  \zhsong/m/n/14 学 位 授 予 单 位 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 33
+Overfull \hbox (18.11812pt too wide) detected at line 34
  \zhsong/m/n/14 一 级 学 科 名 称 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 33
+Overfull \hbox (18.11812pt too wide) detected at line 34
  \zhsong/m/n/14 论 文 答 辩 日 期 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 33
+Overfull \hbox (18.11812pt too wide) detected at line 34
  \zhsong/m/n/14 二 级 学 科 名 称 $[]$ 
  []
 
 
-Overfull \hbox (18.11812pt too wide) detected at line 33
+Overfull \hbox (18.11812pt too wide) detected at line 34
  \zhsong/m/n/14 学 位 授 予 日 期 $[]$ 
  []
 
 
-Overfull \hbox (17.89174pt too wide) detected at line 33
+Overfull \hbox (17.89174pt too wide) detected at line 34
  \zhsong/m/n/14 答 辩 委 员 会 主 席 $[]$ 
  []
 
 
-Overfull \hbox (8.78493pt too wide) detected at line 33
+Overfull \hbox (8.78493pt too wide) detected at line 34
  \zhsong/m/n/14 评       阅       人 $[]$ 
  []
 
 
-Overfull \hbox (19.47638pt too wide) detected at line 33
+Overfull \hbox (19.47638pt too wide) detected at line 34
  [] $[]$ 
  []
 
@@ -893,12 +893,12 @@ Overfull \hbox (19.47638pt too wide) detected at line 33
 
 ] [2
 
-]
+] (./abstractc.tex)
 
 Package xeCJK Warning: Unknown CJK family `sf' is ignored.
-Use \setCJKfamilyfont to define a CJK family. on input line 37.
+Use \setCJKfamilyfont to define a CJK family. on input line 38.
 
-LaTeX Font Info:    Try loading font information for EU1+lmss on input line 37.
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 38.
 
 (y:/TeXLive/current/texmf-dist/tex/xelatex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
@@ -906,10 +906,10 @@ File: eu1lmss.fd 2007/01/14 v1.3 Font defs for Latin Modern
 
 ] [4
 
-] [5
-
 ]
-[6
+(./abstracte.tex) [5
+
+] [6
 
 ] (./frame.toc
 Underfull \vbox (badness 1796) has occurred while \output is active []
@@ -917,14 +917,11 @@ Underfull \vbox (badness 1796) has occurred while \output is active []
  [7
 
 ]
-Underfull \vbox (badness 3386) has occurred while \output is active []
-
- [8])
+[8])
 \tf@toc=\write5
 \openout5 = `frame.toc'.
 
-
-[9] [10
+ [9] [10
 
 
 
@@ -946,62 +943,87 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+File: images/tech-path.pdf Graphic file (type QTm)
+
+<use  "images/tech-path.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4])
-[5]
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+[6]
 \openout2 = `chapter2.aux'.
 
- (./chapter2.tex [6
+ (./chapter2.tex
+第\CJKnumber {2}章 2.
+File: images/traveldecision.pdf Graphic file (type QTm)
+<use  "images/traveldecision.pdf" >
+File: fig/drv_blockdia.pdf Graphic file (type QTm)
+ <use  "fig/drv_blockdia.pdf" >
+Overfull \hbox (38.1941pt too wide) in paragraph at lines 67--68
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 
 
 ]
-第\CJKnumber {2}章 2.
-File: fig/drv_blockdia.pdf Graphic file (type QTm)
-<use  "fig/drv_blockdia.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1527) has occurred while \output is active []
 
  [8]
-[9] [10] [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10] [11] [12]
 File: fig/gap_accpet.pdf Graphic file (type QTm)
- <use  "fig/gap_accpet.pdf" > [12]
+ <use  "fig/gap_accpet.pdf" > [13]
 File: fig/lc_logic.pdf Graphic file (type QTm)
  <use  "fig/lc_logic.pdf" >
 Underfull \vbox (badness 5802) has occurred while \output is active []
 
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
+Underfull \hbox (badness 10000) in paragraph at lines 466--468
 
  []
 
-[14]) [15]
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
+[17]
 \openout2 = `chapter3.aux'.
 
- (./chapter3.tex [16
+ (./chapter3.tex [18
 
 
 
 ]
 第\CJKnumber {3}章 3.
+File: images/allequip.pdf Graphic file (type QTm)
+<use  "images/allequip.pdf" > [19] [20]
+File: images/mounted.pdf Graphic file (type QTm)
+ <use  "images/mounted.pdf" > [21]
+File: images/test_illus.pdf Graphic file (type QTm)
 
-Overfull \hbox (2.55367pt too wide) in paragraph at lines 29--41
- [][] 
- []
+<use  "images/test_illus.pdf" >
+File: images/workflow.pdf Graphic file (type QTm)
+ <use  "images/workflow.pdf" > [22]
+File: images/route.pdf Graphic file (type QTm)
 
-[17]
-Underfull \vbox (badness 3826) has occurred while \output is active []
-
- [18]
-[19]) [20]
+<use  "images/route.pdf" >) [23] [24]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
@@ -1024,237 +1046,197 @@ Overfull \hbox (1.81802pt too wide) in paragraph at lines 36--49
 [][]|  [] 
  []
 
-
-LaTeX Warning: Reference `d_density,v_density,acc_density' on page 21 undefined
- on input line 56.
-
 File: images/chapter4-d_density.pdf Graphic file (type QTm)
 <use  "images/chapter4-d_density.pdf" >
 File: images/chapter4-v_density.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-v_density.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 63--76
-[][]|  [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: images/chapter4-acc_density.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-acc_density.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [25
 
 
 
 ]
-[22]
-Underfull \vbox (badness 7468) has occurred while \output is active []
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [27]
 File: images/chapter4-tricub.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-tricub.pdf" >
 File: images/chapter4-sample-processing.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-sample-processing.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 181--194
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 179--192
 [][]|  [] 
  []
 
-
-LaTeX Warning: Reference `postprocess-d-density,postprocess-v-density,postproce
-ss-acc-density' on page 24 undefined on input line 209.
-
+[28]
 File: images/chapter4-postprocess-d-density.pdf Graphic file (type QTm)
-<use  "images/chapter4-postprocess-d-density.pdf" >
+ <use  "images/chapter4-postprocess-d-density.pdf" >
 File: images/chapter4-postprocess-v-density.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-postprocess-v-density.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 213--226
-[][]|  [] 
- []
-
 File: images/chapter4-postprocess-acc-density.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-postprocess-acc-density.pdf" >
-
-LaTeX Warning: Reference `d_density,v_density,acc_density' on page 24 undefined
- on input line 236.
-
-[24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-
-LaTeX Warning: Reference `nonpro-tgap-discern,pro-tgap-discern' on page 26 unde
-fined on input line 254.
-
+ [29]
 File: images/chapter4-nonpro-tgap-discern.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-nonpro-tgap-discern.pdf" >
 File: images/chapter4-pro-tgap-discern.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-pro-tgap-discern.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 277--290
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 273--286
 [][]|  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-[27]
+[30]
 File: images/chapter4-stable-v-distance.pdf Graphic file (type QTm)
  <use  "images/chapter4-stable-v-distance.pdf" >
 
-Package caption Warning: \label before \caption on input line 337.
+Package caption Warning: \label before \caption on input line 352.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `h-b-df' on page 28 undefined on input line 334.
+LaTeX Warning: Reference `h-b-df' on page 31 undefined on input line 331.
 
-[28]
 
-LaTeX Warning: Reference `a-deltavbyd,a-deltavbyd2' on page 29 undefined on inp
-ut line 399.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [31]
+[32]
 File: images/chapter4-a-deltavbyd.pdf Graphic file (type QTm)
-<use  "images/chapter4-a-deltavbyd.pdf" >
+ <use  "images/chapter4-a-deltavbyd.pdf" >
 File: images/chapter4-a-deltavbyd2.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-a-deltavbyd2.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 402--415
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 400--413
 [][]|  [] 
  []
 
-
-LaTeX Warning: Reference `a-deltavbyd,a-deltavbyd2' on page 29 undefined on inp
-ut line 418.
-
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-[31]
-
-LaTeX Warning: Reference `sample-calib-d,sample-calib-v' on page 32 undefined o
-n input line 555.
-
-[32]
+[33] [34] [35]
 File: images/chapter4-sample-calib-d.pdf Graphic file (type QTm)
  <use  "images/chapter4-sample-calib-d.pdf" >
 File: images/chapter4-sample-calib-v.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-sample-calib-v.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 560--573
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 558--571
 [][]|  [] 
  []
 
-[33]
-
-LaTeX Warning: Reference `weighted-distr-np1,weighted-distr-pp1,weighted-distr-
-np2,weighted-distr-pp2,weighted-distr-np3,weighted-distr-pp3,weighted-distr-np4
-,weighted-distr-pp4,weighted-distr-np5,weighted-distr-pp5,' on page 34 undefine
-d on input line 656.
-
+[36]
 File: images/chapter4-weighted-distr-np1.pdf Graphic file (type QTm)
-<use  "images/chapter4-weighted-distr-np1.pdf" >
+ <use  "images/chapter4-weighted-distr-np1.pdf" >
 File: images/chapter4-weighted-distr-pp1.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-weighted-distr-pp1.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 660--673
-[][]|  [] 
- []
-
 File: images/chapter4-weighted-distr-np2.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-weighted-distr-np2.pdf" >
 File: images/chapter4-weighted-distr-pp2.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-weighted-distr-pp2.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 676--689
-[][]|  [] 
- []
-
 File: images/chapter4-weighted-distr-np3.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-weighted-distr-np3.pdf" >
 File: images/chapter4-weighted-distr-pp3.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-weighted-distr-pp3.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 692--705
-[][]|  [] 
- []
-
 File: images/chapter4-weighted-distr-np4.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-weighted-distr-np4.pdf" >
 File: images/chapter4-weighted-distr-pp4.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-weighted-distr-pp4.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 708--721
-[][]|  [] 
- []
-
 File: images/chapter4-weighted-distr-np5.pdf Graphic file (type QTm)
+
 <use  "images/chapter4-weighted-distr-np5.pdf" >
 File: images/chapter4-weighted-distr-pp5.pdf Graphic file (type QTm)
 
 <use  "images/chapter4-weighted-distr-pp5.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 724--737
-[][]|  [] 
+Overfull \hbox (2.75702pt too wide) in paragraph at lines 659--726
+[][]|  [] |  []|  []
  []
 
-[34]
 
-LaTeX Warning: Reference `p1-df-qq,p3-df-qq' on page 35 undefined on input line
- 813.
+Overfull \hbox (2.75702pt too wide) in paragraph at lines 659--726
+[]|  [] |  []|  []
+ []
 
 
-Underfull \vbox (badness 7468) has occurred while \output is active []
+Underfull \vbox (badness 3861) has occurred while \output is active []
 
- [35]
-[36]
+ [37]
+[38] [39]
 File: images/chapter4-bootstrap-p1df-mean.pdf Graphic file (type QTm)
  <use  "images/chapter4-bootstrap-p1df-mean.pdf" >
 File: images/chapter4-bootstrap-p3df-mean.pdf Graphic file (type QTm)
 
-<use  "images/chapter4-bootstrap-p3df-mean.pdf" >) [37] [38]
+<use  "images/chapter4-bootstrap-p3df-mean.pdf" >)
+Underfull \vbox (badness 2088) has occurred while \output is active []
+
+ [40]
+[41]
 \openout2 = `chapter5.aux'.
 
- (./chapter5.tex
+ (./chapter5.tex [42
+
+
+
+]
 第\CJKnumber {5}章 5.
 File: images/sumo.pdf Graphic file (type QTm)
 <use  "images/sumo.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
-
-
-
-]
+ [43]
 File: images/scene.pdf Graphic file (type QTm)
 
 <use  "images/scene.pdf" >
 File: images/input-demand.pdf Graphic file (type QTm)
- <use  "images/input-demand.pdf" >
-Overfull \hbox (15.26398pt too wide) in paragraph at lines 95--106
+ <use  "images/input-demand.pdf" > [44]
+Overfull \hbox (15.26398pt too wide) in paragraph at lines 100--111
  [][][] 
  []
 
 
-Overfull \hbox (15.26398pt too wide) in paragraph at lines 111--122
+Overfull \hbox (15.26398pt too wide) in paragraph at lines 116--127
  [][][] 
  []
 
 
-Overfull \hbox (15.26398pt too wide) in paragraph at lines 127--138
+Overfull \hbox (15.26398pt too wide) in paragraph at lines 132--143
  [][][] 
  []
 
-[40]
+[45]
+File: images/speed_adapt.pdf Graphic file (type QTm)
+ <use  "images/speed_adapt.pdf" >
+File: images/fscompete.pdf Graphic file (type QTm)
+ <use  "images/fscompete.pdf" >
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 185--198
+[][]|  [] 
+ []
+
+[46]
+File: images/infi_capacity.pdf Graphic file (type QTm)
+ <use  "images/infi_capacity.pdf" >
+File: images/jline.pdf Graphic file (type QTm)
+ <use  "images/jline.pdf" >
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 211--224
+[][]|  [] 
+ []
+
+[47]
 File: images/factor1_box_ttime.pdf Graphic file (type QTm)
  <use  "images/factor1_box_ttime.pdf" >
-Underfull \vbox (badness 3118) has occurred while \output is active []
-
- [41]
 File: images/factor1_vq_per0.pdf Graphic file (type QTm)
 
 <use  "images/factor1_vq_per0.pdf" >
@@ -1263,7 +1245,7 @@ File: images/factor1_vq_per25.pdf Graphic file (type QTm)
 File: images/factor1_vq_per50.pdf Graphic file (type QTm)
 
 <use  "images/factor1_vq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 174--180
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 611--617
  [][][][][][] 
  []
 
@@ -1279,7 +1261,7 @@ File: images/factor1_kq_per25.pdf Graphic file (type QTm)
 File: images/factor1_kq_per50.pdf Graphic file (type QTm)
 
 <use  "images/factor1_kq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 205--211
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 642--648
  [][][][][][] 
  []
 
@@ -1297,7 +1279,7 @@ File: images/factor2_vq_per25.pdf Graphic file (type QTm)
 <use  "images/factor2_vq_per25.pdf" >
 File: images/factor2_vq_per50.pdf Graphic file (type QTm)
  <use  "images/factor2_vq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 249--255
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 686--692
  [][][][][][] 
  []
 
@@ -1313,7 +1295,7 @@ File: images/factor2_kq_per25.pdf Graphic file (type QTm)
 File: images/factor2_kq_per50.pdf Graphic file (type QTm)
 
 <use  "images/factor2_kq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 278--284
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 715--721
  [][][][][][] 
  []
 
@@ -1321,31 +1303,20 @@ File: images/factor2_kq_per75.pdf Graphic file (type QTm)
 <use  "images/factor2_kq_per75.pdf" >
 File: images/factor2_kq_per100.pdf Graphic file (type QTm)
  <use  "images/factor2_kq_per100.pdf" >
-
-LaTeX Warning: Reference `factor2_vq,factor2_kq' on page 42 undefined on input 
-line 300.
-
-[42]
 File: images/factor2_kqedges.pdf Graphic file (type QTm)
- <use  "images/factor2_kqedges.pdf" >
 
-Package caption Warning: \label before \caption on input line 322.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `combined_box_ttime' on page 43 undefined on input lin
-e 317.
-
+<use  "images/factor2_kqedges.pdf" >
 File: images/combined_box_ttime.pdf Graphic file (type QTm)
-<use  "images/combined_box_ttime.pdf" >
+ <use  "images/combined_box_ttime.pdf" >
 File: images/combined_vq_per0.pdf Graphic file (type QTm)
- <use  "images/combined_vq_per0.pdf" >
-File: images/combined_vq_per25.pdf Graphic file (type QTm)
 
-<use  "images/combined_vq_per25.pdf" >
+<use  "images/combined_vq_per0.pdf" >
+File: images/combined_vq_per25.pdf Graphic file (type QTm)
+ <use  "images/combined_vq_per25.pdf" >
 File: images/combined_vq_per50.pdf Graphic file (type QTm)
- <use  "images/combined_vq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 334--340
+
+<use  "images/combined_vq_per50.pdf" >
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 771--777
  [][][][][][] 
  []
 
@@ -1361,7 +1332,7 @@ File: images/combined_kq_per25.pdf Graphic file (type QTm)
 File: images/combined_kq_per50.pdf Graphic file (type QTm)
 
 <use  "images/combined_kq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 362--368
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 799--805
  [][][][][][] 
  []
 
@@ -1374,23 +1345,16 @@ File: images/combined_kqedges.pdf Graphic file (type QTm)
 <use  "images/combined_kqedges.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-
-LaTeX Warning: Text page 44 contains only floats.
-
-
-Overfull \vbox (2.60626pt too high) has occurred while \output is active []
-
-
-[44]
+ [48]
 File: images/factor1_ttc_per0.pdf Graphic file (type QTm)
- <use  "images/factor1_ttc_per0.pdf" >
-File: images/factor1_ttc_per25.pdf Graphic file (type QTm)
 
-<use  "images/factor1_ttc_per25.pdf" >
+<use  "images/factor1_ttc_per0.pdf" >
+File: images/factor1_ttc_per25.pdf Graphic file (type QTm)
+ <use  "images/factor1_ttc_per25.pdf" >
 File: images/factor1_ttc_per50.pdf Graphic file (type QTm)
- <use  "images/factor1_ttc_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 407--413
+
+<use  "images/factor1_ttc_per50.pdf" >
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 844--850
  [][][][][][] 
  []
 
@@ -1408,7 +1372,7 @@ File: images/factor2_ttc_per25.pdf Graphic file (type QTm)
 <use  "images/factor2_ttc_per25.pdf" >
 File: images/factor2_ttc_per50.pdf Graphic file (type QTm)
  <use  "images/factor2_ttc_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 445--451
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 882--888
  [][][][][][] 
  []
 
@@ -1416,9 +1380,6 @@ File: images/factor2_ttc_per75.pdf Graphic file (type QTm)
 <use  "images/factor2_ttc_per75.pdf" >
 File: images/factor2_ttc_per100.pdf Graphic file (type QTm)
  <use  "images/factor2_ttc_per100.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
 File: images/factor2_box_avttc.pdf Graphic file (type QTm)
 
 <use  "images/factor2_box_avttc.pdf" >
@@ -1430,7 +1391,7 @@ File: images/combined_ttc_per25.pdf Graphic file (type QTm)
 File: images/combined_ttc_per50.pdf Graphic file (type QTm)
 
 <use  "images/combined_ttc_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 483--489
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 920--926
  [][][][][][] 
  []
 
@@ -1441,88 +1402,46 @@ File: images/combined_ttc_per100.pdf Graphic file (type QTm)
 <use  "images/combined_ttc_per100.pdf" >
 File: images/combined_box_avttc.pdf Graphic file (type QTm)
 
-<use  "images/combined_box_avttc.pdf" >) [46] [47] [48] [49] [50] [51] [52]
-[53] [54] [55] [56]
+<use  "images/combined_box_avttc.pdf" >) [49] [50] [51] [52] [53] [54] [55]
+[56] [57] [58] [59] [60]
 \openout2 = `chapter6.aux'.
 
  (./chapter6.tex
 第\CJKnumber {6}章 6.
-) [57
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61
 
 
 
-] [58
+])
+[62] (./ack.tex) (./frame.bbl [63
 
 
 
-] (./frame.bbl [59
 
 
-] [60
+] [64
 
-] [61]
-Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+] [65]
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
 Missing character: There is no � in font SimSun/ICU!
-
-
-Package xeCJK Warning: Unknown CJK family `tt' is ignored.
-Use \setCJKfamilyfont to define a CJK family. on input line 164.
-
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 164
-.
-(y:/TeXLive/current/texmf-dist/tex/xelatex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
-)
-Underfull \hbox (badness 4001) in paragraph at lines 208--213
-[]\EU1/TimesNewRoman(0)/m/n/10.5 Low D J, Addison P S.  A Nonlinear Temporal He
-adway Model of Traffic Dynamics[J].
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 208--213
-\EU1/TimesNewRoman(0)/m/n/10.5 Nonlinear Dynamics, 1998, 16:127--151.  []$[][][
-][] [] [] [] [][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][][]
-[][][][][][][]$[].
- []
-
-[62]
-Underfull \hbox (badness 1194) in paragraph at lines 274--282
-[]\EU1/TimesNewRoman(0)/m/n/10.5 Yang Q, Koutsopoulos H N.  A Microscopic Traff
-ic Simulator for evaluation of dynamic traf-
- []
-
-
-Underfull \hbox (badness 3861) in paragraph at lines 274--282
-\EU1/TimesNewRoman(0)/m/n/10.5 fic management systems[J].  Transportation Resea
-rch Part C: Emerging Technologies, 1996,
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 274--282
-\EU1/TimesNewRoman(0)/m/n/10.5 4(3):113 -- 129.  []$[][][][] [] [] [] [][][] []
- [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] []
-[][][][][][][][][][][][][][][][] [] [] []
- []
-
-[63] [64]) [65] [66
+ [66] [67] [68]) [69] [70
 
 
 ]
 附录 A A.
-[67] [68
-
-]
-附录 B B.
-[69]
+[71]
 No file frame.ind.
-[70
+[72
 
 
-] [71
+] [73
 
 ]
 File: figures/back-cover.png Graphic file (type QTm)
- <use  "figures/back-cover.png" > [72
+ <use  "figures/back-cover.png" > [74
 
 ] (./frame.aux (./chapter1.aux)
 (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux)
@@ -1533,14 +1452,17 @@ LaTeX Font Info:    Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 13450 strings out of 495713
- 215261 string characters out of 3188306
- 384683 words of memory out of 3000000
- 16188 multiletter control sequences out of 15000+200000
- 9028 words of font info for 80 fonts, out of 3000000 for 9000
+ 13448 strings out of 495713
+ 214417 string characters out of 3188306
+ 400274 words of memory out of 3000000
+ 16171 multiletter control sequences out of 15000+200000
+ 9020 words of font info for 79 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 50i,14n,64p,1677b,882s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,14n,64p,1677b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on frame.pdf (86 pages).
+Output written on frame.pdf (88 pages).

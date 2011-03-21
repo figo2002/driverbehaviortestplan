@@ -10,84 +10,47 @@ A level-1 auxiliary file: chapter6.aux
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: seuthesis.bib
-You can't pop an empty literal stack for entry Kou1997
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Heaslip2007
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Xu2007
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Said2008
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Yang2008
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Hamdar2009a
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Ossen2008
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Ervin2000
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Toledo2007a
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Toledo2007a
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Toledo2007a
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Toledo2007a
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Hayward1972
-while executing---line 3540 of file seuthesis.bst
-Warning--can't use both author and editor fields in Greene2000
 You can't pop an empty literal stack for entry Greene2000
 while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Greene2000
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Krajzewicz2005
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Krauss1998
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry Krauss1998
-while executing---line 3540 of file seuthesis.bst
-You can't pop an empty literal stack for entry S.Kerner2009
-while executing---line 3540 of file seuthesis.bst
-You've used 68 entries,
+You've used 75 entries,
             6690 wiz_defined-function locations,
-            1666 strings with 19981 characters,
-and the built_in function-call counts, 22030 in all, are:
-= -- 2067
-> -- 547
-< -- 51
-+ -- 325
-- -- 129
-* -- 1458
-:= -- 3172
-add.period$ -- 235
-call.type$ -- 68
-change.case$ -- 68
-chr.to.int$ -- 68
-cite$ -- 70
-duplicate$ -- 1029
-empty$ -- 2657
-format.name$ -- 250
-if$ -- 5272
-int.to.chr$ -- 1
-int.to.str$ -- 69
-missing$ -- 86
-newline$ -- 379
-num.names$ -- 137
-pop$ -- 506
+            1692 strings with 19880 characters,
+and the built_in function-call counts, 23887 in all, are:
+= -- 2206
+> -- 587
+< -- 55
++ -- 353
+- -- 138
+* -- 1590
+:= -- 3427
+add.period$ -- 240
+call.type$ -- 75
+change.case$ -- 75
+chr.to.int$ -- 73
+cite$ -- 75
+duplicate$ -- 1109
+empty$ -- 2948
+format.name$ -- 276
+if$ -- 5703
+int.to.chr$ -- 3
+int.to.str$ -- 76
+missing$ -- 94
+newline$ -- 398
+num.names$ -- 150
+pop$ -- 577
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 75
 quote$ -- 0
-skip$ -- 715
+skip$ -- 742
 stack$ -- 0
-substring$ -- 1185
-swap$ -- 100
-text.length$ -- 3
+substring$ -- 1349
+swap$ -- 84
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 267
-warning$ -- 1
-while$ -- 127
+type$ -- 294
+warning$ -- 0
+while$ -- 141
 width$ -- 0
-write$ -- 919
-(There were 19 error messages)
+write$ -- 972
+(There was 1 error message)

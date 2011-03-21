@@ -11,14 +11,15 @@
 \DeclareGraphicsExtensions{.jpg,.pdf}
 \graphicspath{{fig/}{figure/}{images/}}
 %\hypersetup{unicode=false}
+\setcounter{totalnumber}{8}
  % 这里是导言区
 
 \begin{document}
-\categorynumber{000} % 分类采用《中国图书资料分类法》
-\UDC{000}            %《国际十进分类法UDC》的类号
+\categorynumber{U121} % 分类采用《中国图书资料分类法》
+\UDC{625}            %《国际十进分类法UDC》的类号
 \secretlevel{公开}    %学位论文密级分为"公开"、"内部"、"秘密"和"机密"四种
 \studentid{082200}   %学号要完整，前面的零不能省略。
-\title{驾驶人行为特性对交通流的影响研究}{}{Thesis Title}{subtitle}
+\title{驾驶人行为特性对交通流的影响研究}{}{Study on the Impact of Driver Behavior Characteristics on Traffic Flow}{}
 \author{吴\quad{}璠}{WU Fan}
 \advisor{陆\quad{}建}{教授}{LU Jian}{Prof.}
 %\coadvisor{副导师}{副教授}{Co-advisor's Name}{Associate Prof.} % 没有
@@ -32,12 +33,12 @@
 %\address{河海院2楼}
 \maketitle
 
-\begin{abstract}{中文关键字}
-  中文摘要。
+\begin{abstract}{驾驶人行为，交通流，驾驶人差异性，期望速度，减速度}
+\input{abstractc}
 \end{abstract}
 
-\begin{englishabstract}{English Keywords}
-  English abstract.
+\begin{englishabstract}{driver behavior, traffic flow, driver heterogeneity, desired speed, deceleration rate}
+\input{abstracte}
 \end{englishabstract}
 
 %\begin{terminology}
@@ -65,55 +66,55 @@
 \end{Main} % 结束正文
 
 \begin{Thanks}
-感谢……
+\input{ack}
 \end{Thanks}
 
 \bibliography{seuthesis}
 %\bibliographystyle{seuthesis}
 
 \begin{Appendix}
-  \chapter{第一个附录}% latex table generated in R 2.12.0 by xtable 1.5-6 package
+  \chapter{受调查驾驶人基本情况}% latex table generated in R 2.12.0 by xtable 1.5-6 package
 % Thu Mar 03 12:36:06 2011
 \begin{table}[ht]
 \begin{center}
-\begin{tabular}{rrlrlrrr}
+\begin{tabular}{ccccccc}
   \hline
- & ID & sex & age & license & certified & mileage & pro \\ 
+编号 & 性别 & 年龄 & 驾照类型 & 驾龄（年） & 累计行驶里程（万公里） & 是否专业驾驶人 \\ 
   \hline
-1 & 1.00 & 女 & 25.00 & C1 & 0.50 & 0.00 & 0.00 \\ 
-  2 & 2.00 & 男 & 23.00 & C1 & 1.00 & 0.50 & 0.00 \\ 
-  3 & 3.00 & 男 & 26.00 & C1 & 4.00 & 2.00 & 0.00 \\ 
-  4 & 4.00 & 女 & 24.00 & C1 & 2.50 & NA & 0.00 \\ 
-  5 & 5.00 & 男 & 24.00 & C1 & 4.00 & 0.60 & 0.00 \\ 
-  6 & 6.00 & 男 & 26.00 & C1 & 5.00 & 1.00 & 0.00 \\ 
-  7 & 7.00 & 男 & 26.00 & C1 & 4.00 & 0.50 & 0.00 \\ 
-  8 & 8.00 & 男 & 23.00 & C1 & 4.00 & 0.20 & 0.00 \\ 
-  9 & 9.00 & 男 & 24.00 & C1 & 5.00 & 1.50 & 0.00 \\ 
-  10 & 10.00 & 男 & 24.00 & C1 & 3.00 & 1.00 & 0.00 \\ 
-  11 & 11.00 & 男 & 28.00 & C1 & 1.00 & 0.50 & 0.00 \\ 
-  12 & 12.00 & 男 & 25.00 & C1 & 1.00 & 0.80 & 0.00 \\ 
-  13 & 13.00 & 女 & 24.00 & C1 & 3.00 & 2.50 & 0.00 \\ 
-  14 & 14.00 & 男 & 24.00 & C1 & 2.00 & 2.00 & 0.00 \\ 
-  15 & 15.00 & 男 & 29.00 & C1 & 5.00 & NA & 0.00 \\ 
-  16 & 16.00 & 男 & 25.00 & C1 & 4.00 & 15.00 & 0.00 \\ 
-  17 & 17.00 & 男 & 39.00 & NA & 3.00 & 24.00 & 1.00 \\ 
-  18 & 18.00 & 男 & 44.00 & A & 11.00 & 90.00 & 1.00 \\ 
-  19 & 19.00 & 男 & 37.00 & A & 10.00 & NA & 1.00 \\ 
-  20 & 20.00 & 男 & 33.00 & B & 16.00 & 30.00 & 1.00 \\ 
-  21 & 21.00 & 男 & 43.00 & B & 6.00 & 60.00 & 1.00 \\ 
-  22 & 22.00 & 男 & 45.00 & A & 23.00 & 200.00 & 1.00 \\ 
-  23 & 23.00 & 男 & NA & A & 10.00 & 50.00 & 1.00 \\ 
-  24 & 24.00 & 男 & 50.00 & NA & 14.00 & 15.00 & 1.00 \\ 
-  25 & 25.00 & 男 & 53.00 & NA & 18.00 & 60.00 & 1.00 \\ 
-  26 & 26.00 & 男 & 47.00 & A & 15.00 & 76.00 & 1.00 \\ 
+  1 & 女 & 25 & C1 & 0 & 0.0 & 否 \\ 
+  2 & 男 & 23 & C1 & 1 & 0.5 & 否 \\ 
+  3 & 男 & 26 & C1 & 4 & 2.0 & 否 \\ 
+  4 & 女 & 24 & C1 & 2 & NA & 否 \\ 
+  5 & 男 & 24 & C1 & 4 & 0.6 & 否 \\ 
+  6 & 男 & 26 & C1 & 5 & 1.0 & 否 \\ 
+  7 & 男 & 26 & C1 & 4 & 0.5 & 否 \\ 
+  8 & 男 & 23 & C1 & 4 & 0.2 & 否 \\ 
+  9 & 男 & 24 & C1 & 5 & 1.5 & 否 \\ 
+ 10 & 男 & 24 & C1 & 3 & 1.0 & 否 \\ 
+ 11 & 男 & 28 & C1 & 1 & 0.5 & 否 \\ 
+ 12 & 男 & 25 & C1 & 1 & 0.8 & 否 \\ 
+ 13 & 女 & 24 & C1 & 3 & 2.5 & 否 \\ 
+ 14 & 男 & 24 & C1 & 2 & 2.0 & 否 \\ 
+ 15 & 男 & 29 & C1 & 5 & NA & 否 \\ 
+ 16 & 男 & 25 & C1 & 4 & 15.0 & 否 \\ 
+ 17 & 男 & 39 & NA & 3 & 24.0 & 是 \\ 
+ 18 & 男 & 44 & A & 11 & 90.0 & 是 \\ 
+ 19 & 男 & 37 & A & 10 & NA & 是 \\ 
+ 20 & 男 & 33 & B & 16 & 30.0 & 是 \\ 
+ 21 & 男 & 43 & B & 6& 60.0 & 是 \\ 
+ 22 & 男 & 45 & A & 23 & 200.0 & 是 \\ 
+ 23 & 男 & NA & A & 10 & 50.0 & 是 \\ 
+ 24 & 男 & 50 & NA & 14 & 15.0 & 是 \\ 
+ 25 & 男 & 53 & NA & 18 & 60.0 & 是 \\ 
+ 26 & 男 & 47 & A & 15 & 76.0 & 是 \\ 
    \hline
 \end{tabular}
 \label{basic_table}
 \end{center}
 \end{table}
 
-  \chapter{第二个附录}
-  ……
+%  \chapter{第二个附录}
+%  ……
 \end{Appendix}
 
 \newpage
