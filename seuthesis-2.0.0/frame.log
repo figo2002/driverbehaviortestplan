@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  21 MAR 2011 23:51
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  22 MAR 2011 13:30
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -1101,7 +1101,7 @@ Overfull \hbox (1.81802pt too wide) in paragraph at lines 273--286
 File: images/chapter4-stable-v-distance.pdf Graphic file (type QTm)
  <use  "images/chapter4-stable-v-distance.pdf" >
 
-Package caption Warning: \label before \caption on input line 352.
+Package caption Warning: \label before \caption on input line 348.
 See the caption package documentation for explanation.
 
 
@@ -1202,17 +1202,17 @@ File: images/scene.pdf Graphic file (type QTm)
 <use  "images/scene.pdf" >
 File: images/input-demand.pdf Graphic file (type QTm)
  <use  "images/input-demand.pdf" > [44]
-Overfull \hbox (15.26398pt too wide) in paragraph at lines 100--111
+Overfull \hbox (15.26398pt too wide) in paragraph at lines 101--112
  [][][] 
  []
 
 
-Overfull \hbox (15.26398pt too wide) in paragraph at lines 116--127
+Overfull \hbox (15.26398pt too wide) in paragraph at lines 117--128
  [][][] 
  []
 
 
-Overfull \hbox (15.26398pt too wide) in paragraph at lines 132--143
+Overfull \hbox (15.26398pt too wide) in paragraph at lines 133--144
  [][][] 
  []
 
@@ -1221,7 +1221,7 @@ File: images/speed_adapt.pdf Graphic file (type QTm)
  <use  "images/speed_adapt.pdf" >
 File: images/fscompete.pdf Graphic file (type QTm)
  <use  "images/fscompete.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 185--198
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 186--199
 [][]|  [] 
  []
 
@@ -1230,7 +1230,7 @@ File: images/infi_capacity.pdf Graphic file (type QTm)
  <use  "images/infi_capacity.pdf" >
 File: images/jline.pdf Graphic file (type QTm)
  <use  "images/jline.pdf" >
-Overfull \hbox (1.81802pt too wide) in paragraph at lines 211--224
+Overfull \hbox (1.81802pt too wide) in paragraph at lines 212--225
 [][]|  [] 
  []
 
@@ -1245,7 +1245,7 @@ File: images/factor1_vq_per25.pdf Graphic file (type QTm)
 File: images/factor1_vq_per50.pdf Graphic file (type QTm)
 
 <use  "images/factor1_vq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 611--617
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 612--618
  [][][][][][] 
  []
 
@@ -1261,7 +1261,7 @@ File: images/factor1_kq_per25.pdf Graphic file (type QTm)
 File: images/factor1_kq_per50.pdf Graphic file (type QTm)
 
 <use  "images/factor1_kq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 642--648
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 643--649
  [][][][][][] 
  []
 
@@ -1279,7 +1279,7 @@ File: images/factor2_vq_per25.pdf Graphic file (type QTm)
 <use  "images/factor2_vq_per25.pdf" >
 File: images/factor2_vq_per50.pdf Graphic file (type QTm)
  <use  "images/factor2_vq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 686--692
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 687--693
  [][][][][][] 
  []
 
@@ -1295,7 +1295,7 @@ File: images/factor2_kq_per25.pdf Graphic file (type QTm)
 File: images/factor2_kq_per50.pdf Graphic file (type QTm)
 
 <use  "images/factor2_kq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 715--721
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 716--722
  [][][][][][] 
  []
 
@@ -1316,7 +1316,7 @@ File: images/combined_vq_per25.pdf Graphic file (type QTm)
 File: images/combined_vq_per50.pdf Graphic file (type QTm)
 
 <use  "images/combined_vq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 771--777
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 772--778
  [][][][][][] 
  []
 
@@ -1332,7 +1332,7 @@ File: images/combined_kq_per25.pdf Graphic file (type QTm)
 File: images/combined_kq_per50.pdf Graphic file (type QTm)
 
 <use  "images/combined_kq_per50.pdf" >
-Overfull \hbox (0.92503pt too wide) in paragraph at lines 799--805
+Overfull \hbox (0.92503pt too wide) in paragraph at lines 800--806
  [][][][][][] 
  []
 
@@ -1343,7 +1343,7 @@ File: images/combined_kq_per100.pdf Graphic file (type QTm)
 File: images/combined_kqedges.pdf Graphic file (type QTm)
 
 <use  "images/combined_kqedges.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [48]
 File: images/factor1_ttc_per0.pdf Graphic file (type QTm)
@@ -1437,7 +1437,12 @@ No file frame.ind.
 [72
 
 
-] [73
+] (./resume.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+) [73
 
 ]
 File: figures/back-cover.png Graphic file (type QTm)
@@ -1452,15 +1457,12 @@ LaTeX Font Info:    Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 13448 strings out of 495713
- 214417 string characters out of 3188306
- 400274 words of memory out of 3000000
- 16171 multiletter control sequences out of 15000+200000
+ 13449 strings out of 495713
+ 214362 string characters out of 3188306
+ 399051 words of memory out of 3000000
+ 16169 multiletter control sequences out of 15000+200000
  9020 words of font info for 79 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  50i,14n,64p,1677b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
