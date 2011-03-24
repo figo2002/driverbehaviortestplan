@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  22 MAR 2011 13:30
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  24 MAR 2011 23:16
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -1013,20 +1013,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 第\CJKnumber {3}章 3.
 File: images/allequip.pdf Graphic file (type QTm)
-<use  "images/allequip.pdf" > [19] [20]
+<use  "images/allequip.pdf" >
+Underfull \vbox (badness 2401) has occurred while \output is active []
+
+ [19]
+[20]
 File: images/mounted.pdf Graphic file (type QTm)
  <use  "images/mounted.pdf" > [21]
 File: images/test_illus.pdf Graphic file (type QTm)
-
-<use  "images/test_illus.pdf" >
+ <use  "images/test_illus.pdf" >
 File: images/workflow.pdf Graphic file (type QTm)
- <use  "images/workflow.pdf" > [22]
-File: images/route.pdf Graphic file (type QTm)
 
-<use  "images/route.pdf" >) [23] [24]
+<use  "images/workflow.pdf" > [22]
+File: images/route.pdf Graphic file (type QTm)
+ <use  "images/route.pdf" >) [23] [24]
 \openout2 = `chapter4.aux'.
 
- (./chapter4.tex
+
+(./chapter4.tex
 第\CJKnumber {4}章 4.
 File: images/chapter4-age_barplot.pdf Graphic file (type QTm)
 <use  "images/chapter4-age_barplot.pdf" >
@@ -1100,14 +1104,6 @@ Overfull \hbox (1.81802pt too wide) in paragraph at lines 273--286
 [30]
 File: images/chapter4-stable-v-distance.pdf Graphic file (type QTm)
  <use  "images/chapter4-stable-v-distance.pdf" >
-
-Package caption Warning: \label before \caption on input line 348.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `h-b-df' on page 31 undefined on input line 331.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
@@ -1234,9 +1230,11 @@ Overfull \hbox (1.81802pt too wide) in paragraph at lines 212--225
 [][]|  [] 
  []
 
-[47]
 File: images/factor1_box_ttime.pdf Graphic file (type QTm)
- <use  "images/factor1_box_ttime.pdf" >
+<use  "images/factor1_box_ttime.pdf" >
+Underfull \vbox (badness 4595) has occurred while \output is active []
+
+ [47]
 File: images/factor1_vq_per0.pdf Graphic file (type QTm)
 
 <use  "images/factor1_vq_per0.pdf" >
@@ -1343,7 +1341,7 @@ File: images/combined_kq_per100.pdf Graphic file (type QTm)
 File: images/combined_kqedges.pdf Graphic file (type QTm)
 
 <use  "images/combined_kqedges.pdf" >
-Underfull \vbox (badness 1062) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48]
 File: images/factor1_ttc_per0.pdf Graphic file (type QTm)
@@ -1453,17 +1451,13 @@ File: figures/back-cover.png Graphic file (type QTm)
 (./chapter6.aux))
 LaTeX Font Info:    Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
  13449 strings out of 495713
- 214362 string characters out of 3188306
- 399051 words of memory out of 3000000
- 16169 multiletter control sequences out of 15000+200000
- 9020 words of font info for 79 fonts, out of 3000000 for 9000
+ 214324 string characters out of 3188306
+ 399018 words of memory out of 3000000
+ 16170 multiletter control sequences out of 15000+200000
+ 9012 words of font info for 78 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  50i,14n,64p,1677b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
 

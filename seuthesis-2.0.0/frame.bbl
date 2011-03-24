@@ -15,7 +15,7 @@ Kou C~C.
 Heaslip I, K.
 \newblock Modeling driver behavior in work zones: An evaluation of traffic flow
   impacts in freeway work zones with full lane closures[D]:[PhD Thesis].
-\newblock MA,,United States: University of Massachusetts Amherst, 2007.
+\newblock MA,United States: University of Massachusetts Amherst, 2007.
 
 \bibitem[Xu(2007)]{Xu2007}
 Xu F.
@@ -321,13 +321,14 @@ Punzo V, Borzacchiello M~T, Ciuffo F, Biagio.
 \newblock Estimation of Vehicle Trajectories from Observed Discrete Positions
   and Next-Generation Simulation Program (NGSIM) Data[C].
 \newblock In: Transportation Research Board 88th Annual Meeting.
-\newblock 2009. 17p--.
+\newblock 2009. 17p.
 
 \bibitem[Toledo et al.(2007){\natexlab{b}}]{Toledo2007a}
 Toledo T, Koutsopoulos N, Haris, Ahmed I, Kazi.
 \newblock Estimation of Vehicle Trajectories with Locally Weighted
-  Regression[C], [No booktitle].
-\newblock 2007. pp 161--169--.
+  Regression[J].
+\newblock Transportation Research Record: Journal of the Transportation
+  Research Board, 2007, 1999:pp 161--169.
 
 \bibitem[Cleveland(1979)]{Cleveland1979}
 Cleveland W~S.

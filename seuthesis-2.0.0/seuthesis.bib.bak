@@ -1448,7 +1448,7 @@
 	flow impacts in freeway work zones with full lane closures},
   school = {University of Massachusetts Amherst},
   year = {2007},
-  address = {MA,,United States},
+  address = {MA,United States},
   abstract = {About twenty percent of the U.S. National Highway System is under
 	construction during the peak summer roadwork season. Fifty percent
 	of all highway congestion is attributed to nonrecurring conditions
@@ -3094,7 +3094,7 @@
 	and Next-Generation Simulation Program (NGSIM) Data},
   booktitle = {Transportation Research Board 88th Annual Meeting},
   year = {2009},
-  pages = {17p--},
+  pages = {17p},
   abstract = {Vehicle trajectory datasets, available to the scientific community
 	within the successful Next-Generation Simulation (NGSIM) program,
 	are offering exciting opportunities to explore traffic phenomena.
@@ -3911,14 +3911,15 @@
   keywords = {Driving behavior Lane changing Acceleration Traffic simulation}
 }
 
-@CONFERENCE{Toledo2007a,
+@ARTICLE{Toledo2007a,
   author = {Toledo, Tomer and Koutsopoulos, Haris, N and Ahmed, Kazi, Iftekhar},
   title = {Estimation of Vehicle Trajectories with Locally Weighted Regression},
+  journal = {Transportation Research Record: Journal of the Transportation Research
+	Board},
   year = {2007},
+  volume = {1999},
+  pages = {pp 161-169},
   number = {1999},
-  pages = {pp 161-169--},
-  address = {Washington, DC},
-  publisher = {Transportation Research Board},
   abstract = {Vehicle trajectory data are important for calibrating driver behavior
 	models (e.g., car following, acceleration, lane changing, and gap
 	acceptance). The data are usually collected through imaging technologies,
@@ -3933,14 +3934,15 @@
 	trajectories and speed and acceleration profiles. The conducted sensitivity
 	analysis also shows that the method is rather robust regarding measurement
 	errors and missing values.},
+  address = {Washington, DC},
+  booktitle = {Traffic Flow Theory 2007},
   issn = {9780309104258},
-  journal = {Transportation Research Record: Journal of the Transportation Research
-	Board},
   keywords = {Acceleration (Mechanics), Behavior, Behaviour, Car following, Data
 	acquisition, Data collection, Gap acceptance, Highway operations,
 	Human behavior, Lane changing, Regression, Regression analysis, Sensitivity
 	analysis, Traffic operations, Traffic speed, Vehicle trajectories},
   owner = {Administrator},
+  publisher = {Transportation Research Board},
   timestamp = {2011.01.05}
 }
 
