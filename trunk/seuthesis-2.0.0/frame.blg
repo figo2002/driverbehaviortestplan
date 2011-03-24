@@ -14,43 +14,43 @@ You can't pop an empty literal stack for entry Greene2000
 while executing---line 3540 of file seuthesis.bst
 You've used 75 entries,
             6690 wiz_defined-function locations,
-            1692 strings with 19880 characters,
-and the built_in function-call counts, 23887 in all, are:
-= -- 2206
+            1692 strings with 19883 characters,
+and the built_in function-call counts, 23848 in all, are:
+= -- 2198
 > -- 587
 < -- 55
 + -- 353
 - -- 138
-* -- 1590
-:= -- 3427
+* -- 1587
+:= -- 3426
 add.period$ -- 240
 call.type$ -- 75
 change.case$ -- 75
 chr.to.int$ -- 73
 cite$ -- 75
 duplicate$ -- 1109
-empty$ -- 2948
+empty$ -- 2944
 format.name$ -- 276
-if$ -- 5703
+if$ -- 5695
 int.to.chr$ -- 3
 int.to.str$ -- 76
 missing$ -- 94
 newline$ -- 398
 num.names$ -- 150
-pop$ -- 577
+pop$ -- 576
 preamble$ -- 1
 purify$ -- 75
 quote$ -- 0
-skip$ -- 742
+skip$ -- 743
 stack$ -- 0
-substring$ -- 1349
+substring$ -- 1335
 swap$ -- 84
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 294
 warning$ -- 0
-while$ -- 141
+while$ -- 139
 width$ -- 0
-write$ -- 972
+write$ -- 973
 (There was 1 error message)
