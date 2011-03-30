@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  24 MAR 2011 23:16
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  30 MAR 2011 09:48
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -1020,11 +1020,11 @@ Underfull \vbox (badness 2401) has occurred while \output is active []
 [20]
 File: images/mounted.pdf Graphic file (type QTm)
  <use  "images/mounted.pdf" > [21]
-File: images/test_illus.pdf Graphic file (type QTm)
- <use  "images/test_illus.pdf" >
 File: images/workflow.pdf Graphic file (type QTm)
+ <use  "images/workflow.pdf" >
+File: images/test_illus.pdf Graphic file (type QTm)
 
-<use  "images/workflow.pdf" > [22]
+<use  "images/test_illus.pdf" > [22]
 File: images/route.pdf Graphic file (type QTm)
  <use  "images/route.pdf" >) [23] [24]
 \openout2 = `chapter4.aux'.

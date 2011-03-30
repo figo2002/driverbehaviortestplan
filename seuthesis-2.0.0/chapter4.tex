@@ -96,7 +96,7 @@
 1.简单移动平均
 
 
-最简单的轨迹数据后处理是简单移动平均，Thiemann等\cite{Thiemann2008}使用对称指数移动平均来平滑处理NGSIM的轨迹数据，发现了误差在差分过程中的放大效应，使得误差从位置，速度，加速度放大地向下传递，并使用移动平均来抵消这一效应。移动平均（低通滤波器）通常需要进行敏感性分析来确定移动平均的窗口大小和权重函数，从而使得既能够降低噪声又能保存原有信号中的高频部分。一般通过频谱分析来确定截断频率。
+最简单的轨迹数据后处理是简单移动平均，Thiemann等\cite{Thiemann2008}使用对称指数移动平均来平滑处理NGSIM的轨迹数据，发现了误差在差分过程中的放大效应，使得误差从位置，速度，加速度放大地向下传递，并使用移动平均来抵消这一效应。移动平均通常需要进行敏感性分析来确定移动平均的窗口大小和权重函数，从而使得既能够降低噪声又能保存原有信号中的高频部分。一般通过频谱分析来确定截断频率。
 
 % The most basic filtering technique is the simple moving average. (16) use a 
 % symmetric exponential moving average filter to smooth NGSIM data. They detect the magnification of noise 
@@ -299,7 +299,7 @@ Vogel（2002）\cite{Vogel2002}提出了通过定点测量的车头时距和车�
 % For beginners group with a time gap of 1s the correlation value was also about r=0.9. For each additional second in time gap, up to 12s, the correlation value r decreased substantially, for time gaps of more than 12s the curves appear to level out. For headways of 12s and longer, the speed of frontal vehicle accounted for no more than 10% of the speed of subject vehicle.
 结果显示，对于专业驾驶人1s的时间间隔其速度相关系数为0.9，也就是说超过80\%的泵车速度变化可以由前车的速度解释，到6s之前每增加1s的时间间隔，速度相关系数均显著下降。在6s与12s之间速度相关系数产生一些波动，总体上仍呈现下降趋势。超过12s后速度相关系数减小到0.4以下；对于非专业驾驶人，1s的时间间隔其速度相关系数也约为0.9，直到12s速度相关系数均显著下降，超过12s后速度相关系数减小到0.1以下。
 % Based on these observations, for each driver group possible split points were chosen. One linear regression was computed on the correlation values below the split point; another linear regression was computed above the split point. The best split point turned out to be 6.5 s and 11.5 s for experienced and beginner group respectively. Results are provided in Table 1, regressions are shown in Figure. 5 and Figure. 6 
-从专业与非专业自由行驶与跟驰临界点结果看，专业驾驶人的临界点为6.5s，非专业驾驶人为11.5s，这似乎意味着非专业更早的受到前车的影响而进入跟驰的状态，但是结合速度相关系数的数值，在(6.5,11.5]的时间间隔区间内，专业驾驶人的速度相关系数要大于非专业驾驶人的相应数值。将(6.5,11.5]的时间间隔区间内的数据选出，得到专业驾驶人8159组数据，非专业驾驶人7245组数据，计算前后车辆的速度差值，两组数据基本上呈正态分布。分别统计得到专业驾驶人速度差中位数为0.3281m/s，标准差4.357m/s；非专业驾驶人速度差中位数为0.3677m/s，标准差4.801m/s。通过Levene检验，专业组与非专业组的速度差方差存在统计意义的显著差别(P<0.01)。以上结果表明在(6.5,11.5]的时间间隔区间内，驾驶人仍然有与前车保持速度一致的趋势，同时专业驾驶人的速度差分散程度要小于非专业驾驶人。综合所得结果可以推断，对于专业和非专业驾驶人在一定的时间间隔内，均受到前车速度影响，相比于非专业驾驶人专业驾驶人似乎能更好地将自身的车速与前车保持一致，尤其是在稍大的时间间隔区间。
+从专业与非专业自由行驶与跟驰临界点结果看，专业驾驶人的临界点为6.5s，非专业驾驶人为11.5s，这似乎意味着非专业更早的受到前车的影响而进入跟驰的状态，但是在(6.5,11.5]的时间间隔区间内，专业驾驶人的速度相关系数要大于非专业驾驶人的相应数值。将(6.5,11.5]的时间间隔区间内的数据选出，得到专业驾驶人8159组数据，非专业驾驶人7245组数据，计算前后车辆的速度差值，两组数据基本上呈正态分布。分别统计得到专业驾驶人速度差中位数为0.3281m/s，标准差4.357m/s；非专业驾驶人速度差中位数为0.3677m/s，标准差4.801m/s。通过Levene检验，专业组与非专业组的速度差方差存在统计意义的显著差别(P<0.01)。以上结果表明在(6.5,11.5]的时间间隔区间内，驾驶人仍然有与前车保持速度一致的趋势，同时专业驾驶人的速度差分散程度要小于非专业驾驶人。综合所得结果可以推断，对于专业和非专业驾驶人在一定的时间间隔内，均受到前车速度影响，相比于非专业驾驶人专业驾驶人似乎能更好地将自身的车速与前车保持一致，尤其是在稍大的时间间隔区间。
 %，因此可以认为专业驾驶人有更为“平滑”的驾驶特性。
 %The results presented above suggest a 6.5s time gap separation between free driving and car following for the experienced group and accordingly 11.5s for the beginners group. It would seem that beginner drivers start to engage leading vehicle earlier in the time gap sense than experienced drivers. However, the results needs careful interpretation. Although the separation point for the experienced group is 5s longer than that of the beginners group, the speed correlation for the experienced group was generally larger in between the (6.5,11.5] time gap section. For both group the speed correlation dropped almost linearly as time gap increase before the separation point. Before the separation point, time gap all explained over 90% variance of speed correlation. But above the separation point, time gap only accounted for less than 10% of the speed correlation variance for beginners group, yet accounted for 33% of the speed correlation variance for experienced group. Based on the findings,  it is possible to surmise drivers do not differ in perceiving influence from frontal vehicle but differ in taking action. Thus it would be reasonable to choose 12s time gap to be a separation point between free driving and car-following.
 % The 12s time gap value is greater than the former proposed 6s time headway value reported by K. Vogel. This clearly suggests the separation point between free driving and car-following is not universal. The variation could come from different sources, e.g. the different road and traffic conditions, different driving behaviors and certainly the different technology used to measure the behavioral data. In order to account for this variation , further investigation is needed and should focus on the influence of different road and traffic conditions.
@@ -328,7 +328,7 @@ d=h_1 \cdot PRO+h_2\cdot v + h_3 \cdot PRO \cdot v +b
 \end{equation}
 其中$h_1$为截距差，$h_3$为斜率差。
 
-得到\autoref{h-b-df}，结果表明两组线性回归的斜率与截距均无统计意义的显著差异（P＝0.05）水平下，不能拒绝$h_1=0$或$h_3=0$的假设）。因此此处集计分析的证据，不能支持专业与非专业驾驶人的稳定状态下跟驰距离与速度关系特性存在显著差异的观点。
+得到\autoref{h-b-df}，结果表明两组线性回归的斜率与截距均无统计意义的显著差异（P＝0.05）水平下，不能拒绝$h_1=0$或$h_3=0$的假设）。因此此处集计分析的证据不能支持专业与非专业驾驶人的稳定状态下跟驰距离与速度关系特性存在显著差异。
 
 \begin{table}[htbp]
 \begin{center}
@@ -394,7 +394,7 @@ D(t)&=t\text{时刻的车头间距}\\
 
 在交通冲突技术中Time-To-Collision(TTC)被证明是有效的度量交通冲突严重程度的手段。Hayward(1972)\cite{Hayward1972}定义TTC为；“两车保持当前速度和路线而相撞所需要的时间。”Lee（1976）\cite{Lee1976}定义TTC为两物体距离比上其相对速度。Balas和Balas（2006）\cite{Balas2006}比较了TTC倒数和TTC，认为TTC倒数比TTC更为直接和连续的反映了碰撞的危险，并且认为TTC倒数可用于解释驾驶人的驾驶行为。
 
-基于加速度与速度差跟驰距离有关的观点，假设前车宽度基本不变，将实验中所获取的数据分组集计：分别对专业组和非专业组驾驶人按照速度差距离比$\frac{\Delta V}{D}$即TTC倒数，加速度与速度差距离平方比$\frac{\Delta V}{D^2}$进行分组，计算每组相应的平均速度差距离比，平均速度差距离平方比，以及平均加速度，得到关系如\autoref{a-deltavbyd}和\autoref{a-deltavbyd2}。
+基于加速度与速度差以及跟驰距离有关的观点，假设前车宽度基本不变，将实验中所获取的数据分组集计：分别对专业组和非专业组驾驶人按照速度差距离比$\frac{\Delta V}{D}$即TTC倒数，加速度与速度差距离平方比$\frac{\Delta V}{D^2}$进行分组，计算每组相应的平均速度差距离比，平均速度差距离平方比，以及平均加速度，得到关系如\autoref{a-deltavbyd}和\autoref{a-deltavbyd2}。
 
 \begin{figure}[htbp]
 \begin{minipage}[t]{0.48\linewidth}
