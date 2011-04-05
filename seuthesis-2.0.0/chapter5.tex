@@ -1,5 +1,5 @@
 \chapter{驾驶人行为特性对交通流影响}
-\section{研究框架}
+\section{研究方法}
 为了研究驾驶人行为特性对交通流的影响，由于交通流的复杂性，同时由于很难对道路上的驾驶人个体进行逐个的观测与调查，本文使用微观模拟的方法对驾驶人行为特性对交通流影响进行研究。
 \subsection{模拟软件SUMO简介}
 
@@ -152,7 +152,7 @@ Schönhof和Helbing\cite{Schoenhof2009}指出传统跟驰模型不能重现实�
 \subsection{评价指标}
 本文主要从效率性和安全性两个角度评价对交通流的影响作用。
 
-效率性方面，主要从模拟所需要的总时间，速度流量基本图，密度流量基本图来分析交通流效率性的影响
+效率性方面，主要从模拟所需要的总时间、速度流量基本图、密度流量基本图来分析交通流效率性的影响。
 
 
 
@@ -160,12 +160,12 @@ Schönhof和Helbing\cite{Schoenhof2009}指出传统跟驰模型不能重现实�
 
 
 \section{三相交通流理论简介}
-下文中由于涉及到三相交通流理论的概念，此处对三相交通流理论作简要介绍。详细内容可参考文献\citet{S.Kerner2009}
+下文中由于涉及到三相交通流理论的概念，此处对三相交通流理论作简要介绍。
 
 Kerner和Rehborn（1996，1996a，1997）\cite{Kerner1996,Kerner1996a,Kerner1997}，Kerner（1998）\cite{Kerner1998}通过对德国A5高速公路的观测，发现了一系列高速公路交通流中的拥堵形成与消散的特殊现象。基于这些经验性的观测，Kerner（2004）\cite{Kerner2004}提出了三相交通流理论。
 
 \subsection{三个相位}
-在三相交通流的理论框架下，共分三个交通流的相位，分别为自由流相位F，同步流相位S和宽运动阻塞流相位J。
+在三相交通流的理论框架下，共分三个交通流的相位，分别为自由流相位F、同步流相位S和宽运动阻塞流相位J。
 
 其中自由流为速度较高，各车道车速无显著相同趋势的相位。表现为密度流量图上，流量随着密度线性增加的区域。除了自由流以外的相位为拥挤流，拥挤流有分为同步流相位和宽运动阻塞流相位。
 
@@ -186,14 +186,14 @@ Over-Acceleration效应，指的是在前车速度较慢的情况下，驾驶人
 \begin{minipage}[t]{0.48\linewidth}
 \centering
 \includegraphics[width=\textwidth]{speed_adapt}
-\caption{Speed Adaptation效应的速度跟驰距离示意图，摘自文献\citet{S.Kerner2009}}
+\caption{Speed Adaptation效应的速度跟驰距离示意图\cite{S.Kerner2009}}
 \label{speed_adapt}
 \end{minipage}%
 \hspace*{0.04\linewidth}
 \begin{minipage}[t]{0.48\linewidth}
 \centering
 \includegraphics[width=\textwidth]{fscompete}
-\caption{Speed Adaptation效应和Over-Acceleration效应竞争示意图，摘自文献\citet{S.Kerner2009}}
+\caption{Speed Adaptation效应和Over-Acceleration效应竞争示意图\cite{S.Kerner2009}}
 \label{fscompete}
 \end{minipage}
 \end{figure}
@@ -212,14 +212,14 @@ Kerner将相位的转换解释为这三种效应的两两竞争，自由流F和�
 \begin{minipage}[t]{0.48\linewidth}
 \centering
 \includegraphics[width=\textwidth]{infi_capacity}
-\caption{无数个通行能力的示意图，摘自文献\citet{S.Kerner2009}}
+\caption{无数个通行能力的示意图\cite{S.Kerner2009}}
 \label{infi_capacity}
 \end{minipage}%
 \hspace*{0.04\linewidth}
 \begin{minipage}[t]{0.48\linewidth}
 \centering
 \includegraphics[width=\textwidth]{jline}
-\caption{J线示意图，摘自文献\citet{S.Kerner2009}}
+\caption{J线示意图\cite{S.Kerner2009}}
 \label{jline}
 \end{minipage}
 \end{figure}
@@ -601,7 +601,7 @@ Kerner将相位的转换解释为这三种效应的两两竞争，自由流F和�
 \end{center}
 \end{figure}
 
-\autoref{factor1_box_ttime}给出了，期望速度影响下模拟总用时的变化，随着\autoref{speed-factor}中期望速度较大的B型驾驶人的增加，模拟所用时间呈现下降的趋势。对于单纯类型的驾驶人组合，期望速度由6.48m/s（23.3km/h）增加8.09m/s（30.6km/h），增加24.8\%，模拟用时从6720s下降到6540s，降低了3\%。
+\autoref{factor1_box_ttime}给出了期望速度影响下模拟总用时的变化，随着\autoref{speed-factor}中期望速度较大的B型驾驶人的增加，模拟所用时间呈现下降的趋势。对于单纯类型的驾驶人组合，期望速度由6.48m/s（23.3km/h）增加8.09m/s（30.6km/h），增加24.8\%，模拟用时从6720s下降到6540s，降低了3\%。
 
 
 \begin{figure}[H]%
@@ -676,7 +676,7 @@ Kerner将相位的转换解释为这三种效应的两两竞争，自由流F和�
 \end{center}
 \end{figure}
 
-\autoref{factor2_box_ttime}给出了，期望速度影响下模拟总用时的变化，随着\autoref{decel-factor}中最大减速度较大的B型驾驶人的增加，模拟所用时间呈现上升的趋势。对于单纯类型的驾驶人组合，最大减速度由2.33$m/s^2$增加4.29$m/s^2$，增加84\%，模拟用时从6540s增加到7080s，增加了8.3\%。少量的B型驾驶人即可对总模拟用时造成较大影响，并且使得模拟时间具有很大随机性。
+\autoref{factor2_box_ttime}给出了期望速度影响下模拟总用时的变化，随着\autoref{decel-factor}中最大减速度较大的B型驾驶人的增加，模拟所用时间呈现上升的趋势。对于单纯类型的驾驶人组合，最大减速度由2.33$m/s^2$增加4.29$m/s^2$，增加84\%，模拟用时从6540s增加到7080s，增加了8.3\%。少量的B型驾驶人即可对总模拟用时造成较大影响，并且使得模拟时间具有很大随机性。
 
 
 \begin{figure}[H]%
@@ -735,7 +735,7 @@ Kerner将相位的转换解释为这三种效应的两两竞争，自由流F和�
 \label{factor2_kq}%
 \end{figure}
 
-\autoref{factor2_vq}和\autoref{factor2_kq}给出了，最大减速度影响下速度流量关系图和最大减速度影响下的密度流量关系图，可以看出，随着\autoref{decel-factor}中最大减速度较大的B型驾驶人的比例增加，在速度流量和密度流量关系图上均更难达到最大通行能力。这种趋势随着B型驾驶人的增加而更为明显。
+\autoref{factor2_vq}和\autoref{factor2_kq}给出了最大减速度影响下速度流量关系图和最大减速度影响下的密度流量关系图，可以看出，随着\autoref{decel-factor}中最大减速度较大的B型驾驶人的比例增加，在速度流量和密度流量关系图上均更难达到最大通行能力。这种趋势随着B型驾驶人的增加而更为明显。
 
 
 
@@ -752,7 +752,7 @@ Kerner将相位的转换解释为这三种效应的两两竞争，自由流F和�
 
 \subsection{混合影响因素}
 
-\autoref{combined_box_ttime}，\autoref{combined_vq}，\autoref{combined_kq}，\autoref{combined_kqedges}，分别给出了混合作用影响下模拟用时箱图，速度流量关系图，密度流量关系图和各检测器密度流量关系图。其结果与最大减速度影响下的结果相似，可以推断对交通流效率性的影响，主要的贡献成分来自于最大减速度的影响，最大减速度越大则交通流越难达到最大通行能力，也越多的处于较为不稳定的同步流状态。
+\autoref{combined_box_ttime}、\autoref{combined_vq}、\autoref{combined_kq}、\autoref{combined_kqedges}，分别给出了混合作用影响下模拟用时箱图、速度流量关系图、密度流量关系图和各检测器密度流量关系图。其结果与最大减速度影响下的结果相似，可以推断对交通流效率性的影响，主要的贡献成分来自于最大减速度的影响，最大减速度越大则交通流越难达到最大通行能力，也越多的处于较为不稳定的同步流状态。
 
 \begin{figure}[H]
 \begin{center}

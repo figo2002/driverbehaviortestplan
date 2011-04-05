@@ -14,8 +14,8 @@
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width=0.4\linewidth]{traveldecision}
-	\caption{出行行为层次图,摘自文献\citet{Hranac2004}}
+	\includegraphics[width=0.3\linewidth]{traveldecision}
+	\caption{出行行为层次图\cite{Hranac2004}}
 	\label{traveldecision}
 \end{figure}
 
@@ -56,15 +56,15 @@
 %Driving behavior models encompass the tactical route execution and operational 
 %driving decisions. It should be noted that only the actions associated with the operational driving decisions and sometimes the vehicle control decisions are observed. The strategic 
 %and tactical plans that lead to that action are generally unobserved or latent.
-\section{驾驶人行为的子过程}
-驾驶人行为可以划分为三个不断交替的子过程，感知与信息收集，驾驶决策和对车辆的操控。感知与信息收集过程中，驾驶人主要依靠视觉采集相关的信息，这些信息来源于周围车辆和自身车辆。其中驾驶人只对部分信息变量敏感，包括速度，加速度，跟驰距离，相对速度，以及这些变量的某些函数（如时间间隔）。驾驶人收集到信息后通过采样与整合对这些信息进行解释，这种解释依靠驾驶人的对于车辆动态特性的理解以及其积累的驾驶经验。通过对信息解释的整合处理，最终形成驾驶决策。驾驶决策形成后，驾驶人通过对车辆机件的操作，对车辆的动态施加控制。
+\section{驾驶人行为的过程}
+驾驶人行为可以划分为三个不断交替的过程，感知与信息收集，驾驶决策和对车辆的操控。感知与信息收集过程中，驾驶人主要依靠视觉采集相关的信息，这些信息来源于周围车辆和自身车辆。其中驾驶人只对部分信息变量敏感，包括速度，加速度，跟驰距离，相对速度，以及这些变量的某些函数（如时间间隔）。驾驶人收集到信息后通过采样与整合对这些信息进行解释，这种解释依靠驾驶人的对于车辆动态特性的理解以及其积累的驾驶经验。通过对信息解释的整合处理，最终形成驾驶决策。驾驶决策形成后，驾驶人通过对车辆机件的操作，对车辆的动态施加控制。
 
 而本文所研究的的驾驶人行为特性是指驾驶人通过操控车辆，使得车辆所表现出的一系列特性，而不具体研究驾驶人操控动作。其中驾驶过程框图如\autoref{drv_blockdia}
 
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[totalheight=10cm]{drv_blockdia}
+	\includegraphics[width=0.5\linewidth]{drv_blockdia}
 	\caption{驾驶过程框图}
 	\label{drv_blockdia}
 \end{figure}
@@ -106,7 +106,7 @@
 %而最小安全距离的根据跟车对之间相对速度的关系和不同的定义而变化。
 
 \subsubsection{时间间隔与车头时距}
-车头时距为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车车头位置所需要的时间，$h_t=\frac{X_{n-1}-X_n}{v_n}$，车头时距一般通过点设备（如线圈）测量，平均车头时距反映了交通流的流量情况。时间间隔为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车后保险杠位置所需要的时间，$g_t=\frac{X_{n-1}-X_n-l_{n-1}}{v_n}$，时间间隔体现了驾驶人出于安全性考虑而保留的一定的可用于驾驶操作的余地。
+车头时距为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车车头位置所需要的时间，$h_t=\frac{X_{n-1}-X_n}{v_n}$，平均车头时距反映了交通流的流量情况。时间间隔为跟驰车辆车头$t$时刻在速度不变的情况下到达$t$时刻前车后保险杠位置所需要的时间，$g_t=\frac{X_{n-1}-X_n-l_{n-1}}{v_n}$，时间间隔体现了驾驶人出于安全性考虑而保留的一定的可用于驾驶操作的余地。
 
 \subsubsection{反应时间}
 反应时间是驾驶人从外界条件发生改变的一刻开始到其控制自身车辆使其运动发生相应改变所需要的时间，此处反应时间指人车单元即车辆的总反应时间$t_l$，包括驾驶人的感知时间$t_p$，反应操作时间$t_r$和车辆机械延迟时间$t_m$,即$t_l=t_p+t_r+t_m$。
@@ -405,7 +405,7 @@ Ben-Akiva等(2006)总结了驾驶人一般的车道选择的逻辑\cite{Ben-Akiv
 驾驶人一般的变道逻辑图如\autoref{lc_logic}
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[totalheight=10cm]{lc_logic}
+	\includegraphics[width=0.4\linewidth]{lc_logic}
 	\caption{变道逻辑图}
 	\label{lc_logic}
 \end{figure}
@@ -577,7 +577,7 @@ Kesting等(2007)提出了基于加速度效用的变道模型即MOBIL模型\cite
 
 驾驶人行为的差异性有两层含义，一是不同驾驶人之间的行为差异性，二是驾驶人在不同交通条件，生心理条件下的行为差异性。
 
-不同驾驶人之间行为的差异可以由驾驶人驾驶操作的目标，习惯，熟练程度的差异等多种因素造成。而驾驶人自身，在交通条件，生心理条件发生改变时 会改变自己的驾驶行为而作出适应性的调整，最典型的现象是驾驶人加减速的不对称性。
+不同驾驶人之间行为的差异可以由驾驶人驾驶操作的目标、习惯、熟练程度的差异等多种因素造成。而驾驶人自身，在交通条件，生心理条件发生改变时 会改变自己的驾驶行为而作出适应性的调整，最典型的现象是驾驶人加减速的不对称性。
 %
 %Driver heterogeneity 
 %
