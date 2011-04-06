@@ -1,10 +1,12 @@
 \documentclass[unicode,master,printedition]{seuthesis} % 本科
+\addtolength\footskip{-25pt}
 % \documentclass[master]{seuthesis} % 硕士
 % \documentclass[doctor]{seuthesis} % 博士
 % \documentclass[engineering]{seuthesis} % 工程硕士
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{subfig}
+\usepackage{placeins}
 \renewcommand\figureautorefname{图}
 \renewcommand\tableautorefname{表}
 %\usepackage{graphicx}
@@ -15,7 +17,7 @@
  % 这里是导言区
 
 \begin{document}
-\categorynumber{U121} % 分类采用《中国图书资料分类法》
+\categorynumber{U471.1} % 分类采用《中国图书资料分类法》
 \UDC{625}            %《国际十进分类法UDC》的类号
 \secretlevel{公开}    %学位论文密级分为"公开"、"内部"、"秘密"和"机密"四种
 \studentid{082200}   %学号要完整，前面的零不能省略。
@@ -123,5 +125,4 @@
 \begin{Resume}
 \input{resume}
 \end{Resume}
-\backcover
 \end{document}

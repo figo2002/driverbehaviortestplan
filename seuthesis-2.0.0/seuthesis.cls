@@ -6,7 +6,7 @@
 %%
 %% seuthesis.dtx  (with options: `cls')
 %% 
-%% Copyright (C) 2007-2010 by Xu Yuan <xuyuan.cn@gmail.com>
+%% Copyright (C) 2007-2011 by Xu Yuan <xuyuan.cn@gmail.com>
 %% 
 %% This file may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3a
@@ -47,9 +47,9 @@
 \let\todayeng\today
 \RequirePackage{doc}
 \RequirePackage{keyval}
-\RequirePackage{ifpdf}
 \RequirePackage{ifthen}
 
+\RequirePackage{xltxtra}
 \RequirePackage{graphicx}
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{indentfirst}
@@ -67,18 +67,15 @@
 \setdefaultenum{1)}{a)}{i.}{A.}% 设置列表模式
 \setdefaultleftmargin{4ex}{}{}{}{}{}
 \RequirePackage[CJKnumber,slantfont,boldfont]{xeCJK}
+\RequirePackage{CJKulem}
 \newlength\CJK@twochars
 \def\CJK@spaceChar{\Unicode{48}{7}}
 \def\CJKindent{%
     \settowidth\CJK@twochars{\CJK@spaceChar\CJK@spaceChar}%
     \parindent\CJK@twochars}
 
-\ifpdf
 \RequirePackage{hyperref}
-\else %配置dvipdfmx
-\RequirePackage[dvipdfmx]{hyperref}
-\fi
-\hypersetup{unicode=false}
+\hypersetup{unicode=true}
 \AtBeginDocument{\CJKindent{}%
     \InputIfFileExists{seuthesis-utf8.cfg}% 引入配置文件
     {\typeout{[seuthesis]: Load seuthesis-utf8.cfg successfully!}}%
@@ -87,7 +84,7 @@
     \wuhao%
     \linespacing{\mainlineskip}
   }
-\AtEndDocument{}
+\AtEndDocument{\backcover}
 \RequirePackage{CJKnumb}
 \RequirePackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
 \RequirePackage[pagestyles, rm]{titlesec}
@@ -176,6 +173,8 @@
   \renewcommand{\@titleeng}{#3}
   \renewcommand{\@subtitleeng}{#4}
 }
+\newcommand{\newtitleline}{\hfill\\%
+  \hspace*{\fill}\hspace{0em}}
 \newcommand{\@advisorname}{}
 \newcommand{\@advisortitle}{}
 \newcommand{\@advisornameeng}{}
@@ -262,6 +261,11 @@
   \stcleardp
   \else\fi
   \chinesecover
+
+  \renewcommand*\frontmatter{%
+    \if@twoside\cleardoubleoddpage\else\clearpage\fi
+    \@mainmatterfalse\pagenumbering{Roman}% 大写罗马字母
+  }
 
   \ifbachelordegree
   \frontmatter
@@ -397,7 +401,7 @@
       \yihao\hei \bachelortitle \\
       \vspace*{60pt}
       {\xiaoerhao\song \titlepre}
-      {\erhao\song \underline{\makebox[18em][c]{\fs\@title}}} \\
+      {\erhao\song \parbox[t]{18em}{\fs\uline{\hfill\@title\hfill}}} \\
       \vspace*{40pt}
       \renewcommand{\arraystretch}{1.5}
       \setlength{\tabcolsep}{0pt}
@@ -482,6 +486,7 @@
   \phantomsection
   \addcontentsline{toc}{chapter}{\@abstracttitletoc}
   \ifbachelordegree
+  \renewcommand{\newtitleline}{\\}
   \chapter*{\@title}
 
   \begin{flushright}
