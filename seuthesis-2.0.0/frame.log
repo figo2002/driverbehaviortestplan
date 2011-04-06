@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  6 APR 2011 16:15
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  6 APR 2011 23:20
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -1422,7 +1422,7 @@ File: images/combined_ttc_per100.pdf Graphic file (type QTm)
 File: images/combined_box_avttc.pdf Graphic file (type QTm)
 
 <use  "images/combined_box_avttc.pdf" >)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5417) has occurred while \output is active []
 
  [59]
 [60]
