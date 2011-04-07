@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  6 APR 2011 23:20
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (Web2C 2009) (format=xelatex 2009.11.22)  7 APR 2011 15:07
 entering extended mode
  %&-line parsing enabled.
 **frame.tex
@@ -1004,23 +1004,27 @@ File: images/tech-path.pdf Graphic file (type QTm)
 <use  "images/tech-path.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4])
-[5]
+ [4]
+Underfull \vbox (badness 3138) has occurred while \output is active []
+
+ [5])
+[6]
 \openout2 = `chapter2.aux'.
 
- (./chapter2.tex [6
+ (./chapter2.tex
+第\CJKnumber {2}章 2.
+File: images/traveldecision.pdf Graphic file (type QTm)
+<use  "images/traveldecision.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 
 
 ]
-第\CJKnumber {2}章 2.
-File: images/traveldecision.pdf Graphic file (type QTm)
-<use  "images/traveldecision.pdf" > [7]
 File: fig/drv_blockdia.pdf Graphic file (type QTm)
- <use  "fig/drv_blockdia.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+<use  "fig/drv_blockdia.pdf" > [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
@@ -1034,7 +1038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--428
  []
 
 
-Underfull \vbox (badness 1609) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 Underfull \hbox (badness 10000) in paragraph at lines 472--474
@@ -1071,7 +1075,7 @@ File: images/test_illus.pdf Graphic file (type QTm)
 
 <use  "images/test_illus.pdf" > [22]
 File: images/route.pdf Graphic file (type QTm)
- <use  "images/route.pdf" >) [23] [24]
+ <use  "images/route.pdf" > [23]) [24]
 \openout2 = `chapter4.aux'.
 
 
@@ -1483,10 +1487,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  16007 strings out of 495713
  248605 string characters out of 3188306
- 417653 words of memory out of 3000000
+ 417787 words of memory out of 3000000
  18698 multiletter control sequences out of 15000+200000
  9118 words of font info for 79 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 62i,14n,94p,1677b,932s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,94p,1677b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on frame.pdf (88 pages).
